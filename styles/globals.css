@@ -1,3 +1,178 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tailwind-hidden {
+  display: none;
+}
+
+/* Write your own custom base styles here */
+@layer base {
+  button {
+    font-size: 0.9375rem;
+    @apply text-white font-normal rounded border-0 p-3 flex leading-normal tracking-wide whitespace-nowrap duration-200 items-center justify-center;
+  }
+
+  button:focus {
+    @apply outline-none;
+  }
+
+  button:disabled {
+    @apply bg-gray-300;
+  }
+
+  input {
+    @apply text-secondary-800 font-normal p-3 flex items-center border border-gray-300 rounded;
+  }
+
+  input:focus {
+    @apply outline-none ring-1 ring-secondary-600 border-secondary;
+  }
+}
+
+/* Write you own custom component styles here */
+@variants responsive {
+  button.contained-primary {
+    @apply bg-primary border border-solid border-primary;
+  }
+
+  button.contained-primary:hover:enabled {
+    @apply bg-primary-600 border-primary-600;
+  }
+
+  button.contained-primary:disabled {
+    @apply bg-gray-300 border-gray-300;
+  }
+
+  button.contained-secondary {
+    @apply bg-secondary border border-solid border-secondary;
+  }
+
+  button.contained-secondary:hover:enabled {
+    @apply bg-secondary-800 border-secondary-800;
+  }
+
+  button.contained-secondary:disabled {
+    @apply bg-gray-300 border-gray-300;
+  }
+
+  button.contained-error {
+    @apply bg-error border border-solid border-error;
+  }
+  button.contained-error:hover:enabled {
+    @apply bg-error-300 border-error-300;
+  }
+  button.contained-error:disabled {
+    @apply bg-gray-300 border-gray-300;
+  }
+
+  button.outlined-primary {
+    @apply bg-transparent border border-solid border-primary text-primary;
+  }
+
+  button.outlined-primary:hover:enabled {
+    background-color: rgba(73, 165, 33, 0.14);
+    @apply border border-solid border-primary text-primary;
+  }
+
+  button.outlined-primary:disabled {
+    @apply bg-gray-100 border-gray-300 text-gray-300;
+  }
+
+  button.outlined-secondary {
+    @apply bg-transparent border border-solid border-secondary text-secondary;
+  }
+
+  button.outlined-secondary:hover:enabled {
+    background-color: rgba(7, 94, 64, 0.14);
+    @apply border border-solid border-secondary text-secondary;
+  }
+
+  button.outlined-secondary:disabled {
+    @apply bg-gray-100 border-gray-300 text-gray-300;
+  }
+
+  button.outlined-error {
+    @apply bg-transparent border border-solid border-error text-error;
+  }
+
+  button.outlined-error:hover:enabled {
+    background-color: rgba(212, 33, 84, 0.14);
+    @apply border border-solid border-error text-error;
+  }
+
+  button.outlined-error:disabled {
+    @apply bg-gray-100 border-gray-300 text-gray-300;
+  }
+
+  button.outlined-water {
+    @apply bg-transparent border border-solid border-blue-500 text-blue-500;
+  }
+
+  button.outlined-water:hover:enabled,
+  button.outlined-water:focus {
+    background-color: rgba(59, 130, 246, 0.14);
+    @apply border border-solid border-blue-500 text-blue-500;
+  }
+
+  button.outlined-water:disabled {
+    @apply bg-gray-100 border-gray-300 text-gray-300;
+  }
+
+  span.feedback-error {
+    @apply text-xs text-error;
+  }
+
+  span.feedback-success {
+    @apply text-xs text-success;
+  }
+
+  input.outline-error {
+    @apply outline-none border-error text-error;
+  }
+
+  input.outline-success {
+    @apply outline-none border-success;
+  }
+
+  input.outline-error:focus {
+    @apply outline-none ring-1 ring-error-200 border-error;
+  }
+
+  input.outline-success:focus {
+    @apply outline-none ring-1 ring-success-200 border-success;
+  }
+
+  .dropdown input:focus {
+    @apply outline-none ring-0 border-0;
+  }
+
+  .h-vh {
+    height: calc(100vh - 80px);
+  }
+
+  .min-h-vh {
+    min-height: calc(100vh - 80px);
+  }
+
+  .gradient-purple {
+    background-image: linear-gradient(105.48deg, #8b1dea 1.36%, #4a00e0 100%);
+  }
+
+  .gradient-green {
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  }
+
+  .gradient-blue {
+    background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+  }
+
+  .text-gradient {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-heading {
+    font-family: "Poppins";
+  }
+}
