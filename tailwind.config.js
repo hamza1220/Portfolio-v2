@@ -1,4 +1,5 @@
 // const defaultTheme = require("tailwindcss/defaultTheme");
+const colors = require("tailwindcss/colors");
 
 module.exports = {
   purge: [
@@ -15,6 +16,7 @@ module.exports = {
       colors: {
         transparent: "transparent",
         current: "currentColor",
+        blueGray: colors.blueGray,
         primary: {
           light: "#f7f7f7",
           lightP2: "#f9f9ff",

@@ -7,8 +7,8 @@ const routes = {
 
 export const navRoutes = [
   { name: "Home", path: routes.HOME },
-  { name: "Work", path: routes.PROJECTS },
   { name: "About", path: routes.ABOUT },
+  { name: "Work", path: routes.PROJECTS },
   { name: "Resume", path: routes.RESUME },
 ];
 

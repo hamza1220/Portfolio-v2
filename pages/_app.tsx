@@ -6,8 +6,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Navbar />
-
-      <Component {...pageProps} />
+      <div className="w-full flex bg-primary-lightP3 justify-center">
+        <div className="max-w-screen-xl w-full">
+          <Component {...pageProps} />
+        </div>
+      </div>
     </>
   );
 }

@@ -1,12 +1,14 @@
 import React from "react";
-import Jumbotron from "./Jumbotron";
+import Jumbotron from "../Jumbotron";
+import About from "../About";
+import Work from "../Work";
 
 const Landing = (_: any) => {
   return (
-    <div className="flex flex-col items-center bg-primary-lightP3">
-      <div className="max-w-screen-xl w-full">
-        <Jumbotron />
-      </div>
+    <div>
+      <Jumbotron />
+      <About />
+      <Work />
     </div>
   );
 };
