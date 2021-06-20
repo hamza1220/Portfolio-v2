@@ -1,0 +1,10 @@
+{
+    "1": {
+       "title": "Campus Eat",
+       "type": ["Software Engineering"],
+       "tags": ["React", "Node.js", "MongoDB"],
+       "tileImagePath": "https://github.com/hamza1220/hamza1220.github.io/blob/master/img/work/p1.png?raw=true",
+       "description": "Food Delivery Web-app for LUMS",
+       "textColor": "#b02737"
+    }
+}

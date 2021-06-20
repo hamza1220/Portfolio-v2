@@ -13,7 +13,7 @@ const About = () => {
   ];
 
   return (
-    <div className="w-full p-6 py-24 flex flex-col justify-center ">
+    <div id="about" className="w-full p-6 py-24 flex flex-col justify-center ">
       <SectionHeading text={"About Me"} index={1} />
       <div className="flex flex-col-reverse sm:grid sm:grid-cols-5 sm:gap-4">
         <div className="sm:col-start-1 sm:col-end-4 leading-normal text-lg text-blueGray-500">
@@ -41,7 +41,7 @@ const About = () => {
             Some of the technologies I have recently been working with include:
             <ul className="grid grid-cols-2 gap-2 font-mono text-sm mt-6">
               {recentTech.map((technology, _) => (
-                <li className="mb-1">
+                <li className="mb-1" key={technology}>
                   <span className="text-primary mr-2 text-lg">▹</span>{" "}
                   {technology}
                 </li>
