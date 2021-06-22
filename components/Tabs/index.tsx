@@ -18,8 +18,8 @@ const Tabs = ({
             className={`sm:px-6 py-4 rounded-none transition duration-200 ease-in-out ${
               index === activeIndex
                 ? "border-b-4 border-primary sm:border-0 sm:text-primary"
-                : ""
-            }  text-black ${
+                : "text-black dark:text-white"
+            } ${
               index !== activeIndex ? `hover:text-blueGray-500` : ""
             }`}
             onClick={(_) => changeTab(index)}
