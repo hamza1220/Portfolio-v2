@@ -21,12 +21,12 @@ const Toolbar = (props: ToggleProps) => {
   );
 
   React.useEffect(() => {
-    toggleDarkMode(isDark)
+    toggleDarkMode(isDark);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isDark]);
 
   return (
-    <div className="bg-primary-lightP3 dark:bg-gray-800 p-4 h-20 relative z-40 flex items-center justify-center">
+    <div className="bg-primary-lightP3 dark:bg-dark-90 p-4 h-20 relative z-40 flex items-center justify-center">
       <div className="flex items-center mt-3 sm:mt-0 max-w-screen-xl w-full">
         <div className="sm:hidden pr-4">
           <DrawerToggleButton click={props.drawerClickHandler} />
@@ -42,11 +42,9 @@ const Toolbar = (props: ToggleProps) => {
             </div>
           </Link>
           <div className="tailwind-hidden sm:flex text-sm font-mono">
-          <span className="p-2 m-4" onClick={() => {
-            console.log("dark mode toggle", isDark);
-            setIsDark(!isDark)}}>
-            <DarkMode className="cursor-pointer fill-current text-black dark:text-yellow" />
-          </span>
+            <span className="p-2 m-4" onClick={() => setIsDark(!isDark)}>
+              <DarkMode className="cursor-pointer fill-current text-black dark:text-yellow" />
+            </span>
             {navRoutes.map(
               (navRoute: { name: string; path: string }, index: number) => (
                 <Link href={navRoute.path} key={index}>

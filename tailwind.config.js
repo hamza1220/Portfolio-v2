@@ -2,12 +2,13 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
+  // mode: 'jit',
   purge: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./containers/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
       // fontFamily: {
@@ -58,26 +59,40 @@ module.exports = {
           200: "#c2ffb0",
         },
         gray: {
-          50: '#fafafa',
-          100: '#f4f4f5',
-          200: '#e4e4e7',
-          300: '#d4d4d8',
-          400: '#a1a1aa',
-          500: '#71717a',
-          600: '#52525b',
-          700: '#3f3f46',
-          800: '#27272a',
-          900: '#18181b',
+          50: "#FAFAFA",
+          100: "#F5F5F5",
+          200: "#E5E5E5",
+          300: "#D2D2D6",
+          400: "#C1C1C6",
+          500: "#B0B0B7",
+          600: "#A0A0A8",
+          700: "#8F8F99",
+          800: "#7F7F8B",
+          900: "#6B6A78",
+          A100: "#5B5B6A",
+          A200: "#4C4C5C",
+          A400: "#3D3D4E",
+          A700: "#2E2E40",
+          A900: "#202033",
         },
         dark: {
-          contrastText: '#E5E5E5',
-        }
+          60: "#3A3A42",
+          70: "#313139",
+          80: "#282830",
+          90: "#1E1E27",
+          DEFAULT: "#15151E",
+          contrastText: "#E5E5E5",
+        },
+        markdown: {
+          codeText: "#c7254e",
+          codeBg: "#f9f2f4",
+        },
       },
     },
   },
   variants: {
     extend: {
-      display: ['dark']
+      display: ["dark"],
     },
   },
   plugins: [],
