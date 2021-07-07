@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import routes, { navRoutes } from "../../../constants/routes";
 import { LightMode, DarkMode } from "../../../utils/icons";
+import { toggleDarkMode } from "../../../utils/helpers";
 
 const logo = require("../../../public/script-black.png");
 
@@ -20,23 +21,7 @@ const Toolbar = (props: ToggleProps) => {
   );
 
   React.useEffect(() => {
-    if (isDark) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.add("light");
-    }
-  }, []);
-
-  React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      if (isDark) {
-        document.documentElement.classList.replace("light", "dark");
-        localStorage.setItem("theme", "dark");
-      } else {
-        document.documentElement.classList.replace("dark", "light");
-        localStorage.setItem("theme", "light");
-      }
-    }
+    toggleDarkMode(isDark)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isDark]);
 
@@ -57,7 +42,9 @@ const Toolbar = (props: ToggleProps) => {
             </div>
           </Link>
           <div className="tailwind-hidden sm:flex text-sm font-mono">
-          <span className="p-2 m-4" onClick={() => setIsDark(!isDark)}>
+          <span className="p-2 m-4" onClick={() => {
+            console.log("dark mode toggle", isDark);
+            setIsDark(!isDark)}}>
             <DarkMode className="cursor-pointer fill-current text-black dark:text-yellow" />
           </span>
             {navRoutes.map(

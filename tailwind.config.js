@@ -69,6 +69,9 @@ module.exports = {
           800: '#27272a',
           900: '#18181b',
         },
+        dark: {
+          contrastText: '#E5E5E5',
+        }
       },
     },
   },
