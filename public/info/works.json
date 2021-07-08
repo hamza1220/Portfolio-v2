@@ -4,7 +4,8 @@
        "type": ["Software Engineering"],
        "tags": ["React", "Node.js", "MongoDB"],
        "tileImagePath": "https://github.com/hamza1220/hamza1220.github.io/blob/master/img/work/p1.png?raw=true",
-       "description": "Food Delivery Web-app for LUMS",
-       "textColor": "#b02737"
+       "description": "A single page web app for food delivery services for the restaurants in LUMS",
+       "textColor": "#b02737",
+       "organization": "Course Work"
     }
 }
