@@ -12,4 +12,5 @@ export interface Project {
   textColor: string;
   tileImagePath?: string;
   type: Array<string>;
+  organization: string;
 }
