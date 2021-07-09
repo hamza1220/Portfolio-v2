@@ -4,7 +4,7 @@ import { Project } from "../../constants";
 const Tags = ({ tags, color }: { tags: Array<string>; color: string }) => (
   <div className="flex">
     {tags?.map((tag, index) => (
-      <div className="flex text-xs font-mono text-blueGray-500">
+      <div className="flex text-xs font-mono text-blueGray-500 dark:text-gray-600">
         <span>{tag}</span>
         {index !== tags.length - 1 && (
           <div
@@ -24,7 +24,7 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) =>
     </div>
   ) : (
     <div
-      className="w-96 h-80 rounded shadow-xl overflow-hidden flex flex-col bg-white transition duration-500 transform hover:-translate-y-2"
+      className="w-96 h-80 rounded shadow-xl overflow-hidden flex flex-col bg-white dark:bg-dark-80 transition duration-500 transform hover:-translate-y-2"
       style={{ cursor: "pointer" }}
     >
       <img
@@ -42,7 +42,7 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) =>
           <h4 className="text-heading font-semibold leading-normal tracking-wide text-xl mb-2">
             {work.title}
           </h4>
-          <p className="text-blueGray-500 text-sm">{work.description}</p>
+          <p className="text-blueGray-500 dark:text-gray-600 text-sm">{work.description}</p>
         </div>
         <div className="mt-auto justify-self-end	">
           <Tags tags={work.tags} color={work.textColor} />

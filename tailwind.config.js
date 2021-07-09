@@ -83,10 +83,10 @@ module.exports = {
           DEFAULT: "#15151E",
           contrastText: "#E5E5E5",
         },
-        markdown: {
-          codeText: "#c7254e",
-          codeBg: "#f9f2f4",
-        },
+        // markdown: {
+        //   codeText: "#c7254e",
+        //   codeBg: "#f9f2f4",
+        // },
       },
     },
   },
