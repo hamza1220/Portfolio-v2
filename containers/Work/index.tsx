@@ -28,12 +28,7 @@ const Work = () => {
       : works.filter((work) => work.type.includes(tabs[tabIndex]))
     : [];
 
-  const x = selectedWorks
-    .concat(selectedWorks)
-    .concat(selectedWorks)
-    .concat(selectedWorks)
-    .concat(selectedWorks)
-    .concat(selectedWorks);
+  const x = selectedWorks.concat(selectedWorks).concat(selectedWorks);
 
   return (
     <div id="work" className="w-full p-6 py-24 flex flex-col justify-center ">

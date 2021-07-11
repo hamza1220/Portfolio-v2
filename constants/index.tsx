@@ -11,6 +11,7 @@ export interface Project {
   description: string;
   textColor: string;
   tileImagePath?: string;
+  maintainAspectRatio?: boolean;
   type: Array<string>;
   organization: string;
 }
