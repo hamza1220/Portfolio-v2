@@ -6,6 +6,10 @@
   display: none;
 }
 
+.text-heading {
+  font-family: "Poppins";
+}
+
 /* Write your own custom base styles here */
 @layer base {
   /* blockquote {
@@ -21,22 +25,22 @@
   } */
 
   h1 {
-    @apply font-semibold leading-tight text-5xl;
+    @apply font-semibold leading-tight text-5xl text-heading;
   }
   h2 {
-    @apply font-semibold leading-normal tracking-wide text-4xl;
+    @apply font-semibold leading-normal tracking-wide text-4xl text-heading;
   }
   h3 {
-    @apply font-semibold leading-normal tracking-wide text-3xl;
+    @apply font-semibold leading-normal tracking-wide text-3xl text-heading;
   }
   h4 {
-    @apply font-semibold leading-normal tracking-wide text-2xl;
+    @apply font-semibold leading-normal tracking-wide text-2xl text-heading;
   }
   h5 {
-    @apply font-bold leading-normal text-xl tracking-wide;
+    @apply font-bold leading-normal text-xl tracking-wide text-heading;
   }
   h6 {
-    @apply font-bold leading-normal text-base tracking-wide;
+    @apply font-bold leading-normal text-base tracking-wide text-heading;
   }
 
   button {
@@ -205,9 +209,5 @@
   .text-gradient {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
-  .text-heading {
-    font-family: "Poppins";
   }
 }

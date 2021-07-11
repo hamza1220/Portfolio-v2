@@ -1,10 +1,9 @@
 import React from "react";
-import DrawerToggleButton from "./DrawerToggleButton";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import routes, { navRoutes } from "../../../constants/routes";
-import { LightMode, DarkMode } from "../../../utils/icons";
-import { toggleDarkMode } from "../../../utils/helpers";
+import DrawerToggleButton from "./DrawerToggleButton";
+import DarkModeToggle from "../../DarkModeToggle";
 
 const logo = require("../../../public/script-black.png");
 
@@ -14,16 +13,6 @@ interface ToggleProps {
 
 const Toolbar = (props: ToggleProps) => {
   const router = useRouter();
-  const [isDark, setIsDark] = React.useState(
-    typeof window !== "undefined"
-      ? localStorage.getItem("theme") === "dark"
-      : false
-  );
-
-  React.useEffect(() => {
-    toggleDarkMode(isDark);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isDark]);
 
   return (
     <div className="bg-primary-lightP3 dark:bg-dark-90 p-4 h-20 relative z-40 flex items-center justify-center">
@@ -42,17 +31,16 @@ const Toolbar = (props: ToggleProps) => {
             </div>
           </Link>
           <div className="tailwind-hidden sm:flex text-sm font-mono">
-            <span className="p-2 m-4" onClick={() => setIsDark(!isDark)}>
-              <DarkMode className="cursor-pointer fill-current text-black dark:text-yellow" />
-            </span>
+            <DarkModeToggle className={"inline-block p-2 m-4"} />
             {navRoutes.map(
               (navRoute: { name: string; path: string }, index: number) => (
                 <Link href={navRoute.path} key={index}>
                   <div
-                    className={`p-2 m-4 cursor-pointer ${router.pathname === navRoute.path
+                    className={`p-2 m-4 cursor-pointer ${
+                      router.pathname === navRoute.path
                         ? "text-primary"
                         : "hover:text-primary-600"
-                      }`}
+                    }`}
                   >
                     <span className="text-primary mr-1"> 0{index + 1}. </span>
                     {navRoute.name}
