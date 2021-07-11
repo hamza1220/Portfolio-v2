@@ -2,12 +2,13 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
+  // mode: 'jit',
   purge: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./containers/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
       // fontFamily: {
@@ -17,6 +18,7 @@ module.exports = {
         transparent: "transparent",
         current: "currentColor",
         blueGray: colors.blueGray,
+        yellow: "#ca8a04",
         primary: {
           light: "#f7f7f7",
           lightP2: "#f9f9ff",
@@ -56,11 +58,42 @@ module.exports = {
           DEFAULT: "#50CC2F",
           200: "#c2ffb0",
         },
+        gray: {
+          50: "#FAFAFA",
+          100: "#F5F5F5",
+          200: "#E5E5E5",
+          300: "#D2D2D6",
+          400: "#C1C1C6",
+          500: "#B0B0B7",
+          600: "#A0A0A8",
+          700: "#8F8F99",
+          800: "#7F7F8B",
+          900: "#6B6A78",
+          A100: "#5B5B6A",
+          A200: "#4C4C5C",
+          A400: "#3D3D4E",
+          A700: "#2E2E40",
+          A900: "#202033",
+        },
+        dark: {
+          60: "#3A3A42",
+          70: "#313139",
+          80: "#282830",
+          90: "#1E1E27",
+          DEFAULT: "#15151E",
+          contrastText: "#E5E5E5",
+        },
+        // markdown: {
+        //   codeText: "#c7254e",
+        //   codeBg: "#f9f2f4",
+        // },
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      display: ["dark"],
+    },
   },
   plugins: [],
 };

@@ -6,8 +6,43 @@
   display: none;
 }
 
+.text-heading {
+  font-family: "Poppins";
+}
+
 /* Write your own custom base styles here */
 @layer base {
+  /* blockquote {
+    @apply bg-gray-100 dark:bg-dark-80;
+    border-left: 5px solid #075e40;
+    margin: 1.5em 0.5em;
+    padding: 1px 20px 16px;
+    overflow-x: scroll;
+  } */
+
+  /* code {
+    @apply rounded bg-markdown-codeBg text-markdown-codeText dark:bg-gray-A200 dark:text-dark-contrastText;
+  } */
+
+  h1 {
+    @apply font-semibold leading-tight text-5xl text-heading;
+  }
+  h2 {
+    @apply font-semibold leading-normal tracking-wide text-4xl text-heading;
+  }
+  h3 {
+    @apply font-semibold leading-normal tracking-wide text-3xl text-heading;
+  }
+  h4 {
+    @apply font-semibold leading-normal tracking-wide text-2xl text-heading;
+  }
+  h5 {
+    @apply font-bold leading-normal text-xl tracking-wide text-heading;
+  }
+  h6 {
+    @apply font-bold leading-normal text-base tracking-wide text-heading;
+  }
+
   button {
     font-size: 0.9375rem;
     @apply text-white font-normal rounded border-0 p-3 flex leading-normal tracking-wide whitespace-nowrap duration-200 items-center justify-center;
@@ -27,6 +62,10 @@
 
   input:focus {
     @apply outline-none ring-1 ring-secondary-600 border-secondary;
+  }
+
+  body {
+    @apply text-black dark:text-dark-contrastText;
   }
 }
 
@@ -170,9 +209,5 @@
   .text-gradient {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
-  .text-heading {
-    font-family: "Poppins";
   }
 }

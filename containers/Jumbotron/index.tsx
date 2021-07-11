@@ -32,14 +32,12 @@ const Jumbotron = () => {
       className="w-full min-h-vh flex flex-col p-6 justify-center"
       style={{ lineHeight: 1.1 }}
     >
-      <h1 className="text-primary tracking-wider font-mono leading-loose">
+      <h1 className="text-primary tracking-wider font-mono leading-loose text-base font-normal">
         Hi, my name is
       </h1>
-      <h2 className="text-heading text-5xl sm:text-7xl font-bold mb-4">
-        Syed Hamza Ahmad.
-      </h2>
+      <h2 className="text-5xl sm:text-7xl font-bold mb-4">Syed Hamza Ahmad.</h2>
       <div className="text-blueGray-500">
-        <h2 className="text-heading text-3xl sm:text-5xl font-bold mb-4">
+        <h2 className="text-3xl sm:text-5xl font-bold mb-4">
           I build things for the web.
         </h2>
         <p className="max-w-lg leading-normal text-lg">
