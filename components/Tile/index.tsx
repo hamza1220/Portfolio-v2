@@ -2,9 +2,12 @@ import React from "react";
 import { Project } from "../../constants";
 
 const Tags = ({ tags, color }: { tags: Array<string>; color: string }) => (
-  <div className="flex">
+  <div className="flex flex-wrap">
     {tags?.map((tag, index) => (
-      <div className="flex text-xs font-mono text-blueGray-500 dark:text-gray-600">
+      <div
+        key={tag}
+        className="flex text-xs font-mono text-blueGray-500 dark:text-gray-600"
+      >
         <span>{tag}</span>
         {index !== tags.length - 1 && (
           <div
@@ -28,24 +31,32 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) =>
       style={{ cursor: "pointer" }}
     >
       <img
-        src={
-          "https://images.unsplash.com/photo-1551085429-91a8422c72ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-        }
-        className="h-28 w-full"
+        src={work.tileImagePath}
+        className={`h-28 w-full ${
+          work.maintainAspectRatio ? "object-cover" : ""
+        }`}
       />
       <div
         className="w-full px-4 pt-3 pb-6 flex flex-col"
         style={{ flex: "1 0 auto" }}
       >
-        {/* <span className="text-xs">{work.organization}</span> */}
         <div className="mb-auto">
-          <h4 className="text-heading font-semibold leading-normal tracking-wide text-xl mb-2">
-            {work.title}
-          </h4>
-          <p className="text-blueGray-500 dark:text-gray-600 text-sm">{work.description}</p>
+          <h4 className="text-xl mb-2">{work.title}</h4>
+          <p className="text-blueGray-500 dark:text-gray-600 text-sm">
+            {work.description}
+          </p>
         </div>
-        <div className="mt-auto justify-self-end	">
-          <Tags tags={work.tags} color={work.textColor} />
+        <div className="flex sm:block justify-between">
+          <div className="tailwind-hidden sm:block">
+            <Tags tags={work.tags} color={work.textColor} />
+          </div>
+          <div className="flex flex-col justify-center sm:hidden ">
+            <Tags tags={work.tags} color={work.textColor} />
+          </div>
+
+          <button className="outlined-default block sm:hidden text-sm mx-2">
+            Learn More
+          </button>
         </div>
       </div>
     </div>

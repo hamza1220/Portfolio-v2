@@ -1,11 +1,42 @@
 {
     "1": {
        "title": "Campus Eat",
-       "type": ["Software Engineering"],
+       "type": ["Featured", "Software Engineering"],
        "tags": ["React", "Node.js", "MongoDB"],
-       "tileImagePath": "https://github.com/hamza1220/hamza1220.github.io/blob/master/img/work/p1.png?raw=true",
+       "tileImagePath": "https://images.unsplash.com/photo-1551085429-91a8422c72ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+       "maintainAspectRatio": false,
        "description": "A single page web app for food delivery services for the restaurants in LUMS",
        "textColor": "#b02737",
        "organization": "Course Work"
+    },
+    "2": {
+        "title": "Try Beam",
+        "type": ["Featured", "Software Engineering"],
+        "tags": ["Next Js", "Node.js", "Firebase"],
+        "tileImagePath": "https://images.unsplash.com/photo-1601436155198-2ebfea8117b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
+        "maintainAspectRatio": false,
+        "description": "An SSR web app for a dentist's clients to track their progress",
+        "textColor": "#38b6ff",
+        "organization": "Beam"
+    },
+    "3": {
+        "title": "MVS+",
+        "type": ["Featured", "Software Engineering"],
+        "tags": ["React", "Material Design", "UX"],
+        "tileImagePath": "https://images.unsplash.com/photo-1527699394565-4be926d174de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+        "maintainAspectRatio": true,
+        "description": "A single page Movie Library based on the TMDB API",
+        "textColor": "#ffd700",
+        "organization": "Independent"
+    },
+    "4": {
+        "title": "Normalize Educative Content for SEO & Readability",
+        "type": ["Featured", "Software Engineering"],
+        "tags": ["Node.js", "SEO", "Lighthouse"],
+        "tileImagePath": "https://images.unsplash.com/photo-1616628188502-413f2fe46e5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+        "maintainAspectRatio": true,
+        "description": "Auto-restructure markdown content to follow heading order rules",
+        "textColor": "#3740ff",
+        "organization": "Educative"
     }
 }
