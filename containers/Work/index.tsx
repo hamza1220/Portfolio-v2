@@ -30,7 +30,7 @@ const Work = ({ works }: { works: Array<Project> }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl">
           {x.map((work, index) => (
             <div key={index} className="flex items-center justify-center">
-              <Tile work={work} url={""} />
+              <Tile work={work} />
             </div>
           ))}
         </div>

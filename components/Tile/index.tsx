@@ -21,15 +21,7 @@ const Tags = ({ tags, color }: { tags: Array<string>; color: string }) => (
   </div>
 );
 
-const Tile = ({
-  work,
-  url,
-  version = 1,
-}: {
-  work: Project;
-  url: string;
-  version?: number;
-}) =>
+const Tile = ({ work, version = 1 }: { work: Project; version?: number }) =>
   !version ? (
     <div className="w-80 h-80 rounded-lg flex items-center justify-center overflow-hidden">
       <img src={work.tileImagePath} className="w-80" />
