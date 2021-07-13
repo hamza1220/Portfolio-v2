@@ -1,5 +1,5 @@
 {
-    "1": {
+    "campus-eat": {
        "title": "Campus Eat",
        "type": ["Featured", "Software Engineering"],
        "tags": ["React", "Node.js", "MongoDB"],
@@ -9,7 +9,7 @@
        "textColor": "#b02737",
        "organization": "Course Work"
     },
-    "2": {
+    "try-beam": {
         "title": "Try Beam",
         "type": ["Featured", "Software Engineering"],
         "tags": ["Next Js", "Node.js", "Firebase"],
@@ -19,7 +19,7 @@
         "textColor": "#38b6ff",
         "organization": "Beam"
     },
-    "3": {
+    "mvs-plus": {
         "title": "MVS+",
         "type": ["Featured", "Software Engineering"],
         "tags": ["React", "Material Design", "UX"],
@@ -29,7 +29,7 @@
         "textColor": "#ffd700",
         "organization": "Independent"
     },
-    "4": {
+    "normalize-educative-content": {
         "title": "Normalize Educative Content for SEO & Readability",
         "type": ["Featured", "Software Engineering"],
         "tags": ["Node.js", "SEO", "Lighthouse"],

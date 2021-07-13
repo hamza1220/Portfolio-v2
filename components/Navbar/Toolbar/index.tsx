@@ -5,8 +5,6 @@ import routes, { navRoutes } from "../../../constants/routes";
 import DrawerToggleButton from "./DrawerToggleButton";
 import DarkModeToggle from "../../DarkModeToggle";
 
-const logo = require("../../../public/script-black.png");
-
 interface ToggleProps {
   drawerClickHandler: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
@@ -24,7 +22,7 @@ const Toolbar = (props: ToggleProps) => {
           <Link href={routes.HOME}>
             <div className="cursor-pointer">
               <img
-                src={logo}
+                src={"/script-black.png"}
                 alt="Logo"
                 className="w-40 ml-4 transform -rotate-6"
               />
