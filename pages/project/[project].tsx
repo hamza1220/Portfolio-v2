@@ -21,16 +21,19 @@ export const getStaticProps = async (context) => {
     url,
   }));
 
-  // Get current project's writeup
-  const { project } = context.params;
-  const projectPath = path.join(
-    process.cwd(),
-    `public/info/works/${project}/writeup.md`
-  );
-  const projectWriteup = await fs.readFile(projectPath, "utf-8");
-
   // Get current project's details
-  const currentProject = allProjects?.[project];
+  const { project } = context.params;
+  const currentProject = allProjects?.[project] ?? null;
+
+  // Get current project's writeup
+  let projectWriteup = "";
+  if (currentProject) {
+    const projectPath = path.join(
+      process.cwd(),
+      `public/info/works/${project}/writeup.md`
+    );
+    projectWriteup = await fs.readFile(projectPath, "utf-8");
+  }
 
   return {
     props: {
