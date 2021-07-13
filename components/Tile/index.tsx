@@ -30,11 +30,11 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) =>
       className="w-96 h-80 rounded shadow-xl overflow-hidden flex flex-col bg-white dark:bg-dark-80 transition duration-500 transform hover:-translate-y-2"
       style={{ cursor: "pointer" }}
     >
-      {console.log(work.title, work.maintainAspectRatio)}
       <img
         src={work.tileImagePath}
-        className="h-28 w-full"
-        style={work.maintainAspectRatio ? { objectFit: "cover" } : null}
+        className={`h-28 w-full ${
+          work.maintainAspectRatio ? "object-cover" : ""
+        }`}
       />
       <div
         className="w-full px-4 pt-3 pb-6 flex flex-col"
