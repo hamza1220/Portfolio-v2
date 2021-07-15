@@ -17,7 +17,7 @@ const Tabs = ({
             key={index}
             className={`sm:px-6 py-4 rounded-none transition duration-200 ease-in-out ${
               index === activeIndex
-                ? "border-b-4 border-primary sm:border-0 sm:text-primary"
+                ? "border-b-4 border-primary sm:border-0 text-primary"
                 : "text-black dark:text-dark-contrastText"
             } ${
               index !== activeIndex ? 'hover:text-blueGray-500 dark:hover:text-blueGray-500' : ""
