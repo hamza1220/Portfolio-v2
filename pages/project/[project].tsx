@@ -1,10 +1,10 @@
 import Head from "next/head";
-import { InferGetStaticPropsType } from "next";
-import { promises as fs } from "fs";
 import path from "path";
+import { promises as fs } from "fs";
+import { InferGetStaticPropsType, GetStaticPaths } from "next";
 import Container from "../../containers/Project";
 
-export const getStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths = async () => {
   return {
     paths: [],
     fallback: true,
@@ -23,7 +23,7 @@ export const getStaticProps = async (context) => {
 
   // Get current project's details
   const { project } = context.params;
-  const currentProject = allProjects?.[project] ?? null;
+  const currentProject = allProjects?.find((pr) => pr.url === project);
 
   // Get current project's writeup
   let projectWriteup = "";

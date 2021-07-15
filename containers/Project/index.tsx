@@ -10,12 +10,15 @@ const ProjectDetails = ({
   writeup: string;
   allProjects: Array<Project>;
 }) => {
+  console.log(project);
   return project ? (
     <div>
       <h1 style={{ color: project.textColor }}> {project.title} </h1>
       {writeup}
     </div>
-  ) : null;
+  ) : (
+    <div>nope</div>
+  );
 };
 
 export default ProjectDetails;
