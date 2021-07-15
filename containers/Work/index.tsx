@@ -4,23 +4,11 @@ import Tabs from "../../components/Tabs";
 import Tile from "../../components/Tile";
 import { workTypes, Project } from "../../constants";
 
-const Work = () => {
-  const [works, setWorks] = React.useState<Array<Project>>(null);
+const Work = ({ works }: { works: Array<Project> }) => {
   const [tabIndex, changeTab] = React.useState<number>(0);
 
   const { FEATURED, SE, DS, ALL } = workTypes;
   const tabs = [FEATURED, SE, DS, ALL];
-
-  React.useEffect(() => {
-    fetch("info/works.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
-      .then((res) => res.json())
-      .then((res) => setWorks(Object.values(res)));
-  }, []);
 
   const selectedWorks = works
     ? tabs[tabIndex] === ALL

@@ -2,13 +2,14 @@ import React from "react";
 import Jumbotron from "../Jumbotron";
 import About from "../About";
 import Work from "../Work";
+import { Project } from "../../constants";
 
-const Landing = (_: any) => {
+const Landing = ({ works }: { works: Array<Project> }) => {
   return (
     <div>
       <Jumbotron />
       <About />
-      <Work />
+      <Work works={works} />
     </div>
   );
 };

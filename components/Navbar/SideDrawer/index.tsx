@@ -4,8 +4,6 @@ import { useRouter } from "next/router";
 import routes, { navRoutes } from "../../../constants/routes";
 import DarkModeToggle from "../../DarkModeToggle";
 
-const logo = require("../../../public/script-black.png");
-
 interface ToggleProps {
   click: any;
   show: boolean;
@@ -27,7 +25,7 @@ const SideDrawer = (props: ToggleProps) => {
       <Link href={routes.HOME}>
         <div className="text-black p-4 h-20 border-b border-gray-300 dark:border-gray-A700 flex justify-center">
           <img
-            src={logo}
+            src={"/script-black.png"}
             alt="Logo"
             className="w-40 ml-4 transform -rotate-6"
           />
