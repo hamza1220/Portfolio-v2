@@ -1,13 +1,14 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-// import { render } from "react-dom";
+import md from 'markdown-it';
 import work from "./Work.md";
+import { renderMd } from "../../utils/markdown";
 
 const Project = () => {
   return (
-    <div>
-      <ReactMarkdown>{work}</ReactMarkdown>
-    </div>
+    <div
+    dangerouslySetInnerHTML={{ __html: renderMd(work) }}
+    />
   );
 };
 
