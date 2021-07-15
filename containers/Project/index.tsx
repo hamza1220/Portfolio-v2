@@ -1,6 +1,7 @@
 import React from "react";
 import { Project } from "../../constants";
-import Markdown from "../../components/Markdown";
+import ProjectMarkdown from "../../components/ProjectMarkdown";
+import ProjectIntro from "../../components/ProjectIntro";
 
 const ProjectDetails = ({
   project,
@@ -13,9 +14,9 @@ const ProjectDetails = ({
 }) => {
   return project ? (
     <div>
-      <h1 style={{ color: project.textColor }}> {project.title} </h1>
+      <ProjectIntro project={project} />
       <div className="flex justify-center">
-        <Markdown content={writeup} />
+        <ProjectMarkdown content={writeup} />
       </div>
     </div>
   ) : (
