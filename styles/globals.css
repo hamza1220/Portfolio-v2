@@ -12,17 +12,21 @@
 
 /* Write your own custom base styles here */
 @layer base {
-  /* blockquote {
+  blockquote {
     @apply bg-gray-100 dark:bg-dark-80;
     border-left: 5px solid #075e40;
     margin: 1.5em 0.5em;
     padding: 1px 20px 16px;
     overflow-x: scroll;
-  } */
+  }
 
-  /* code {
-    @apply rounded bg-markdown-codeBg text-markdown-codeText dark:bg-gray-A200 dark:text-dark-contrastText;
-  } */
+  ul {
+    @apply list-disc list-inside;
+  }
+
+  code {
+    @apply rounded px-1 bg-markdown-codeBg text-markdown-codeText dark:bg-gray-A200 dark:text-dark-contrastText;
+  }
 
   h1 {
     @apply font-semibold leading-tight text-5xl text-heading;

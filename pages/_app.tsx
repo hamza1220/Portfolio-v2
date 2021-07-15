@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Navbar />
       <div className="w-full min-h-vh flex bg-primary-lightP3 dark:bg-dark-90 justify-center">
-        <div className="max-w-5xl w-full">
+        <div className="max-w-5xl w-full p-6 sm:p-12">
           <Component {...pageProps} />
         </div>
       </div>

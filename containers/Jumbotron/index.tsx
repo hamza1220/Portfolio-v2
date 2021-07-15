@@ -29,7 +29,7 @@ const Jumbotron = () => {
 
   return (
     <div
-      className="w-full min-h-vh flex flex-col p-6 justify-center"
+      className="w-full min-h-vh flex flex-col justify-center"
       style={{ lineHeight: 1.1 }}
     >
       <h1 className="text-primary tracking-wider font-mono leading-loose text-base font-normal">

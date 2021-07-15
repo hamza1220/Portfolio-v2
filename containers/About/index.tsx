@@ -13,7 +13,7 @@ const About = () => {
   ];
 
   return (
-    <div id="about" className="w-full p-6 py-24 flex flex-col justify-center ">
+    <div id="about" className="w-full py-24 flex flex-col justify-center ">
       <SectionHeading text={"About Me"} index={1} />
       <div className="flex flex-col-reverse sm:grid sm:grid-cols-5 sm:gap-4">
         <div className="sm:col-start-1 sm:col-end-4 leading-normal text-lg text-blueGray-500">
