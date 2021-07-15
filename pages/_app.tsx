@@ -6,7 +6,7 @@ import NProgress from "nprogress";
 
 NProgress.configure({
   easing: "ease",
-  speed: 1000,
+  speed: 600,
   showSpinner: false,
   template:
     "<div class='bar bg-primary fixed z-50 top-0 left-0 w-full h-0.5' role='bar'><div class='peg block absolute right-0 w-24 h-full opacity-100 transform rotate-3 -translate-y-1 translate-x-0'></div></div>",
