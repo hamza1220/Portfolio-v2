@@ -20,7 +20,9 @@ const Tabs = ({
                 ? "border-b-4 border-primary sm:border-0 text-primary"
                 : "text-black dark:text-dark-contrastText"
             } ${
-              index !== activeIndex ? 'hover:text-blueGray-500 dark:hover:text-blueGray-500' : ""
+              index !== activeIndex
+                ? "hover:text-blueGray-500 dark:hover:text-blueGray-500"
+                : ""
             }`}
             onClick={(_) => changeTab(index)}
           >
