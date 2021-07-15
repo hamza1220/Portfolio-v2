@@ -7,6 +7,7 @@ export const workTypes = {
 
 export interface Project {
   title: string;
+  url: string;
   tags: Array<string>;
   description: string;
   textColor: string;

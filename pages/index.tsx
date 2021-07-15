@@ -1,7 +1,26 @@
 import Head from "next/head";
+import { InferGetStaticPropsType } from "next";
+import { promises as fs } from "fs";
+import path from "path";
 import Container from "../containers/Landing";
 
-const Home = () => {
+export const getStaticProps = async (context) => {
+  const worksListPath = path.join(process.cwd(), "public/info/works.json");
+  const projects = await fs.readFile(worksListPath, "utf-8");
+  const worksDict = JSON.parse(projects);
+  const works = Object.keys(worksDict).map((url) => ({
+    ...worksDict[url],
+    url,
+  }));
+
+  return {
+    props: {
+      works,
+    },
+  };
+};
+
+const Home = ({ works }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
       <Head>
@@ -21,7 +40,7 @@ const Home = () => {
           rel="stylesheet"
         />
       </Head>
-      <Container />
+      <Container works={works} />
     </>
   );
 };
