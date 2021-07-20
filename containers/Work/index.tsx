@@ -19,7 +19,7 @@ const Work = ({ works }: { works: Array<Project> }) => {
   const x = selectedWorks.concat(selectedWorks).concat(selectedWorks);
 
   return (
-    <div id="work" className="w-full p-6 py-24 flex flex-col justify-center ">
+    <div id="work" className="w-full py-24 flex flex-col justify-center ">
       <SectionHeading text={"My Work"} index={2} />
       <Tabs
         tabs={tabs}

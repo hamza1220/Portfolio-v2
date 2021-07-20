@@ -1,5 +1,7 @@
 import React from "react";
 import { Project } from "../../constants";
+import Markdown from "../../components/Project/Markdown";
+import Overview from "../../components/Project/Overview";
 
 const ProjectDetails = ({
   project,
@@ -10,11 +12,12 @@ const ProjectDetails = ({
   writeup: string;
   allProjects: Array<Project>;
 }) => {
-  console.log(project);
   return project ? (
     <div>
-      <h1 style={{ color: project.textColor }}> {project.title} </h1>
-      {writeup}
+      <Overview project={project} />
+      <div className="flex justify-center">
+        <Markdown content={writeup} />
+      </div>
     </div>
   ) : (
     <div>nope</div>
