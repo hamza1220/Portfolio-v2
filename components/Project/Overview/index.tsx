@@ -1,10 +1,10 @@
 import React from "react";
-import { Project } from "../../constants";
+import { Project } from "../../../constants";
 
-const ProjectIntro = ({ project }: { project: Project }) => (
+const Overview = ({ project }: { project: Project }) => (
   <div className="h-96">
     <h1 style={{ color: project.textColor }}> {project.title} </h1>
   </div>
 );
 
-export default ProjectIntro;
+export default Overview;
