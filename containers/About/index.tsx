@@ -39,15 +39,15 @@ const About = () => {
 
           <p>
             Some of the technologies I have recently been working with include:
-            <ul className="grid grid-cols-2 gap-2 font-mono text-sm mt-6">
-              {recentTech.map((technology, _) => (
-                <li className="mb-1" key={technology}>
-                  <span className="text-primary mr-2 text-lg">▹</span>{" "}
-                  {technology}
-                </li>
-              ))}
-            </ul>
           </p>
+          <ul className="grid grid-cols-2 gap-2 font-mono text-sm mt-6">
+            {recentTech.map((technology, _) => (
+              <li className="mb-1" key={technology}>
+                <span className="text-primary mr-2 text-lg">▹</span>{" "}
+                {technology}
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="flex justify-center mb-8 sm:mt-0 sm:col-end-6 sm:col-span-2 ">
           <img
