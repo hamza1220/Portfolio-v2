@@ -27,11 +27,12 @@ const PrevNextProjects = ({
     if (currInd < allProjects.length - 1 && currInd > 0) {
       setPrevProject(allProjects[currInd - 1]);
       setNextProject(allProjects[currInd + 1]);
-    } else {
+    } else if (currInd === 0) {
       setPrevProject(allProjects[allProjects.length - 1]);
-      if (currInd === 0) setNextProject(allProjects[currInd + 1]);
-      else if (currInd === allProjects.length - 1)
-        setNextProject(allProjects[0]);
+      setNextProject(allProjects[currInd + 1]);
+    } else if (currInd === allProjects.length - 1) {
+      setPrevProject(allProjects[currInd - 1]);
+      setNextProject(allProjects[0]);
     }
   };
 
