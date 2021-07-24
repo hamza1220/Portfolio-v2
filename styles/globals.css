@@ -55,10 +55,6 @@
   body {
     @apply text-black dark:text-dark-contrastText;
   }
-
-  a {
-    @apply text-primary dark:text-primary-200 hover:text-primary-700 hover:underline;
-  }
 }
 
 /* Write you own custom component styles here */
@@ -226,6 +222,10 @@
   .md h6,
   .md p {
     @apply py-4;
+  }
+
+  .md a {
+    @apply text-primary dark:text-primary-200 hover:text-primary-700 hover:underline;
   }
 
   .md ul {
