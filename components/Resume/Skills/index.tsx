@@ -1,16 +1,17 @@
 import React from "react";
 
+const languages = ["Javascript", "Typescript", "Python", "C++"];
+const frameworks = [
+  "React",
+  "Redux",
+  "React-Native",
+  "NodeJS",
+  "OpenCV",
+  "Keras",
+];
+const design = ["Protopie", "Adobe Photoshop", "Figma"];
+
 const Skills = () => {
-  const languages = ["Javascript", "Typescript", "Python", "C++"];
-  const frameworks = [
-    "React",
-    "Redux",
-    "React-Native",
-    "NodeJS",
-    "OpenCV",
-    "Keras",
-  ];
-  const design = ["Protopie", "Adobe Photoshop", "Figma"];
   return (
     <div className="flex flex-col md:flex-row w-full py-4 md:flex-start">
       <div className="w-full md:w-4/12">

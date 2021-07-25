@@ -1,12 +1,13 @@
 import React from "react";
 
+const awards = [
+  "LUMS Dean's Honor List 2016, 2017, 2019",
+  "LUMS Undergraduate Award of Distinction",
+  "A-Level High Achiever Medal",
+  "O-Level High Achiever Medal",
+];
+
 const Awards = () => {
-  const awards = [
-    "LUMS Dean's Honor List 2016, 2017, 2019",
-    "LUMS Undergraduate Award of Distinction",
-    "A-Level High Achiever Medal",
-    "O-Level High Achiever Medal",
-  ];
   return (
     <div className="flex flex-col md:flex-row w-full py-4 md:flex-start">
       <div className="w-full md:w-4/12">
