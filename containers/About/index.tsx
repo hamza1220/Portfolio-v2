@@ -16,7 +16,7 @@ const About = () => {
     <div id="about" className="w-full py-24 flex flex-col justify-center ">
       <SectionHeading text={"About Me"} index={1} />
       <div className="flex flex-col-reverse sm:grid sm:grid-cols-5 sm:gap-4">
-        <div className="sm:col-start-1 sm:col-end-4 leading-normal text-lg text-blueGray-500">
+        <div className="sm:col-start-1 sm:col-end-4 leading-normal text-lg text-blueGray-500 dark:text-gray-600">
           <p className="mb-2">
             Hello! My name is Hamza and I enjoy creating things that live on the
             internet. My interest in web development started back in Lorem ipsum
@@ -39,15 +39,15 @@ const About = () => {
 
           <p>
             Some of the technologies I have recently been working with include:
-            <ul className="grid grid-cols-2 gap-2 font-mono text-sm mt-6">
-              {recentTech.map((technology, _) => (
-                <li className="mb-1" key={technology}>
-                  <span className="text-primary mr-2 text-lg">▹</span>{" "}
-                  {technology}
-                </li>
-              ))}
-            </ul>
           </p>
+          <ul className="grid grid-cols-2 gap-2 font-mono text-sm mt-6">
+            {recentTech.map((technology, _) => (
+              <li className="mb-1" key={technology}>
+                <span className="text-primary mr-2 text-lg">▹</span>{" "}
+                {technology}
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="flex justify-center mb-8 sm:mt-0 sm:col-end-6 sm:col-span-2 ">
           <img

@@ -40,7 +40,7 @@ const Jumbotron = () => {
         <h2 className="text-3xl sm:text-5xl font-bold mb-4">
           I build things for the web.
         </h2>
-        <p className="max-w-lg leading-normal text-lg">
+        <p className="max-w-lg leading-normal text-lg dark:text-gray-600">
           I'm a New York based Software Engineer who specializes in designing
           and building exceptional digital experiences. Currently, I'm an
           engineer @{" "}
