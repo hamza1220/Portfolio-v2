@@ -10,7 +10,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
     <div className="grid gap-y-6 sm:grid-cols-3 md:gap-x-4 place-content-start sm:place-content-center">
       {!!items.languages.length && (
         <div>
-          <h6 className="pb-4">Languages</h6>
+          <h3 className="font-bold text-base pb-4">Languages</h3>
           <ul>
             {items.languages.map((language) => (
               <li
@@ -25,7 +25,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
       )}
       {!!items.frameworks_and_libraries.length && (
         <div>
-          <h6 className="pb-4">{"Frameworks"}</h6>
+          <h3 className="font-bold text-base pb-4">{"Frameworks"}</h3>
           <ul>
             {items.frameworks_and_libraries.map((fw) => (
               <li className="text-blueGray-500 dark:text-gray-400" key={fw}>
@@ -37,7 +37,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
       )}
       {!!items.databases.length && (
         <div>
-          <h6 className="pb-4">Databases</h6>
+          <h3 className="font-bold text-base pb-4">Databases</h3>
           <ul>
             {items.databases.map((database) => (
               <li
@@ -52,7 +52,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
       )}
       {!!items.ui_ux.length && (
         <div>
-          <h6 className="pb-4">UI/UX</h6>
+          <h3 className="font-bold text-base pb-4">UI/UX</h3>
           <ul>
             {items.ui_ux.map((design) => (
               <li className="text-blueGray-500 dark:text-gray-400" key={design}>
@@ -64,7 +64,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
       )}
       {!!items.misc.length && (
         <div>
-          <h6 className="pb-4">Miscellaneous</h6>
+          <h3 className="font-bold text-base pb-4">Miscellaneous</h3>
           <ul>
             {items.misc.map((misc) => (
               <li className="text-blueGray-500 dark:text-gray-400" key={misc}>

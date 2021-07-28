@@ -20,7 +20,7 @@ const EducationSection = ({ items }: { items: Education[] }) => (
               {education.institute}
             </a>
           </h3>
-          <h4 className="font-bold text-xl">
+          <h4 className="font-bold text-base">
             {education.title} / {education.duration}
           </h4>
           <span className="text-blueGray-500 dark:text-gray-400">

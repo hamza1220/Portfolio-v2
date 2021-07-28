@@ -10,7 +10,7 @@ const ExperienceSection = ({ items }: { items: Experience[] }) => (
     <div className="flex flex-col w-full md:w-8/12 space-y-10">
       {items.map((experience, index) => (
         <div key={index}>
-          <h5>
+          <h3 className="font-bold text-xl">
             <a
               className="hover:opacity-70 cursor-pointer transition duration-200"
               href={experience.url}
@@ -19,12 +19,12 @@ const ExperienceSection = ({ items }: { items: Experience[] }) => (
             >
               {experience.organization}
             </a>
-          </h5>
+          </h3>
           {experience.positions.map((position, index) => (
             <div className={`${index ? "pt-4" : ""}`} key={index}>
-              <h6>
+               <h4 className="font-bold text-base">
                 {position.title} / {position.duration}
-              </h6>
+              </h4>
               <span className="text-blueGray-500 dark:text-gray-400">
                 {position.body}
               </span>
