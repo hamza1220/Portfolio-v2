@@ -1,7 +1,7 @@
 import Head from "next/head";
 import path from "path";
 import { promises as fs } from "fs";
-import { InferGetStaticPropsType } from "next";
+import { Resume as ResumeProp } from "../constants";
 
 import Container from "../containers/Resume";
 
@@ -18,11 +18,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const Resume = ({
-  resume,
-}: {
-  resume: InferGetStaticPropsType<typeof getStaticProps>;
-}) => (
+const Resume = ({ resume }: { resume: ResumeProp }) => (
   <>
     <Head>
       <title>Resume - S. Hamza Ahmad</title>

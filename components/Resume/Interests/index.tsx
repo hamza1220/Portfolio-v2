@@ -9,7 +9,7 @@ const Interests = ({ items }: { items: Interest[] }) =>
       </div>
       <div className="tailwind-hidden md:flex border-l-2 border-solid border-primary pr-2 h-6 self-center" />
       <div className="flex flex-col w-full md:w-8/12 justify-center">
-        <span className="text-gray-900 dark:text-gray-400">
+        <span className="text-blueGray-500 dark:text-gray-400">
           {items.map((interest, index) => (
             <span>
               {" "}

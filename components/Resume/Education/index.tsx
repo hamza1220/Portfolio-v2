@@ -10,7 +10,7 @@ const EducationSection = ({ items }: { items: Education[] }) => (
     <div className="flex flex-col w-full md:w-8/12 space-y-10">
       {items.map((education) => (
         <div key={education.title}>
-          <h5>
+          <h3 className="font-bold text-xl">
             <a
               className="hover:opacity-70 cursor-pointer transition duration-200"
               href={education.url ?? ""}
@@ -19,15 +19,15 @@ const EducationSection = ({ items }: { items: Education[] }) => (
             >
               {education.institute}
             </a>
-          </h5>
-          <h6>
+          </h3>
+          <h4 className="font-bold text-xl">
             {education.title} / {education.duration}
-          </h6>
-          <span className="text-gray-900 dark:text-gray-400">
+          </h4>
+          <span className="text-blueGray-500 dark:text-gray-400">
             {education.body1}
           </span>
           {education.body2 && (
-            <p className="text-gray-900 dark:text-gray-400">
+            <p className="text-blueGray-500 dark:text-gray-400">
               {education.body2}
             </p>
           )}

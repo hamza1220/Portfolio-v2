@@ -13,7 +13,10 @@ const SkillsSection = ({ items }: { items: Skills }) => (
           <h6 className="pb-4">Languages</h6>
           <ul>
             {items.languages.map((language) => (
-              <li className="text-gray-900 dark:text-gray-400" key={language}>
+              <li
+                className="text-blueGray-500 dark:text-gray-400"
+                key={language}
+              >
                 {language}
               </li>
             ))}
@@ -25,7 +28,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
           <h6 className="pb-4">{"Frameworks"}</h6>
           <ul>
             {items.frameworks_and_libraries.map((fw) => (
-              <li className="text-gray-900 dark:text-gray-400" key={fw}>
+              <li className="text-blueGray-500 dark:text-gray-400" key={fw}>
                 {fw}
               </li>
             ))}
@@ -37,7 +40,10 @@ const SkillsSection = ({ items }: { items: Skills }) => (
           <h6 className="pb-4">Databases</h6>
           <ul>
             {items.databases.map((database) => (
-              <li className="text-gray-900 dark:text-gray-400" key={database}>
+              <li
+                className="text-blueGray-500 dark:text-gray-400"
+                key={database}
+              >
                 {database}
               </li>
             ))}
@@ -49,7 +55,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
           <h6 className="pb-4">UI/UX</h6>
           <ul>
             {items.ui_ux.map((design) => (
-              <li className="text-gray-900 dark:text-gray-400" key={design}>
+              <li className="text-blueGray-500 dark:text-gray-400" key={design}>
                 {design}
               </li>
             ))}
@@ -61,7 +67,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
           <h6 className="pb-4">Miscellaneous</h6>
           <ul>
             {items.misc.map((misc) => (
-              <li className="text-gray-900 dark:text-gray-400" key={misc}>
+              <li className="text-blueGray-500 dark:text-gray-400" key={misc}>
                 {misc}
               </li>
             ))}
