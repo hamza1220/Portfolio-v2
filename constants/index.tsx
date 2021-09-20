@@ -16,3 +16,42 @@ export interface Project {
   type: Array<string>;
   organization: string;
 }
+
+export interface Education {
+  institute: string;
+  url?: string;
+  title: string;
+  duration: string;
+  body1?: string;
+  body2?: string;
+}
+
+export interface Experience {
+  organization: string;
+  url?: string;
+  positions: Array<{
+    title: string;
+    duration: string;
+    body?: string;
+  }>;
+}
+
+export interface Skills {
+  languages: string[];
+  frameworks_and_libraries: string[];
+  databases: string[];
+  misc: string[];
+  ui_ux: string[];
+}
+
+export interface Interest {
+  title: string;
+}
+export interface Resume {
+  download_url: string;
+  education: Education[];
+  experience: Experience[];
+  skills: Skills;
+  interests: Interest[];
+  awards: string[];
+}
