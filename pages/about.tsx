@@ -5,17 +5,11 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>S. Hamza Ahmad</title>
-        <meta
-          name="description"
-          content="This will be the description of the website"
-        />
-        <meta property="og:title" content="S. Hamza Ahmad" />
-        <meta
-          property="og:description"
-          content="This will be the description of the website"
-        />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Raza Khawaja</title>
+        <meta name="description" content="Raza Khawaja's Portfolio" />
+        <meta property="og:title" content="Raza Khawaja" />
+        <meta property="og:description" content="Raza Khawaja's Portfolio" />
+        <link rel="icon" href="/R.svg" />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
           rel="stylesheet"

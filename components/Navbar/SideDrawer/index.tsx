@@ -25,9 +25,9 @@ const SideDrawer = (props: ToggleProps) => {
       <Link href={routes.HOME}>
         <div className="text-black p-4 h-20 border-b border-gray-300 dark:border-gray-A700 flex justify-center">
           <img
-            src={"/script-black.png"}
+            src={"/R.svg"}
             alt="Logo"
-            className="w-40 ml-4 transform -rotate-6"
+            className="flex self-center w-20 h-20 ml-4"
           />
           <DarkModeToggle className="flex items-center pl-4" />
         </div>

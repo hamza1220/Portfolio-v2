@@ -6,21 +6,21 @@ const Jumbotron = () => {
   const socials = [
     {
       name: "Github",
-      href: "https://github.com/hamza1220",
+      href: "https://github.com/razakhawaja",
       svg: (
         <Github className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
       ),
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/syed-hamza-ahmad/",
+      href: "https://www.linkedin.com/in/razakhawaja/",
       svg: (
         <LinkedIn className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
       ),
     },
     {
       name: "Facebook",
-      href: "https://www.facebook.com/S.Hamza.Ahmad",
+      href: "https://www.facebook.com/razakhawaja97",
       svg: (
         <Facebook className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200 -ml-2" />
       ),
@@ -33,31 +33,33 @@ const Jumbotron = () => {
       style={{ lineHeight: 1.1 }}
     >
       <h1 className="text-primary dark:text-primary-light dark:hover:text-primary-lightP1 tracking-wider font-mono leading-loose text-base font-normal">
-        Hi, my name is
+        Hey! Nice to meet you. I'm
       </h1>
-      <h2 className="text-5xl sm:text-7xl font-bold mb-4">Syed Hamza Ahmad.</h2>
+      <h2 className="text-5xl sm:text-7xl font-bold mb-4">Raza Khawaja.</h2>
       <div className="text-blueGray-500">
-        <h2 className="text-3xl sm:text-5xl font-bold mb-4">
+        {/* <h2 className="text-3xl sm:text-5xl font-bold mb-4">
           I build things for the web.
-        </h2>
+        </h2> */}
         <p className="max-w-lg leading-normal text-lg dark:text-gray-600">
-          I'm a New York based Software Engineer who specializes in designing
-          and building exceptional digital experiences. Currently, I'm an
-          engineer @{" "}
-          <Link href="https://www.educative.io">
+          I enjoy designing and engineering softwares and user experiences. I am
+          currently pursuing a User Experience design degree at Purdue
+          University.{" "}
+          {/* <Link href="https://www.educative.io">
             <span className="gradient-purple text-gradient cursor-pointer font-semibold hover:opacity-75">
               Educative
             </span>
           </Link>{" "}
-          focused on building new features for its B2C client base.
+          focused on building new features for its B2C client base. */}
         </p>
       </div>
       <div className="pt-8 flex">
         {socials.map((social, _) => (
           <Link href={social.href} key={social.name}>
-            <div className="text-gray-400 cursor-pointer mr-4">
-              {social.svg}
-            </div>
+            <a target="_blank">
+              <div className="text-gray-400 cursor-pointer mr-4">
+                {social.svg}
+              </div>
+            </a>
           </Link>
         ))}
       </div>

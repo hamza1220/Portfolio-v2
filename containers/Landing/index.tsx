@@ -8,7 +8,7 @@ const Landing = ({ works }: { works: Array<Project> }) => {
   return (
     <div>
       <Jumbotron />
-      <About />
+      {/* <About /> */}
       <Work works={works} />
     </div>
   );
