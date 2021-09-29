@@ -8,21 +8,21 @@ const Jumbotron = () => {
       name: "Github",
       href: "https://github.com/hamza1220",
       svg: (
-        <Github className="text-xl hover:text-primary transition-colors duration-200" />
+        <Github className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
       ),
     },
     {
       name: "LinkedIn",
       href: "https://www.linkedin.com/in/syed-hamza-ahmad/",
       svg: (
-        <LinkedIn className="text-xl hover:text-primary transition-colors duration-200" />
+        <LinkedIn className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
       ),
     },
     {
       name: "Facebook",
       href: "https://www.facebook.com/S.Hamza.Ahmad",
       svg: (
-        <Facebook className="text-xl hover:text-primary transition-colors duration-200 -ml-2" />
+        <Facebook className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200 -ml-2" />
       ),
     },
   ];
@@ -32,7 +32,7 @@ const Jumbotron = () => {
       className="w-full min-h-vh flex flex-col justify-center"
       style={{ lineHeight: 1.1 }}
     >
-      <h1 className="text-primary tracking-wider font-mono leading-loose text-base font-normal">
+      <h1 className="text-primary dark:text-primary-light dark:hover:text-primary-lightP1 tracking-wider font-mono leading-loose text-base font-normal">
         Hi, my name is
       </h1>
       <h2 className="text-5xl sm:text-7xl font-bold mb-4">Syed Hamza Ahmad.</h2>

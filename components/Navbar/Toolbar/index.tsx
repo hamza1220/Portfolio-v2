@@ -36,11 +36,14 @@ const Toolbar = (props: ToggleProps) => {
                   <div
                     className={`p-2 m-4 cursor-pointer ${
                       router.pathname === navRoute.path
-                        ? "text-primary"
-                        : "hover:text-primary-600"
+                        ? "text-primary dark:text-primary-light"
+                        : "hover:text-primary dark:hover:text-primary-light"
                     }`}
                   >
-                    <span className="text-primary mr-1"> 0{index + 1}. </span>
+                    <span className="text-primary dark:text-primary-light dark:hover:text-primary-lightP1 mr-1">
+                      {" "}
+                      0{index + 1}.{" "}
+                    </span>
                     {navRoute.name}
                   </div>
                 </Link>

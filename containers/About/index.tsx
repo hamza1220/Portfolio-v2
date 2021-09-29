@@ -43,7 +43,9 @@ const About = () => {
           <ul className="grid grid-cols-2 gap-2 font-mono text-sm mt-6">
             {recentTech.map((technology, _) => (
               <li className="mb-1" key={technology}>
-                <span className="text-primary mr-2 text-lg">▹</span>{" "}
+                <span className="text-primary dark:text-primary-light mr-2 text-lg">
+                  ▹
+                </span>{" "}
                 {technology}
               </li>
             ))}
@@ -53,7 +55,7 @@ const About = () => {
           <img
             alt="profile image"
             src={profileImg}
-            className="rounded-full h-80 w-80 border-4 border-primary"
+            className="rounded-full h-80 w-80 border-4 border-primary dark:border-primary-light"
           />
         </div>
       </div>

@@ -40,7 +40,7 @@ const PrevNextProjects = ({
       <div className="border border-b border-solid border-gray-200 dark:border-dark-60 my-8" />
       <div className="grid grid-rows-2 md:grid-cols-3 gap-4 md:gap-12">
         <div
-          className="place-self-center md:place-self-start inline-flex cursor-pointer transform hover:-translate-x-4 hover:text-primary transition duration-500"
+          className="place-self-center md:place-self-start inline-flex cursor-pointer transform hover:-translate-x-4 hover:text-primary dark:hover:text-primary-light transition duration-500"
           onClick={(e) => {
             e.preventDefault();
             router.push(prevProject?.url);
@@ -52,7 +52,7 @@ const PrevNextProjects = ({
           </span>
         </div>
         <div
-          className="place-self-center cursor-pointer transition duration-500 transform hover:-translate-y-2 hover:text-primary tailwind-hidden md:block"
+          className="place-self-center cursor-pointer transition duration-500 transform hover:-translate-y-2 hover:text-primary dark:hover:text-primary-light tailwind-hidden md:block"
           onClick={(e) => {
             e.preventDefault();
             router.push(routes.PROJECTS);
@@ -61,14 +61,14 @@ const PrevNextProjects = ({
           All Projects
         </div>
         <div
-          className="place-self-center md:place-self-end inline-flex cursor-pointer transform hover:translate-x-4 hover:text-primary transition duration-500"
+          className="place-self-center md:place-self-end inline-flex cursor-pointer transform hover:translate-x-4 hover:text-primary dark:hover:text-primary-light transition duration-500"
           onClick={(e) => {
             e.preventDefault();
             router.push(nextProject?.url);
           }}
         >
           <span className="max-w-xs truncate pr-2">{nextProject?.title}</span>
-          <ChevronRight className="flex-shrink-0 hover:text-primary" />
+          <ChevronRight className="flex-shrink-0 hover:text-primary dark:hover:text-primary-light" />
         </div>
       </div>
     </>
