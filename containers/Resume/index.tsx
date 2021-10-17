@@ -12,7 +12,7 @@ const ResumePage = ({ resume }: { resume: Resume }) => (
     <div className="flex flex-row items-center">
       <h1>Resume</h1>
       <a href={resume.download_url} target="_blank" rel="noopener noreferrer">
-        <DownloadIcon className="h-8 w-8 flex-shrink-0 ml-4" />
+        <DownloadIcon className="h-8 w-8 flex-shrink-0 ml-4 duration-200 hover:text-primary dark:hover:text-primary-light hover:animate-bounce" />
       </a>
     </div>
     <Education items={resume.education} />

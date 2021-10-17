@@ -1,5 +1,5 @@
 {
-  "download_url": "https://drive.google.com/file/d/11pJYtMOd3kYtwJyHJaYi383XE60vTl-x/view?usp=sharing",
+  "download_url": "https://drive.google.com/file/d/1-DsL9vZuNv5O66iMUUCNzYFoKC9Vb1y8/view?usp=sharing",
   "education": [
     {
       "institute": "Purdue University",
@@ -70,28 +70,23 @@
     }
   ],
   "skills": {
-    "languages": [
-      "Python",
-      "JavaScript (Node JS)",
-      "Typescript",
-      "C",
-      "C++",
-      "PHP"
-    ],
+    "languages": ["Python", "JavaScript (Node JS)", "Typescript", "C", "C++"],
     "frameworks_and_libraries": [
       "React",
       "React Native",
       "Next JS",
-      "Vue JS",
       "Flask",
       "Jest",
-      "Selenium"
+      "Selenium",
+      "OpenCV",
+      "Pandas",
+      "Keras"
     ],
-    "databases": ["Firestore", "MongoDB", "MySQL", "Google Cloud Datastore"],
-    "misc": ["Postman", "Git", "Jira", "Adobe XD", "Jupyter Notebooks"],
-    "ui_ux": ["Protopie", "Adobe Photoshop", "Figma", "Adobe XD"]
+    "databases": ["Firestore", "MongoDB", "Google Cloud Datastore"],
+    "misc": ["Postman", "Git", "Jira", "Jupyter Notebooks"],
+    "ui_ux": ["Figma", "Adobe Photoshop", "Protopie", "Adobe XD"]
   },
-  "interests": ["Football (soccer)", "Tennis", "Cricket", "Memes", "Cinema"],
+  "interests": ["Football (soccer)", "Tennis", "Cricket", "Swimming", "Gaming"],
   "awards": [
     "LUMS Dean's Honor List 2016, 2017, 2019",
     "LUMS Undergraduate Award of Distinction",
