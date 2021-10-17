@@ -9,7 +9,7 @@ const Home = () => {
         <meta name="description" content="Raza Khawaja's Portfolio" />
         <meta property="og:title" content="Raza Khawaja" />
         <meta property="og:description" content="Raza Khawaja's Portfolio" />
-        <link rel="icon" href="/R.svg" />
+        <link rel="icon" href="/favicon.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
           rel="stylesheet"

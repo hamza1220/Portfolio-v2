@@ -30,10 +30,7 @@ const About = () => {
             studying UX Design. Most recently, I was a full-stack software
             engineer at
             <Link href="https://www.educative.io">
-              <span
-                className="cursor-pointer font-semibold hover:opacity-75"
-                style={{ color: "#5553FF" }}
-              >
+              <span className="cursor-pointer font-semibold hover:opacity-75 gradient-purple text-gradient">
                 {" "}
                 Educative Inc.
               </span>

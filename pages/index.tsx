@@ -34,7 +34,7 @@ const Home = ({ works }: InferGetStaticPropsType<typeof getStaticProps>) => {
           property="og:description"
           content="This will be the description of the website"
         />
-        <link rel="icon" href="/R.svg" />
+        <link rel="icon" href="/favicon.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
           rel="stylesheet"
