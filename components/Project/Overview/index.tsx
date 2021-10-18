@@ -29,7 +29,7 @@ const Overview = ({ project }: { project: Project }) => {
           <Detail heading={`Role${overview.roles.length ? 's' : ''}`} description={overview.roles} />
           <Detail heading={'Timeline'} description={overview.timeline} />
         </div>
-        {preview && 
+        {preview &&
           <div className="w-full sm:w-1/2">
             <img src={preview} className="" />
           </div>
