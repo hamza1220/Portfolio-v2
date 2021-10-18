@@ -5,6 +5,14 @@ export const workTypes = {
   DS: "Data Science",
 };
 
+export interface ProjectOverview {
+  description: string;
+  organization: string;
+  roles: Array<string>;
+  timeline: string;
+  previewImagePath?: string;
+}
+
 export interface Project {
   title: string;
   url: string;
@@ -14,7 +22,7 @@ export interface Project {
   tileImagePath?: string;
   maintainAspectRatio?: boolean;
   type: Array<string>;
-  organization: string;
+  overview: ProjectOverview;
 }
 
 export interface Education {
