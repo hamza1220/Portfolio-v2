@@ -11,7 +11,7 @@ const Interests = ({ items }: { items: Interest[] }) =>
       <div className="flex flex-col w-full md:w-8/12 justify-center">
         <span className="text-blueGray-500 dark:text-gray-400">
           {items.map((interest, index) => (
-            <span>
+            <span key={interest.title}>
               {" "}
               {interest}
               {index !== items.length - 1 && ","}
