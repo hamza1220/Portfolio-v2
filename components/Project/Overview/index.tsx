@@ -22,7 +22,7 @@ const Overview = ({ project }: { project: Project }) => {
   return (
     <div >
       <h1 style={{ color: project.textColor }}> {project.title} </h1>
-      <div className="my-8 py-8 border-b-2 sm:flex">
+      <div className="my-8 py-8 border-b-2 border-gray-200 dark:border-gray-A100 sm:flex">
         <div className={`${preview ? 'w-full sm:w-1/2' : 'w-full'}`}>
           <Detail heading={'Overview'} description={overview.description} />
           <Detail heading={'Organization'} description={overview.description} />
