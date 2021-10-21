@@ -20,7 +20,7 @@ const Overview = ({ project }: { project: Project }) => {
   const { overview } = project
   const preview = overview.previewImagePath
   return (
-    <div className="">
+    <div >
       <h1 style={{ color: project.textColor }}> {project.title} </h1>
       <div className="my-8 py-8 border-b-2 sm:flex">
         <div className={`${preview ? 'w-full sm:w-1/2' : 'w-full'}`}>
