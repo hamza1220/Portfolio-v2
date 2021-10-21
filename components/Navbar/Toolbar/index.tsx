@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import routes, { navRoutes } from "../../../constants/routes";
 import DrawerToggleButton from "./DrawerToggleButton";
 import DarkModeToggle from "../../DarkModeToggle";
-
 interface ToggleProps {
   drawerClickHandler: (event: React.MouseEvent<HTMLButtonElement>) => void;
 }
@@ -22,9 +21,9 @@ const Toolbar = (props: ToggleProps) => {
           <Link href={routes.HOME}>
             <div className="cursor-pointer">
               <img
-                src={"/script-black.png"}
+                src={"/R.svg"}
                 alt="Logo"
-                className="w-40 ml-4 transform -rotate-6"
+                className="tailwind-hidden sm:flex w-24 ml-4 mt-4"
               />
             </div>
           </Link>
@@ -36,11 +35,14 @@ const Toolbar = (props: ToggleProps) => {
                   <div
                     className={`p-2 m-4 cursor-pointer ${
                       router.pathname === navRoute.path
-                        ? "text-primary"
-                        : "hover:text-primary-600"
+                        ? "text-primary dark:text-primary-light"
+                        : "hover:text-primary dark:hover:text-primary-light"
                     }`}
                   >
-                    <span className="text-primary mr-1"> 0{index + 1}. </span>
+                    {/* <span className="text-primary dark:text-primary-light dark:hover:text-primary-lightP1 mr-1">
+                      {" "}
+                      0{index + 1}.{" "}
+                    </span> */}
                     {navRoute.name}
                   </div>
                 </Link>

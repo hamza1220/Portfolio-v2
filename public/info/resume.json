@@ -1,70 +1,96 @@
 {
-    "download_url": "https://drive.google.com/file/d/11pJYtMOd3kYtwJyHJaYi383XE60vTl-x/view?usp=sharing",
-    "education" : [
-        {
-            "institute": "Purdue University",
-            "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
-            "title": "M.S Computer Graphics Technology (UX Design)",
-            "duration": "2021 - Present",
-            "body1": "UX Design Concentration",
-            "body2": ""
-        },
-        {
-            "institute": "Lahore University of Management Sciences",
-            "url": "https://lums.edu.pk/",
-            "title": "B.S Computer Science",
-            "duration": "2016 - 2020",
-            "body1": "CGPA: 3.74 / 4.00",
-            "body2": "Key Coursework: Human-Computer Interaction, Software Engineering, Network-Centric Computing, Computer Vision, Deep Learning"
-        }
-    ],
-    "experience": [
-        {
-            "organization": "Educative Inc",
-            "url": "https://educative.io",
-            "positions": [
-                {
-                    "title": "Full-Stack Software Engineer",
-                    "duration": "June 2020 - July 2021",
-                    "body": "Worked in the Site Experience team. Major milestones: 90+ Google Lighthouse scores on non-paywalled pages; site-wide dark mode; custom Stale-While-Revalidate caching mechanism; Migration to new design system from legacy design; Admin Dashboard separation into Next.JS static app; Technical design reviewer."
-                },
-                {
-                    "title": "Technical Content Engineer",
-                    "duration": "June 2019 - May 2020",
-                    "body": "Created 150+ interactive articles on various computer science concepts, algorithms, frameworks, libraries and technologies for Educative's 'Edpresso' platform."
-                }
-            ]
-        },
-        {
-            "organization": "Lahore University of Management Sciences",
-            "url": "https://lums.edu.pk/",
-            "positions": [
-                {
-                    "title": "Teaching Assistant",
-                    "duration": "Sept 2018 - Dec 2018",
-                    "body": "Created weekly coding assignments for students. Supervised weekly 3-hour lab sessions. Oversaw and graded final course projects."
-                }
-            ]
-        },
-        {
-            "organization": "OneByte LLC.",
-            "url": "https://onebytellc.com/",
-            "positions": [
-                {
-                    "title": "Intern",
-                    "duration": "Aug 2017 - Sept 2017",
-                    "body": "Learned basic web-development using HTML, CSS and Javascript in addition to Agile workflow."
-                }
-            ]
-        }
-    ],
-    "skills": {
-        "languages": ["Python", "JavaScript (Node JS)", "Typescript", "C", "C++", "PHP"],
-        "frameworks_and_libraries": ["React", "React Native", "Next JS", "Vue JS", "Flask", "Jest", "Selenium"],
-        "databases": ["Firestore", "MongoDB", "MySQL", "Google Cloud Datastore"],
-        "misc": ["Postman", "Git", "Jira", "Adobe XD", "Jupyter Notebooks"],
-        "ui_ux": ["Protopie", "Adobe Photoshop", "Figma", "Adobe XD"]
+  "download_url": "https://drive.google.com/file/d/1-DsL9vZuNv5O66iMUUCNzYFoKC9Vb1y8/view?usp=sharing",
+  "education": [
+    {
+      "institute": "Purdue University",
+      "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
+      "title": "M.S Computer Graphics Technology (UX Design)",
+      "duration": "2021 - Present",
+      "body1": "UX Design Concentration",
+      "body2": ""
     },
-    "interests": ["Football (soccer)", "Tennis", "Cricket", "Memes", "Cinema"],
-    "awards": ["LUMS Dean's Honor List 2016, 2017, 2019", "LUMS Undergraduate Award of Distinction", "A-Level High Achiever Medal", "O-Level High Achiever Medal"]
+    {
+      "institute": "Lahore University of Management Sciences",
+      "url": "https://lums.edu.pk/",
+      "title": "B.S Computer Science",
+      "duration": "2016 - 2020",
+      "body1": "CGPA: 3.74 / 4.00",
+      "body2": "Key Coursework: Human-Computer Interaction, Software Engineering, Network-Centric Computing, Computer Vision, Deep Learning"
+    }
+  ],
+  "experience": [
+    {
+      "organization": "Purdue University",
+      "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
+      "positions": [
+        {
+          "title": "Graduate Teaching Assistant",
+          "duration": "August 2021 - Present",
+          "body": "Supervised daily labs and assistant students with their assignments on the NX CAD software, for the Graphical Communication and Spatial Analysis course."
+        }
+      ]
+    },
+    {
+      "organization": "Educative Inc",
+      "url": "https://educative.io",
+      "positions": [
+        {
+          "title": "Full-Stack Software Engineer",
+          "duration": "June 2020 - July 2021",
+          "body": "Worked in the Site Experience team. Major milestones: 90+ Google Lighthouse scores on non-paywalled pages; site-wide dark mode; custom Stale-While-Revalidate caching mechanism; Migration to new design system from legacy design; Admin Dashboard separation into Next.JS static app; Technical design reviewer."
+        },
+        {
+          "title": "Technical Content Engineer",
+          "duration": "June 2019 - May 2020",
+          "body": "Created 150+ interactive articles on various computer science concepts, algorithms, frameworks, libraries and technologies for Educative's 'Edpresso' platform."
+        }
+      ]
+    },
+    {
+      "organization": "Lahore University of Management Sciences",
+      "url": "https://lums.edu.pk/",
+      "positions": [
+        {
+          "title": "Undergraduate Teaching Assistant",
+          "duration": "Sept 2018 - Dec 2018",
+          "body": "As part of the Introductory Computer Science course, created weekly coding assignments for students. Supervised weekly 3-hour lab sessions, oversaw and graded final course projects."
+        }
+      ]
+    },
+    {
+      "organization": "OneByte LLC.",
+      "url": "https://onebytellc.com/",
+      "positions": [
+        {
+          "title": "Intern",
+          "duration": "Aug 2017 - Sept 2017",
+          "body": "Learned basic web-development using HTML, CSS and Javascript in addition to Agile workflow."
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "JavaScript (Node JS)", "Typescript", "C", "C++"],
+    "frameworks_and_libraries": [
+      "React",
+      "React Native",
+      "Next JS",
+      "Flask",
+      "Jest",
+      "Selenium",
+      "OpenCV",
+      "Pandas",
+      "Keras"
+    ],
+    "databases": ["Firestore", "MongoDB", "Google Cloud Datastore"],
+    "misc": ["Postman", "Git", "Jira", "Jupyter Notebooks"],
+    "ui_ux": ["Figma", "Adobe Photoshop", "Protopie", "Adobe XD"]
+  },
+  "interests": ["Football (soccer)", "Tennis", "Cricket", "Swimming", "Gaming"],
+  "awards": [
+    "LUMS Dean's Honor List 2016, 2017, 2019",
+    "LUMS Undergraduate Award of Distinction",
+    "A-Level High Achiever Medal",
+    "O-Level High Achiever Medal"
+  ]
 }

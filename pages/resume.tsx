@@ -21,17 +21,17 @@ export const getStaticProps = async () => {
 const Resume = ({ resume }: { resume: ResumeProp }) => (
   <>
     <Head>
-      <title>Resume - S. Hamza Ahmad</title>
+      <title>Resume - Raza Khawaja</title>
       <meta
         name="description"
         content="This will be the description of the website"
       />
-      <meta property="og:title" content="S. Hamza Ahmad" />
+      <meta property="og:title" content="Raza Khawaja" />
       <meta
         property="og:description"
         content="This will be the description of the website"
       />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.png" />
       <link
         href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
         rel="stylesheet"

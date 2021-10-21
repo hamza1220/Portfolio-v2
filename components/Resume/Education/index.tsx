@@ -6,7 +6,7 @@ const EducationSection = ({ items }: { items: Education[] }) => (
     <div className="w-full md:w-4/12">
       <h2>Education </h2>
     </div>
-    <div className="tailwind-hidden md:flex border-l-2 border-solid border-primary pr-2" />
+    <div className="tailwind-hidden md:flex border-l-2 border-solid border-primary dark:border-primary-light pr-2" />
     <div className="flex flex-col w-full md:w-8/12 space-y-10">
       {items.map((education) => (
         <div key={education.title}>
@@ -23,11 +23,11 @@ const EducationSection = ({ items }: { items: Education[] }) => (
           <h4 className="font-bold text-base">
             {education.title} / {education.duration}
           </h4>
-          <span className="text-blueGray-500 dark:text-gray-400">
+          <span className="text-blueGray-500 dark:text-gray-600">
             {education.body1}
           </span>
           {education.body2 && (
-            <p className="text-blueGray-500 dark:text-gray-400">
+            <p className="text-blueGray-500 dark:text-gray-600">
               {education.body2}
             </p>
           )}
