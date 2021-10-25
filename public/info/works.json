@@ -1,42 +1,101 @@
 {
     "campus-eat": {
-       "title": "Campus Eat",
-       "type": ["Featured", "Software Engineering"],
-       "tags": ["React", "Node.js", "MongoDB"],
-       "tileImagePath": "https://images.unsplash.com/photo-1551085429-91a8422c72ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-       "maintainAspectRatio": false,
-       "description": "A single page web app for food delivery services for the restaurants in LUMS",
-       "textColor": "#b02737",
-       "organization": "Course Work"
+        "title": "Campus Eat",
+        "type": [
+            "Featured",
+            "Software Engineering"
+        ],
+        "tags": [
+            "React",
+            "Node.js",
+            "MongoDB"
+        ],
+        "tileImagePath": "https://images.unsplash.com/photo-1551085429-91a8422c72ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+        "maintainAspectRatio": false,
+        "description": "A single page web app for food delivery services for the restaurants in LUMS",
+        "textColor": "#b02737",
+        "overview": {
+            "description": "A single page web app for ordering online from the multiple restaurants in LUMS",
+            "organization": "Course Work",
+            "roles": [
+                "Team Leader",
+                "Full-stack engineer"
+            ],
+            "timeline": "February 2019 – June 2019",
+            "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png" 
+            
+        }
     },
     "try-beam": {
         "title": "Try Beam",
-        "type": ["Featured", "Software Engineering"],
-        "tags": ["Next Js", "Node.js", "Firebase"],
+        "type": [
+            "Featured",
+            "Software Engineering"
+        ],
+        "tags": [
+            "Next Js",
+            "Node.js",
+            "Firebase"
+        ],
         "tileImagePath": "https://images.unsplash.com/photo-1601436155198-2ebfea8117b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
         "maintainAspectRatio": false,
         "description": "An SSR web app for a dentist's clients to track their progress",
         "textColor": "#38b6ff",
-        "organization": "Beam"
+        "overview": {
+            "description": "An SSR web app for clients of a dental clinic to track their recovery plan and update their doctor",
+            "organization": "Beam",
+            "roles": [
+                "Full-stack engineer"
+            ],
+            "timeline": "February 2019 – June 2019"
+        }
     },
     "mvs-plus": {
         "title": "MVS+",
-        "type": ["Featured", "Software Engineering"],
-        "tags": ["React", "Material Design", "UX"],
+        "type": [
+            "Featured",
+            "Software Engineering"
+        ],
+        "tags": [
+            "React",
+            "Material Design",
+            "UX"
+        ],
         "tileImagePath": "https://images.unsplash.com/photo-1527699394565-4be926d174de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
         "maintainAspectRatio": true,
         "description": "A single page Movie Library based on the TMDB API",
         "textColor": "#ffd700",
-        "organization": "Independent"
+        "overview": {
+            "description": "A Movie Library web app based on the TMDB API",
+            "organization": "Independent",
+            "roles": [
+                "Front-end engineer"
+            ],
+            "timeline": "February 2019 – June 2019"
+        }
     },
     "normalize-educative-content": {
         "title": "Normalize Educative Content for SEO & Readability",
-        "type": ["Featured", "Software Engineering"],
-        "tags": ["Node.js", "SEO", "Lighthouse"],
+        "type": [
+            "Featured",
+            "Software Engineering"
+        ],
+        "tags": [
+            "Node.js",
+            "SEO",
+            "Lighthouse"
+        ],
         "tileImagePath": "https://images.unsplash.com/photo-1616628188502-413f2fe46e5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
         "maintainAspectRatio": true,
         "description": "Auto-restructure markdown content to follow heading order rules",
         "textColor": "#3740ff",
-        "organization": "Educative"
+        "overview": {
+            "description": "An auto-restructuring feature that fixes headings in markdown content to improve accessibility on thousands of pages",
+            "organization": "Educative",
+            "roles": [
+                "Full-stack engineer"
+            ],
+            "timeline": "February 2019 – June 2019"
+        }
     }
 }
