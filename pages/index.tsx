@@ -5,34 +5,39 @@ import path from "path";
 import Container from "../containers/Landing";
 
 export const getStaticProps = async (context) => {
-  const worksListPath = path.join(process.cwd(), "public/info/works.json");
-  const projects = await fs.readFile(worksListPath, "utf-8");
+  const infoPath = path.join(process.cwd(), "public/info");
+
+  const projects = await fs.readFile(`${infoPath}/works.json`, "utf-8");
   const worksDict = JSON.parse(projects);
   const works = Object.keys(worksDict).map((url) => ({
     ...worksDict[url],
     url,
   }));
 
+  const intro = await fs.readFile(`${infoPath}/intro.json`, "utf-8");
+  const introduction = JSON.parse(intro)
+
   return {
     props: {
       works,
+      introduction
     },
   };
 };
 
-const Home = ({ works }: InferGetStaticPropsType<typeof getStaticProps>) => {
+const Home = ({ works, introduction }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
       <Head>
-        <title>Raza Khawaja</title>
+        <title>{introduction.name}</title>
         <meta
           name="description"
-          content="This will be the description of the website"
+          content={introduction.meta_description}
         />
-        <meta property="og:title" content="Raza Khawaja" />
+        <meta property="og:title" content={introduction.name} />
         <meta
           property="og:description"
-          content="This will be the description of the website"
+          content={introduction.meta_description}
         />
         <link rel="icon" href="/favicon.png" />
         <link
@@ -40,7 +45,7 @@ const Home = ({ works }: InferGetStaticPropsType<typeof getStaticProps>) => {
           rel="stylesheet"
         />
       </Head>
-      <Container works={works} />
+      <Container works={works} intro={introduction}/>
     </>
   );
 };

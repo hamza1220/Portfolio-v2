@@ -1,13 +1,13 @@
 import React from "react";
 import Jumbotron from "../Jumbotron";
-import About from "../About";
+// import About from "../About";
 import Work from "../Work";
-import { Project } from "../../constants";
+import { Project, Intro } from "../../constants";
 
-const Landing = ({ works }: { works: Array<Project> }) => {
+const Landing = ({ works, intro }: { works: Array<Project>, intro: Intro }) => {
   return (
     <div>
-      <Jumbotron />
+      <Jumbotron intro={intro} />
       {/* <About /> */}
       <Work works={works} />
     </div>
