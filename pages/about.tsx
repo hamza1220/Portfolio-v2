@@ -1,11 +1,13 @@
 import Head from "next/head";
 import Container from "../containers/About";
+import { promises as fs } from "fs";
 import { InferGetStaticPropsType } from "next";
 import path from "path";
 
-export const getStaticProps = async (context) => {
+export const getStaticProps = async () => {
   const introPath = path.join(process.cwd(), "public/info/intro.json");
-  const introduction = JSON.parse(introPath)
+  const intro = await fs.readFile(introPath, "utf-8");
+  const introduction = JSON.parse(intro)
 
   return {
     props: {
