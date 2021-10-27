@@ -6,7 +6,6 @@ import Container from "../containers/Landing";
 
 export const getStaticProps = async (context) => {
   const infoPath = path.join(process.cwd(), "public/info");
-
   const projects = await fs.readFile(`${infoPath}/works.json`, "utf-8");
   const worksDict = JSON.parse(projects);
   const works = Object.keys(worksDict).map((url) => ({
@@ -45,7 +44,7 @@ const Home = ({ works, introduction }: InferGetStaticPropsType<typeof getStaticP
           rel="stylesheet"
         />
       </Head>
-      <Container works={works} intro={introduction}/>
+      <Container works={works} intro={introduction} />
     </>
   );
 };
