@@ -1,35 +1,38 @@
 import Head from "next/head";
 import path from "path";
 import { promises as fs } from "fs";
-import { Resume as ResumeProp } from "../constants";
+import { InferGetStaticPropsType } from "next";
 
 import Container from "../containers/Resume";
 
 export const getStaticProps = async () => {
-  // Get resume
-  const resumePath = path.join(process.cwd(), "public/info/resume.json");
-  const resumeObject = await fs.readFile(resumePath, "utf-8");
+  const infoPath = path.join(process.cwd(), "public/info");
+  const resumeObject = await fs.readFile(`${infoPath}/resume.json`, "utf-8");
   const resume = JSON.parse(resumeObject);
+
+  const intro = await fs.readFile(`${infoPath}/intro.json`, "utf-8");
+  const introduction = JSON.parse(intro)
 
   return {
     props: {
       resume,
+      introduction
     },
   };
 };
 
-const Resume = ({ resume }: { resume: ResumeProp }) => (
+const Resume = ({ resume, introduction }: InferGetStaticPropsType<typeof getStaticProps>) => (
   <>
     <Head>
-      <title>Resume - Raza Khawaja</title>
+      <title>Resume - {introduction.name}</title>
       <meta
         name="description"
-        content="This will be the description of the website"
+        content={introduction.meta_description}
       />
-      <meta property="og:title" content="Raza Khawaja" />
+      <meta property="og:title" content={`Resume - ${introduction.name}`} />
       <meta
         property="og:description"
-        content="This will be the description of the website"
+        content={introduction.meta_description}
       />
       <link rel="icon" href="/favicon.png" />
       <link

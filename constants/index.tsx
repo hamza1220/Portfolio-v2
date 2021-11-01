@@ -63,3 +63,11 @@ export interface Resume {
   interests: Interest[];
   awards: string[];
 }
+
+export interface Intro {
+  name: string;
+  greeting: string;
+  intro: string;
+  meta_description: string;
+  socials: any;
+}
