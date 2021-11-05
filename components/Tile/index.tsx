@@ -21,8 +21,9 @@ const Tags = ({ tags, color }: { tags: Array<string>; color: string }) => (
   </div>
 );
 
-const Tile = ({ work, version = 1 }: { work: Project; version?: number }) =>
-  !version ? (
+const Tile = ({ work, version = 1 }: { work: Project; version?: number }) => {
+  console.log(work.title, work?.overview?.description);
+  return !version ? (
     <div className="w-80 h-80 rounded-lg flex items-center justify-center overflow-hidden">
       <img src={work.tileImagePath} className="w-80" />
     </div>
@@ -45,7 +46,7 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) =>
           <div className="mb-auto">
             <h4 className="text-xl mb-2">{work.title}</h4>
             <p className="text-blueGray-500 dark:text-gray-600 text-sm">
-              {work.description}
+              {work.overview.description}
             </p>
           </div>
           <div className="flex sm:block justify-between">
@@ -64,5 +65,6 @@ const Tile = ({ work, version = 1 }: { work: Project; version?: number }) =>
       </div>
     </Link>
   );
+};
 
 export default Tile;

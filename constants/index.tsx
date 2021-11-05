@@ -2,7 +2,8 @@ export const workTypes = {
   ALL: "All",
   FEATURED: "Featured",
   SE: "Software Engineering",
-  DS: "Data Science",
+  UX: "UX",
+  Misc: "Misc",
 };
 
 export interface ProjectOverview {
@@ -11,6 +12,7 @@ export interface ProjectOverview {
   roles: Array<string>;
   timeline: string;
   previewImagePath?: string;
+  team: Array<string>;
 }
 
 export interface Project {

@@ -233,7 +233,7 @@
   }
 
   .md p {
-    @apply text-xl;
+    @apply text-2xl leading-relaxed;
   }
 
   .md blockquote {
