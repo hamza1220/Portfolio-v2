@@ -8,7 +8,7 @@ export const workTypes = {
 
 export interface ProjectOverview {
   description: string;
-  organization: string;
+  projectType?: string;
   roles: Array<string>;
   timeline: string;
   previewImagePath?: string;
@@ -25,6 +25,7 @@ export interface Project {
   maintainAspectRatio?: boolean;
   type: Array<string>;
   overview: ProjectOverview;
+  hide: boolean;
 }
 
 export interface Education {

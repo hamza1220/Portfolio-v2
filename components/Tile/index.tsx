@@ -22,7 +22,6 @@ const Tags = ({ tags, color }: { tags: Array<string>; color: string }) => (
 );
 
 const Tile = ({ work, version = 1 }: { work: Project; version?: number }) => {
-  console.log(work.title, work?.overview?.description);
   return !version ? (
     <div className="w-80 h-80 rounded-lg flex items-center justify-center overflow-hidden">
       <img src={work.tileImagePath} className="w-80" />

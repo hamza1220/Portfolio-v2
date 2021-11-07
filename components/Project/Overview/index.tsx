@@ -30,17 +30,22 @@ const Detail = ({
 const Overview = ({ project }: { project: Project }) => {
   const { overview } = project;
   const preview = overview.previewImagePath;
-  console.log(preview);
   return (
     <div>
       <h1 style={{ color: project.textColor }}> {project.title} </h1>
       <div className="my-8 py-8 border-b-2 border-gray-200 dark:border-gray-A100 sm:flex">
-        <div className={`${preview ? "w-full sm:w-1/2" : "w-full"}`}>
+        <div
+          className={`${
+            preview ? "w-full sm:w-1/2 flex flex-col justify-center" : "w-full"
+          }`}
+        >
           <Detail heading={"Overview"} description={overview.description} />
-          <Detail
-            heading={"Organization"}
-            description={overview.organization}
-          />
+          {overview.projectType && (
+            <Detail
+              heading={"Project Type"}
+              description={overview.projectType}
+            />
+          )}
           <Detail
             heading={`Role${overview.roles.length ? "s" : ""}`}
             description={overview.roles}
@@ -51,7 +56,7 @@ const Overview = ({ project }: { project: Project }) => {
         </div>
         {preview && (
           <div className="w-full sm:w-1/2 flex justify-center self-center">
-            <img src={`${preview}`} className="" />
+            <img src={`${preview}`} className="w-full" />
           </div>
         )}
       </div>
