@@ -102,6 +102,15 @@ a user into following whatever it categorizes, regardless of accuracy. Think of 
 
 These contraints were important to keep in mind when we brainstormed concepts.
 
+<h2 class="sub-heading"> SKETCHES </h2>
+<h3 style="color:#ff5257;"> Drawing it out. </h3>
+
+Creating sketches were extremely helpful in understanding the feasibility of our concepts and helped us focus on what was really important.
+
+<div class="flex justify-center w-full">
+<img class="w-full" src="/info/works/exercise-fakeout/sketches1.jpg" />
+</div>
+
 <h2 class="sub-heading"> CONCEPTS </h2>
 
 <h3 style="color:#ff5257;"> The user is in the driving seat. </h3>
