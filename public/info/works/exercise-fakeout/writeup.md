@@ -107,7 +107,7 @@ These contraints were important to keep in mind when we brainstormed concepts.
 
 Creating sketches were extremely helpful in understanding the feasibility of our concepts and helped us focus on what was really important.
 
-<div class="flex justify-center w-full">
+<div class="flex justify-center w-full pb-4">
 <img class="w-full" src="/info/works/exercise-fakeout/sketches1.jpg" />
 </div>
 

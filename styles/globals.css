@@ -224,6 +224,10 @@
     @apply py-4;
   }
 
+  .md h3 {
+    @apply text-4xl;
+  }
+
   .sub-heading {
     @apply text-xl text-gray-900 dark:text-gray-400;
   }
