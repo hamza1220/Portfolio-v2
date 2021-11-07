@@ -141,25 +141,19 @@ of the information that the AI has learned about them and correct inaccuracies.
 <h3 style="color:#ff5257;"> Rewards Revamp. </h3>
 
 Rewards need to be aligned with fitness goals, they should eliminate extrinsic motivations to fake out
-and rather loop the user back into using the tracker. Let’s discuss two scenarios:
+and rather loop the user back into using the tracker.
 
-1.&nbsp;A college student just begins a cardio exercise plan - that the tracking
-application has fit right into their busy schedule. They're nearly done with just the first exercise in
-the lengthy plan. As soon as they've achieved their cycling distance goal, they are greeted with a
-prompt that congratulates them for achieving their goal and also adds in a _tailored and personalized_ congratulatory
+This brings up a scenario where a college student has just got done with the first exercise in a lengthy cycling plan, let's say. Upon completion, they are "rewarded" with a _tailored and personalized_ congratulatory
 message - for instance, a health fact that you have achieved based on your health data and
-exercising goal.
+exercising goal. College students do like instant gratification!
 
 <div class="flex justify-center w-full">
 <img class="w-full" src="/info/works/exercise-fakeout/rewards-revamp-1.svg" />
 </div>
 
-2.&nbsp;A second student has been working on their arms for a month now, using
-their wearable device to collect all sorts of statistics for the application. They open the final workout for the plan, and complete it using the video tutorial. They immediately get greeted with a
-congratulatory message that informs you about a new in-app feature that you have just unlocked - a nutrition plan in this
-case.
+In a second scenario, consider a college student at the last exercise of their month-long plan. Upon completion, their reward turns out to be an in-app feature - a nutrition plan in the wireframes below.
 
-The idea here is to cut the basis for faking-out - the reward from a fake-out in this case would lead the user back to what they were avoiding in the first place, fuzzying the motivation behind faking-out in the first place.
+**The idea here is to cut the basis for faking-out** - the reward from a fake-out in this case would **lead the user back to what they were avoiding in the first place**, fuzzying the motivation behind faking-out in the first place.
 
 <div class="flex justify-center w-full">
 <img class="w-full" src="/info/works/exercise-fakeout/rewards-revamp-2.svg" />
@@ -193,13 +187,15 @@ fit into their schedule. And keeping the _personalization paradox_ in mind, thes
 
 This was my first UX research project at Purdue and it was a great learning experience. Going through a non-linear design process involving secondary research, affinity diagramming, conducting interviews, sketching, iterating over concepts and evaluation was vital in learning how to build a strong design rationale for my concepts.
 
-I conducted evaluation via usability testing with four participants. The goal was to see if they could easily navigate through the application and gauge their reaction over the high-level concepts. While the results were positive, the testing was limited in not only the number of participants but also in evaluating the most important concept - personalization through AI. The concept itself is highly dependant on how well the developers make the model. The discovery of the personalization paradox added a thick layer of complexity to the concept as well.
+I conducted evaluation via usability testing with four participants. The goal was to see if they could easily navigate through the application and gauge their reaction over the high-level concepts. While the results were positive, **the testing was limited in not only the number of participants** but also in evaluating the most important concept - personalization through AI. The concept itself is highly dependant on how well the developers make the model. The discovery of the **personalization paradox** added a thick layer of complexity to the concept as well.
 
-In-line with my personal design philosophy of always being critical, I concluded the project by setting up a brainstorming session to disprove our concepts. This resulted in finding several limitations that we did not cater to and removed our confirmation biases.
+In-line with my personal design philosophy of always being critical, I concluded the project by **setting up a brainstorming session to disprove our concepts**. This resulted in finding several limitations that we did not cater to and removed our confirmation biases.
 
-For instance, in "The user is in the driving seat", we did not look into how too much information would be increasing the cognitive load on the user. The "rewards revamp" concept seemed too simplistic and perhaps there were easier ways to induce the same effect. The efficacy of this concept was also something that usability testing would not and did not provide. In addition, people might end up switching to other apps that already provide these features without earning them.
+For instance, in "The user is in the driving seat", **we did not look into how too much information would be increasing the cognitive load on the user**.
 
-For the "fine-tuned to your schedule" concept, more consideration needed to be given to users who do not add everything to their schedule and those who do not strictly follow theirs. There are potentially other factors than just time to consider as well - context and location for instance.
+The "rewards revamp" concept seemed too simplistic and perhaps there were easier ways to induce the same effect. The **efficacy of this concept was also something that usability testing would not and did not provide**. In addition, people might end up switching to other apps that already provide these features without earning them.
+
+For the "fine-tuned to your schedule" concept, more consideration needed to be given to users who do not add everything to their schedule and those who do not strictly follow theirs. There are potentially **other factors than just time to consider as well** - context and location for instance.
 
 <h5 class="flex justify-center"> Thank you for reading! </h5>
 
