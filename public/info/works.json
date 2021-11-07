@@ -20,7 +20,7 @@
     "title": "Exercise Fakeout",
     "type": ["Featured", "UX"],
     "tags": ["UX", "Research"],
-    "tileImagePath": "https://images.unsplash.com/photo-1551085429-91a8422c72ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+    "tileImagePath": "/info/works/exercise-fakeout/exercise-fakeout-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#ff5257",
     "hide": false,
