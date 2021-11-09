@@ -2,18 +2,18 @@
   "blind-wheels": {
     "title": "Blind Wheels",
     "type": ["UX", "Featured"],
-    "tags": ["HCI", "UI", "UX", "Research"],
+    "tags": ["HCI", "UX", "Accessible Design"],
     "tileImagePath": "/info/works/blind-wheels/blind-wheels-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#D54323",
     "hide": false,
     "overview": {
-      "description": "Desigining an arcade racing game for the visually impaired.",
-      "projectType": "Course Work",
-      "roles": ["UI Designer", "UX Researcher"],
+      "description": "Designing an arcade racing game for the visually impaired.",
+      "projectType": "Course Project",
+      "roles": ["UX Designer & Researcher"],
       "timeline": "August 2019 – December 2019",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
-      "team": []
+      "previewImagePath": "https://www.youtube.com/embed/VU-rDK_IjIM",
+      "team": ["Sabeeka Khan", "Hassan Arshad", "Razi ul Haq"]
     }
   },
   "exercise-fakeout": {

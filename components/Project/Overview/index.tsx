@@ -56,7 +56,19 @@ const Overview = ({ project }: { project: Project }) => {
         </div>
         {preview && (
           <div className="w-full sm:w-1/2 flex justify-center self-center">
-            <img src={`${preview}`} className="w-full" />
+            {!preview.includes("youtube") ? (
+              <img src={`${preview}`} className="w-full h-full" />
+            ) : (
+              <iframe
+                width="560"
+                height="315"
+                src={`${preview}`}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            )}
           </div>
         )}
       </div>

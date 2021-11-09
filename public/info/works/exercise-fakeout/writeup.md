@@ -130,9 +130,9 @@ them. The concept is to put the users in total control
 of the information that the AI has learned about them and correct inaccuracies.
 
  </div>
-<div style="width: 48%; display:flex">
+<div style="width: 48%" class="flex justify-center">
 <img 
-        class="w-full"
+style="width: 60%"
         src="/info/works/exercise-fakeout/Profile.svg" />
 </div>
 
