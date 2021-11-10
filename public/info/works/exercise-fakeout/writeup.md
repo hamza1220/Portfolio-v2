@@ -12,69 +12,63 @@ above goals.
 **The goal of this project was therefore to alter users’ mental models about what is beneficial
 for their health and deter them from "faking out".**
 
+<br>
+
 <h2 class="sub-heading"> UNDERSTANDING THE PROBLEM FRAME </h2>
 
 <h3 style="color:#ff5257;"> It’s hard to stay motivated. </h3>
 
-Through secondary research and interviews, it was found that a common occurrence for users of fitness applications is to stop using them over
-time because of an intrinsic lack of motivation to work out. Due to this lack of
-motivation and desire to stay fit, there is an increased probability of users quitting
-the application and possibly faking out to achieve rewardspresent in the
-application.
+Through secondary research and interviews, it was found that a common occurrence for users of fitness applications is to stop using them over time because of an intrinsic lack of motivation to work out. Due to this, there is an increased probability of users quitting the application, or faking out to receive rewards.
 
 It was important to research more on what extrinsic motivation users have then so that it may potentially be targeted. We found out that motivation can be increased through a plethora of tools such as personalization, accessibility,
 ease of use, reliability and rewards.
 
 <h3 style="color:#ff5257;"> Narrowing the problem. </h2>
 
-We identified some gaps and consequently brainstormed questions
-that we felt we needed to answer:
+Using the results from primary and secondary research, we decided to use affinity diagramming to form more concrete clusters around the themes that were most important:
 
-<ul>
-<li>What fake-outs are and why people do it </li>
-<li>Understanding the mechanics of fitness trackers and applications </li>
-<li> Current reward mechanisms - do they work or not </li>
-<li> People's mental models about exercise </li>
-</ul>
+<iframe className="w-full" height="512" src="https://miro.com/app/live-embed/o9J_ly5Mp20=/?moveToViewport=-548,-751,3741,2049" frameBorder="1" scrolling="yes" allowFullScreen></iframe>
 
-First, we found out how most current fitness tracking apps target college-going
-students (Gowin et. al, 2015). Among this demographic, several students are unable to maintain
-healthy fitness habits using digital means because of conflicts with the workload,
-education, and schedule (Ashton et. al, 2017).
-
-Our target **demographic** therefore was **college-going, non-Athletes, irregularly
-working out** individuals.
-
-We also decided that we need a solution that targets motivation - interview findings
-suggested that this was possibly the root issue with the target demographic.
+The team therefore held another brainstorming session over the affinity diagram and concluded that we needed a solution that attempts to increase **motivation**.
 
 > It was important to note though that motivation in the form of extrinsic rewards, or those that target instant
 > gratification drive focuses away from what the actual goal is - to be healthier.
 
+<h3 style="color:#ff5257;"> Target Demographic </h2>
+
+A primary target for current fitness tracking apps are college-going students (Gowin et. al, 2015). Among this demographic, several students are unable to maintain healthy fitness habits using digital means because of conflicts with the workload,
+education, and schedule (Ashton et. al, 2017).
+
+This led us to our target user group:
+
+<div class="flex justify-center w-full">
+<img class="w-3/5" src="/info/works/exercise-fakeout/college-student.svg" />
+</div>
+
+<br>
+
 <h2 class="sub-heading"> CONSTRAINTS </h2>
 
-<h3 style="color:#ff5257;"> The motivation-reward loop. </h3>
+<h3 style="color:#ff5257;"> The motivation-reward problem. </h3>
 
-**Concept mapping** let us to discover the motivation-reward loop.
-The loop starts with either a lack of motivation or misplaced motivation.
-Instead of being motivated to be healthier and develop beneficial habits, users are
-motivated by high extrinsic rewards that are not aligned with the overarching goal of being healthy. These extrinsic rewards potentially lead the users to use other means to achieve the set goals and obtain instant gratification.
+Further brainstorming led us to discover a problem we like to call the **motivation-reward problem.**
+It starts with a lack of motivation. Instead of being motivated to be healthier and develop beneficial habits, users are
+motivated instead by high extrinsic rewards that are not aligned with the overarching goal of being healthy. These extrinsic rewards end up turning the lack of motivation into misplaced motivation - the core behind "faking out".
 
 Interviews with college students and the works of
-(Radhakrishnan et. al, 2020) and (Harrison et. al, 2014) revealed that a lack of
-personalization in current fitness tracking apps is a major factor that adds to a lack
-of motivation. Additionally, a combination of the two: rewards in the form of
-social media’s instant gratification, gamification rewards, or extrinsic/monetary
-rewards, and a lack of personalization, lead to fake outs.
+(Radhakrishnan et. al, 2020) and (Harrison et. al, 2014) revealed that a **lack of
+personalization** in current fitness tracking apps is a major factor that adds to a lack
+of motivation.
+
+A solution therefore needed to hit the sweet spot inbetween rewards and personalization:
 
 <div class="flex justify-center w-full">
 <img class="w-full " src="/info/works/exercise-fakeout/motivation-reward-loop.png" />
 </div>
 
-<h3 style="color:#ff5257;"> So, back to the loop. </h3>
+<h3 style="color:#ff5257;"> How personalized? </h3>
 
-After further brainstorming sessions, we decided to tackle motivation
-through a high level of personalization - essentially making users
+Personalization was a broad term for us. For us, it meant making users
 feel like the tracking application is made just for them. This would need to be achieved with a deep learning model that would train itself based on the user.
 
 Moreover, with college
@@ -95,38 +89,39 @@ interviews and research, we concluded that we needed to also cater to something
 known as the personalization paradox (Zhu et. al, 2021). It identifies two problems with high
 personalized applications:
 
-1.&nbsp;_The self-reinforcing loop problem_: When a personalization system “forces”
-a user into following whatever it categorizes, regardless of accuracy. Think of Netflix recommending you sci-fi movies everyday just because you watched one out of curiosity.
-
-2.&nbsp;_The moving target problem_: The model should adapt and grow with the user at their pace.
+<div class="flex justify-center w-full">
+<img class="w-full" src="/info/works/exercise-fakeout/personalization-paradox.svg" />
+</div>
 
 These contraints were important to keep in mind when we brainstormed concepts.
+
+<br>
 
 <h2 class="sub-heading"> SKETCHES </h2>
 <h3 style="color:#ff5257;"> Drawing it out. </h3>
 
 Creating sketches were extremely helpful in understanding the feasibility of our concepts and helped us focus on what was really important.
 
-<div class="flex justify-center w-full pb-4">
-<img class="w-full" src="/info/works/exercise-fakeout/sketches1.jpg" />
+<div class="flex flex-col sm:flex-row w-4/5 pb-4">
+<img class="w-3/5 mr-1" src="/info/works/exercise-fakeout/sketches1.jpg" />
+<img class="w-3/5 ml-1" src="/info/works/exercise-fakeout/sketches2.jpg" />
 </div>
+
+<br>
 
 <h2 class="sub-heading"> CONCEPTS </h2>
 
 <h3 style="color:#ff5257;"> The user is in the driving seat. </h3>
 
 <div class="flex justify-between"> 
-    <div style="width: 48%"> 
+    <div style="width: 48%" class="flex flex-col justify-evenly"> 
         
 A solution to the self-reinforcing loop problem is to
 always keep the user empowered to not only view the
 information that has been learned about them but also
 edit it as they wish.
 
-Therefore, the user’s profile screen has multiple edit options which help to enable or
-disable the information about them that the application
-can collect or use to provide a tailored experience for
-them. The concept is to put the users in total control
+The concept is to put the users in total control
 of the information that the AI has learned about them and correct inaccuracies.
 
  </div>
@@ -144,14 +139,14 @@ Rewards need to be aligned with fitness goals, they should eliminate extrinsic m
 and rather loop the user back into using the tracker.
 
 This brings up a scenario where a college student has just got done with the first exercise in a lengthy cycling plan, let's say. Upon completion, they are "rewarded" with a _tailored and personalized_ congratulatory
-message - for instance, a health fact that you have achieved based on your health data and
+message - for instance, a health fact that you have achieved based on the user's health data and
 exercising goal. College students do like instant gratification!
 
 <div class="flex justify-center w-full">
 <img class="w-full" src="/info/works/exercise-fakeout/rewards-revamp-1.svg" />
 </div>
 
-In a second scenario, consider a college student at the last exercise of their month-long plan. Upon completion, their reward turns out to be an in-app feature - a nutrition plan in the wireframes below.
+In a second scenario, consider a college student at the last exercise of their month-long plan. Upon completion, their reward turns out to be an in-app feature - a nutrition plan, as shown in the wireframes below.
 
 **The idea here is to cut the basis for faking-out** - the reward from a fake-out in this case would **lead the user back to what they were avoiding in the first place**, fuzzying the motivation behind faking-out in the first place.
 
@@ -181,11 +176,11 @@ fit into their schedule. And keeping the _personalization paradox_ in mind, thes
 
 </div>
 
+<br>
+
 <h2 class="sub-heading"> EVALUATION, LIMITATIONS AND REFLECTION </h2>
 
 <h3 style="color:#ff5257;"> Discovering the complexities. </h3>
-
-This was my first UX research project at Purdue and it was a great learning experience. Going through a non-linear design process involving secondary research, affinity diagramming, conducting interviews, sketching, iterating over concepts and evaluation was vital in learning how to build a strong design rationale for my concepts.
 
 I conducted evaluation via usability testing with four participants. The goal was to see if they could easily navigate through the application and gauge their reaction over the high-level concepts. While the results were positive, **the testing was limited in not only the number of participants** but also in evaluating the most important concept - personalization through AI. The concept itself is highly dependant on how well the developers make the model. The discovery of the **personalization paradox** added a thick layer of complexity to the concept as well.
 
@@ -196,6 +191,8 @@ For instance, in "The user is in the driving seat", **we did not look into how t
 The "rewards revamp" concept seemed too simplistic and perhaps there were easier ways to induce the same effect. The **efficacy of this concept was also something that usability testing would not and did not provide**. In addition, people might end up switching to other apps that already provide these features without earning them.
 
 For the "fine-tuned to your schedule" concept, more consideration needed to be given to users who do not add everything to their schedule and those who do not strictly follow theirs. There are potentially **other factors than just time to consider as well** - context and location for instance.
+
+As my first UX research project at Purdue, it was a great learning experience. Going through a non-linear design process involving multiple methods was vital in learning how to build a strong design rationale for our ideas.
 
 <h5 class="flex justify-center"> Thank you for reading! </h5>
 
