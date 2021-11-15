@@ -229,7 +229,7 @@
   }
 
   .sub-heading {
-    @apply text-xl text-gray-900 dark:text-gray-400;
+    @apply text-xl text-blueGray-500 dark:text-gray-800;
   }
 
   .md a {
