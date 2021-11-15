@@ -22,7 +22,7 @@ const Toolbar = (props: ToggleProps) => {
         <div className="w-full flex justify-between items-center">
           <Link href={routes.HOME}>
             <div className="cursor-pointer">
-              <Logo className="tailwind-hidden sm:flex w-24 ml-4 mt-4" />
+              <Logo className="tailwind-hidden sm:flex w-24 ml-4 mt-4 text-primary dark:text-primary-light fill-current" />
             </div>
           </Link>
           <div className="tailwind-hidden sm:flex text-sm font-mono">

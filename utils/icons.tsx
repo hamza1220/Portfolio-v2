@@ -133,7 +133,7 @@ export const Logo = ({ className }: { className?: string }) => (
     </defs>
     <g clip-path="url(#a)">
       <path
-        className="text-primary dark:text-primary-light fill-current"
+        className={`${className}`}
         stroke="none"
         fillRule="nonzero"
         fillOpacity="1"
@@ -142,7 +142,7 @@ export const Logo = ({ className }: { className?: string }) => (
     </g>
     <g clip-path="url(#b)">
       <path
-        className="text-primary dark:text-primary-light fill-current"
+        className={`${className}`}
         stroke="none"
         fillRule="nonzero"
         fillOpacity="1"
@@ -151,7 +151,7 @@ export const Logo = ({ className }: { className?: string }) => (
     </g>
     <g clip-path="url(#c)">
       <path
-        className="text-primary dark:text-primary-light fill-current"
+        className={`${className}`}
         stroke="none"
         fillRule="nonzero"
         fillOpacity="1"
@@ -160,7 +160,7 @@ export const Logo = ({ className }: { className?: string }) => (
     </g>
     <g clip-path="url(#d)">
       <path
-        className="text-primary dark:text-primary-light fill-current"
+        className={`${className}`}
         stroke="none"
         fillRule="nonzero"
         fillOpacity="1"
@@ -169,7 +169,7 @@ export const Logo = ({ className }: { className?: string }) => (
     </g>
     <g fillOpacity="1">
       <path
-        className="text-primary dark:text-primary-light fill-current"
+        className={`${className}`}
         stroke="none"
         d="M22.5 33.7c.4.4 1 .6 1.5.6a2 2 0 0 0 1-.2c1-.7 1.1-1.7.8-8.7-.2-3.8-.4-14.6-.4-24 0-16.8 0-16.9.7-16.9 1.7 0 4 2 5.3 4.7 1.2 2.2 1.9 4.5 3.9 11.8 2.8 10.4 4.7 15.1 8 18.6 2.4 2.4 4 3.3 7.5 3.3 3-.1 5-1.2 8-4.2 3.3-3 5.4-6 10-13.8 3.8-6.6 9.8-16 11.7-18.3 1.7-2 1.4-4-.5-4.6h-.5c-1.4 0-2.6 1.6-6.7 7.6a282 282 0 0 0-8.1 13c-4.3 7.3-6 9.7-8.4 12.4-2.2 2.2-4.2 3.3-6 3.3-1.6 0-3-1-4.3-2.7a49 49 0 0 1-6.5-17c-2.6-9.5-4-12.6-7-15.8l-1.4-1.5 3-2.1c3.9-2.7 10.8-9.1 14.7-13.6 13.7-15.4 18-26.1 12.9-31.1a9 9 0 0 0-6.6-2.3c-8.4 0-19.6 7.2-26 12.3-1.4 1.2-2.7 2.2-2.7 2l.5-6.3c.2-3.3.6-6.1.6-6.2 0-.2.4-.6.9-.7 1.1-.4 1.5-1.4 1.2-2.7 0-.4-.4-2.3-.5-4-.2-2.3-.4-3.5-.8-3.9-.3-.3-1-.5-1.6-.5-.6 0-1.2.2-1.6.6-1 1.3-2.6 13-3.4 23.5l-.3 5.1-1.5 1.9C12.5-38.2 3.6-25 3.6-13.2c0 3.2.5 4.8 1.8 6.2 1 1.2 2.4 1.7 3.6 1.7 1.2 0 2.1-.4 2.6-1.3.5-.7.5-.9 0-1.6-.4-.5-1-1-1.5-1.2-1.8-.3-1.9-.5-2-3.4-.3-6.5 4.5-17.4 11.5-26.3l1.5-2-.2 10.7a726 726 0 0 0 .7 62.3c.1.5.4 1.4.9 1.8ZM27-21.7l-1.6.9V-22l.4-12.8.3-11.6 1-1c.4-.5 2.2-2.1 4-3.6 8.8-7.3 18-12 24-12 2.2 0 2.5 0 3.3 1 .8.6.9 1 .7 2.5-1 9.9-22.3 32.9-32 37.8Zm0 0"
         transform="translate(115.7 197.6)"
@@ -177,7 +177,7 @@ export const Logo = ({ className }: { className?: string }) => (
     </g>
     <g fillOpacity="1">
       <path
-        className="text-primary dark:text-primary-light fill-current"
+        className={`${className}`}
         stroke="none"
         d="M9.6 47.4c.3.3.8.5 1.3.5.6 0 1.2-.2 1.6-.6.5-.6.5-.8.2-3.2-.6-3.9-.8-15.6-.4-25.2.4-9.9 1-18.8 1.2-21.4l.2-1.9.7 1.4c1.1 2.2 3.4 7.7 5.6 13.7C24.4 22.7 27 27 31.6 29c1 .5 2.2.7 3.2.7 3.7 0 7.3-2.7 11-8l5.7-9.7a298.2 298.2 0 0 1 15.7-27c0-1.3-1.3-2.6-2.4-2.6-2 0-3.1 1.8-15.8 24.5A106.4 106.4 0 0 1 40 21.5c-1.7 2.3-3.6 3.5-5.3 3.5-1.7 0-3.4-1.2-5-3.6A66.3 66.3 0 0 1 24 8a106 106 0 0 0-8-17.7l-1.7-2.8.8-10 3.7-4.2c8.8-10 15.7-20.4 21.9-32.9a74.3 74.3 0 0 0 7.9-22.2c0-1.8-1-3-2.2-3-1.5 0-2.2 1-2.2 3 0 6-9.7 26-19.1 39.6-2.7 3.8-9 11.8-9.2 11.6-.2-.2 2-20.8 3-26.2.5-4.2 2.8-15.6 3-15.8.1-.1.6.2 1 .6.6.3 1 .6 1.6.6 1.4-.5 1.6-1 1.4-5.4-.2-4.8-.3-5.4-1.2-6.2a2 2 0 0 0-1.4-.6c-7.7 0-11.9 47.7-12.4 55.6l-.3 3-2.4 2.5c-1.3 1.4-2.6 3-2.8 3.4-.7 1.2-.1 2.7 2 5.4a12 12 0 0 1 2 2.9L8.6-.6c-.9 14.5-1.3 23.9-1.3 31.9 0 10.2.6 14.3 2.3 16.1Zm0 0"
         transform="translate(194.7 197.6)"
