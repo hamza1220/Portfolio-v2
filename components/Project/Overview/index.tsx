@@ -42,7 +42,11 @@ const Overview = ({ project }: { project: Project }) => {
           <Detail heading={"Overview"} description={overview.description} />
           {overview.projectType && (
             <Detail
-              heading={"Project Type"}
+              heading={
+                overview.projectType.toLowerCase() === "course work"
+                  ? "Project Type"
+                  : "Organization"
+              }
               description={overview.projectType}
             />
           )}
