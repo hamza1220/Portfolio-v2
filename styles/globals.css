@@ -224,6 +224,14 @@
     @apply py-4;
   }
 
+  .md h3 {
+    @apply text-4xl;
+  }
+
+  .sub-heading {
+    @apply text-xl text-gray-900 dark:text-gray-400;
+  }
+
   .md a {
     @apply text-primary dark:text-primary-200 hover:text-primary-700 hover:underline;
   }
@@ -233,12 +241,16 @@
   }
 
   .md p {
-    @apply text-xl;
+    @apply text-2xl leading-relaxed;
+  }
+
+  .md li {
+    @apply text-2xl leading-relaxed;
   }
 
   .md blockquote {
     @apply bg-gray-100 dark:bg-dark-80;
-    border-left: 5px solid #075e40;
+    border-left: 5px solid #b078ff;
     margin: 1.5em 0.5em;
     padding: 1px 20px 16px;
     overflow-x: scroll;

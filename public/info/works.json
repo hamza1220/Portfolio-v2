@@ -1,101 +1,121 @@
 {
-    "campus-eat": {
-        "title": "Campus Eat",
-        "type": [
-            "Featured",
-            "Software Engineering"
-        ],
-        "tags": [
-            "React",
-            "Node.js",
-            "MongoDB"
-        ],
-        "tileImagePath": "https://images.unsplash.com/photo-1551085429-91a8422c72ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-        "maintainAspectRatio": false,
-        "description": "A single page web app for food delivery services for the restaurants in LUMS",
-        "textColor": "#b02737",
-        "overview": {
-            "description": "A single page web app for ordering online from the multiple restaurants in LUMS",
-            "organization": "Course Work",
-            "roles": [
-                "Team Leader",
-                "Full-stack engineer"
-            ],
-            "timeline": "February 2019 – June 2019",
-            "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png" 
-            
-        }
-    },
-    "try-beam": {
-        "title": "Try Beam",
-        "type": [
-            "Featured",
-            "Software Engineering"
-        ],
-        "tags": [
-            "Next Js",
-            "Node.js",
-            "Firebase"
-        ],
-        "tileImagePath": "https://images.unsplash.com/photo-1601436155198-2ebfea8117b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80",
-        "maintainAspectRatio": false,
-        "description": "An SSR web app for a dentist's clients to track their progress",
-        "textColor": "#38b6ff",
-        "overview": {
-            "description": "An SSR web app for clients of a dental clinic to track their recovery plan and update their doctor",
-            "organization": "Beam",
-            "roles": [
-                "Full-stack engineer"
-            ],
-            "timeline": "February 2019 – June 2019"
-        }
-    },
-    "mvs-plus": {
-        "title": "MVS+",
-        "type": [
-            "Featured",
-            "Software Engineering"
-        ],
-        "tags": [
-            "React",
-            "Material Design",
-            "UX"
-        ],
-        "tileImagePath": "https://images.unsplash.com/photo-1527699394565-4be926d174de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-        "maintainAspectRatio": true,
-        "description": "A single page Movie Library based on the TMDB API",
-        "textColor": "#ffd700",
-        "overview": {
-            "description": "A Movie Library web app based on the TMDB API",
-            "organization": "Independent",
-            "roles": [
-                "Front-end engineer"
-            ],
-            "timeline": "February 2019 – June 2019"
-        }
-    },
-    "normalize-educative-content": {
-        "title": "Normalize Educative Content for SEO & Readability",
-        "type": [
-            "Featured",
-            "Software Engineering"
-        ],
-        "tags": [
-            "Node.js",
-            "SEO",
-            "Lighthouse"
-        ],
-        "tileImagePath": "https://images.unsplash.com/photo-1616628188502-413f2fe46e5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
-        "maintainAspectRatio": true,
-        "description": "Auto-restructure markdown content to follow heading order rules",
-        "textColor": "#3740ff",
-        "overview": {
-            "description": "An auto-restructuring feature that fixes headings in markdown content to improve accessibility on thousands of pages",
-            "organization": "Educative",
-            "roles": [
-                "Full-stack engineer"
-            ],
-            "timeline": "February 2019 – June 2019"
-        }
+  "blind-wheels": {
+    "title": "Blind Wheels",
+    "type": ["UX", "Featured"],
+    "tags": ["HCI", "UI", "UX", "Research"],
+    "tileImagePath": "/info/works/blind-wheels/blind-wheels-cover.svg",
+    "maintainAspectRatio": false,
+    "textColor": "#D54323",
+    "hide": false,
+    "overview": {
+      "description": "Desigining an arcade racing game for the visually impaired.",
+      "projectType": "Course Work",
+      "roles": ["UI Designer", "UX Researcher"],
+      "timeline": "August 2019 – December 2019",
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
+      "team": []
     }
+  },
+  "exercise-fakeout": {
+    "title": "Exercise Fakeout",
+    "type": ["Featured", "UX"],
+    "tags": ["UX", "Research"],
+    "tileImagePath": "/info/works/exercise-fakeout/exercise-fakeout-cover.svg",
+    "maintainAspectRatio": false,
+    "textColor": "#ff5257",
+    "hide": false,
+    "overview": {
+      "description": "A UX research on altering the way people think about and use fitness trackers.",
+      "projectType": "Course Work",
+      "roles": ["UX Researcher"],
+      "timeline": "24 August 2021 – 14 September 2021",
+      "previewImagePath": "/info/works/exercise-fakeout/fakeout-main.svg",
+      "team": ["Ali Asghar Aamir", "Qimei Fu"]
+    }
+  },
+  "campus-eat": {
+    "title": "Campus Eat",
+    "type": ["Software Engineering"],
+    "tags": ["React", "Node.js", "MongoDB"],
+    "tileImagePath": "https://images.unsplash.com/photo-1551085429-91a8422c72ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+    "maintainAspectRatio": false,
+    "textColor": "#b02737",
+    "hide": true,
+    "overview": {
+      "description": "A single page web app for ordering online from the multiple restaurants in LUMS",
+      "projectType": "Course Work",
+      "roles": ["Team Leader", "Full-Stack Engineer"],
+      "timeline": "February 2019 – June 2019",
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
+      "team": []
+    }
+  },
+  "cloudflare-cache": {
+    "title": "Cloudflare Caching & Purging Mechanism",
+    "type": ["Featured", "Software Engineering"],
+    "tags": ["Cloudflare", "Node.js", "Python", "SEO"],
+    "tileImagePath": "/info/works/cloudflare-cache/cf-cache-cover.svg",
+    "maintainAspectRatio": false,
+    "textColor": "#E06D10",
+    "hide": false,
+    "overview": {
+      "description": "A custom solution for a 3 level cache using Cloudflare workers.",
+      "projectType": "Industry Project - Educative Inc.",
+      "roles": ["Full-Stack Engineer, Mentor"],
+      "timeline": "May 2021 – June 2019",
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
+      "team": []
+    }
+  },
+  "dark-mode": {
+    "title": "Dark Mode",
+    "type": ["Featured", "Software Engineering"],
+    "tags": ["React", "Tailwindcss", "Material UI"],
+    "tileImagePath": "/info/works/dark-mode/dark-mode-cover.svg",
+    "maintainAspectRatio": true,
+    "textColor": "#14142f",
+    "hide": false,
+    "overview": {
+      "description": "Implementing site-wide dark mode for Educative Inc.",
+      "projectType": "Industry Project - Educative Inc.",
+      "roles": ["Full-Stack Engineer, Technical Design Lead"],
+      "timeline": "May 2021 – July 2021",
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
+      "team": []
+    }
+  },
+  "paywalled-content-cache": {
+    "title": "Caching Paywalled Content",
+    "type": ["Software Engineering"],
+    "tags": ["Node.js", "Cloudflare", "SEO", "Lighthouse"],
+    "tileImagePath": "https://images.unsplash.com/photo-1616628188502-413f2fe46e5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+    "maintainAspectRatio": true,
+    "textColor": "#E06D10",
+    "hide": false,
+    "overview": {
+      "description": "A solution to securely cache and serve paywalled content using a Cloudflare worker.",
+      "projectType": "Industry Project - Educative Inc.",
+      "roles": ["Full-Stack Engineer, Mentor"],
+      "timeline": "July 2021 – August 2021",
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
+      "team": []
+    }
+  },
+  "admin-app": {
+    "title": "Admin App",
+    "type": ["Software Engineering"],
+    "tags": ["React", "Python", "Next JS"],
+    "tileImagePath": "/info/works/admin-app/admin-app-cover.svg",
+    "maintainAspectRatio": true,
+    "textColor": "#BDBDBD",
+    "hide": false,
+    "overview": {
+      "description": "Seperating administrative dashboards from the rest of the platform into a static app.",
+      "projectType": "Educative Inc.",
+      "roles": ["Full-Stack Engineer"],
+      "timeline": "October 2020 – November 2020",
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
+      "team": []
+    }
+  }
 }

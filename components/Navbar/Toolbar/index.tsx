@@ -28,7 +28,7 @@ const Toolbar = (props: ToggleProps) => {
             </div>
           </Link>
           <div className="tailwind-hidden sm:flex text-sm font-mono">
-            <DarkModeToggle className={"inline-block p-2 m-4"} />
+            <DarkModeToggle className={"inline-block p-2 m-4 w-5"} />
             {navRoutes.map(
               (navRoute: { name: string; path: string }, index: number) => (
                 <Link href={navRoute.path} key={index}>

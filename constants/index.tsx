@@ -2,15 +2,17 @@ export const workTypes = {
   ALL: "All",
   FEATURED: "Featured",
   SE: "Software Engineering",
-  DS: "Data Science",
+  UX: "UX",
+  Misc: "Misc",
 };
 
 export interface ProjectOverview {
   description: string;
-  organization: string;
+  projectType?: string;
   roles: Array<string>;
   timeline: string;
   previewImagePath?: string;
+  team: Array<string>;
 }
 
 export interface Project {
@@ -23,6 +25,7 @@ export interface Project {
   maintainAspectRatio?: boolean;
   type: Array<string>;
   overview: ProjectOverview;
+  hide: boolean;
 }
 
 export interface Education {
