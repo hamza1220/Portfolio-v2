@@ -57,7 +57,7 @@
     "tileImagePath": "/info/works/cloudflare-cache/cf-cache-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#E06D10",
-    "hide": false,
+    "hide": true,
     "overview": {
       "description": "A custom solution for a 3 level cache using Cloudflare workers.",
       "projectType": "Industry Project - Educative Inc.",
@@ -74,7 +74,7 @@
     "tileImagePath": "/info/works/dark-mode/dark-mode-cover.svg",
     "maintainAspectRatio": true,
     "textColor": "#14142f",
-    "hide": false,
+    "hide": true,
     "overview": {
       "description": "Implementing site-wide dark mode for Educative Inc.",
       "projectType": "Industry Project - Educative Inc.",
@@ -91,7 +91,7 @@
     "tileImagePath": "https://images.unsplash.com/photo-1616628188502-413f2fe46e5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
     "maintainAspectRatio": true,
     "textColor": "#E06D10",
-    "hide": false,
+    "hide": true,
     "overview": {
       "description": "A solution to securely cache and serve paywalled content using a Cloudflare worker.",
       "projectType": "Industry Project - Educative Inc.",
@@ -108,7 +108,7 @@
     "tileImagePath": "/info/works/admin-app/admin-app-cover.svg",
     "maintainAspectRatio": true,
     "textColor": "#BDBDBD",
-    "hide": false,
+    "hide": true,
     "overview": {
       "description": "Seperating administrative dashboards from the rest of the platform into a static app.",
       "projectType": "Educative Inc.",

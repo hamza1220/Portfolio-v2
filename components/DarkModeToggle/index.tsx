@@ -18,7 +18,7 @@ const DarkModeToggle = ({ className }: { className?: string }) => {
       className={`${className} cursor-pointer`}
       onClick={() => setIsDark(!isDark)}
     >
-      <DarkMode />
+      <DarkMode className="dark:text-yellow" />
     </div>
   );
 };
