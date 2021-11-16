@@ -6,7 +6,6 @@
     "tileImagePath": "/info/works/blind-wheels/blind-wheels-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#CF7000",
-    "hide": false,
     "overview": {
       "description": "Designing an arcade racing game for the visually impaired.",
       "projectType": "Course Project",
@@ -23,7 +22,6 @@
     "tileImagePath": "/info/works/freelance-life/freelance-life-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#4fb400",
-    "hide": false,
     "overview": {
       "description": "Improving rating and review systems on freelance platforms.",
       "projectType": "Course Work",
@@ -40,7 +38,6 @@
     "tileImagePath": "/info/works/exercise-fakeout/exercise-fakeout-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#ff5257",
-    "hide": false,
     "overview": {
       "description": "A UX research on altering the way people think about and use fitness trackers.",
       "projectType": "Course Work",
@@ -91,7 +88,6 @@
     "tileImagePath": "/info/works/dark-mode/dark-mode-cover.svg",
     "maintainAspectRatio": true,
     "textColor": "#3C5CDE",
-    "hide": false,
     "overview": {
       "description": "Implementing site-wide dark mode for Educative Inc.",
       "projectType": "Industry Project - Educative Inc.",
@@ -124,7 +120,6 @@
     "tileImagePath": "/info/works/admin-app/admin-app-cover.svg",
     "maintainAspectRatio": true,
     "textColor": "#BDBDBD",
-    "hide": false,
     "overview": {
       "description": "Seperating administrative dashboards from the rest of the platform into a static app.",
       "projectType": "Educative Inc.",

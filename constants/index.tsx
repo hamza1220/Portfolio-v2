@@ -25,7 +25,7 @@ export interface Project {
   maintainAspectRatio?: boolean;
   type: Array<string>;
   overview: ProjectOverview;
-  hide: boolean;
+  hide?: boolean;
 }
 
 export interface Education {

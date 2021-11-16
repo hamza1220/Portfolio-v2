@@ -21,7 +21,7 @@ export const getStaticProps = async (context) => {
       ...allProjectsDict[url],
       url,
     }))
-    .filter((project) => project.hide === false);
+    .filter((project) => !project?.hide);
 
   // Get current project's details
   const { project } = context.params;
