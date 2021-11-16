@@ -102,9 +102,9 @@ These contraints were important to keep in mind when we brainstormed concepts.
 
 Creating sketches were extremely helpful in understanding the feasibility of our concepts and helped us focus on what was really important.
 
-<div class="flex flex-col sm:flex-row w-4/5 pb-4">
-<img class="w-3/5 mr-1" src="/info/works/exercise-fakeout/sketches1.jpg" />
-<img class="w-3/5 ml-1" src="/info/works/exercise-fakeout/sketches2.jpg" />
+<div class="flex flex-col w-4/5 pb-4">
+<img class="w-4/5 mb-1" src="/info/works/exercise-fakeout/sketches1.jpg" />
+<img class="w-4/5 mt-1" src="/info/works/exercise-fakeout/sketches2.jpg" />
 </div>
 
 <br>
@@ -182,17 +182,15 @@ fit into their schedule. And keeping the _personalization paradox_ in mind, thes
 
 <h3 style="color:#ff5257;"> Discovering the complexities. </h3>
 
-I conducted evaluation via usability testing with four participants. The goal was to see if they could easily navigate through the application and gauge their reaction over the high-level concepts. While the results were positive, **the testing was limited in not only the number of participants** but also in evaluating the most important concept - personalization through AI. The concept itself is highly dependant on how well the developers make the model. The discovery of the **personalization paradox** added a thick layer of complexity to the concept as well.
+Evaluation was conducted via usability testing with four participants. The goal was to see if they could easily navigate through the application and gauge their reaction over the high-level concepts.
 
-In-line with my personal design philosophy of always being critical, I concluded the project by **setting up a brainstorming session to disprove our concepts**. This resulted in finding several limitations that we did not cater to and removed our confirmation biases.
+While the results were positive, **the testing was limited because of the low number of participants**. In addition, personalization through an artificial intelligence model heavily depends on how well the algorithm is made.
 
-For instance, in "The user is in the driving seat", **we did not look into how too much information would be increasing the cognitive load on the user**.
+We also discovered some shortcomings in our solutions. In "The user is in the driving seat", **we did not look into how too much information would be increasing cognitive load on the user**.
 
-The "rewards revamp" concept seemed too simplistic and perhaps there were easier ways to induce the same effect. The **efficacy of this concept was also something that usability testing would not and did not provide**. In addition, people might end up switching to other apps that already provide these features without earning them.
+The "rewards revamp" concept seemed too simplistic and perhaps there were easier ways to induce the same effect. In addition, people might end up switching to other apps that already provide these features without earning them.
 
-For the "fine-tuned to your schedule" concept, more consideration needed to be given to users who do not add everything to their schedule and those who do not strictly follow theirs. There are potentially **other factors than just time to consider as well** - context and location for instance.
-
-As my first UX research project at Purdue, it was a great learning experience. Going through a non-linear design process involving multiple methods was vital in learning how to build a strong design rationale for our ideas.
+Finally, for the "fine-tuned to your schedule" concept, more consideration needed to be given to users who do not add everything to their schedule and those who do not strictly follow theirs. There are potentially **other factors than just time to consider as well** - context and location for instance.
 
 <h5 class="flex justify-center"> Thank you for reading! </h5>
 

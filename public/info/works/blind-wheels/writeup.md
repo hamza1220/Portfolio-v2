@@ -1,5 +1,5 @@
 <h2 class="sub-heading"> PROBLEM </h2>
-<h3 style="color:#D54323;"> Neglected entertainment. </h3>
+<h3 style="color:#CF7000;"> Neglected entertainment. </h3>
 
 People with visual impairment, particularly children and teenagers deserve an equal amount of access to digital entertainment as everybody else. Unfortunately, while are promising digital interventions to assist the visually impaired with basic, routine tasks, the field of entertainment has been left neglected.
 
@@ -8,7 +8,7 @@ People with visual impairment, particularly children and teenagers deserve an eq
 <br>
 
 <h2 class="sub-heading"> IDEATING </h2>
-<h3 style="color:#D54323;">Embracing non-linearity.</h3>
+<h3 style="color:#CF7000;">Embracing non-linearity.</h3>
 
 While we had concrete stages in our design process, the path through them was fairly non-linear.
 
@@ -16,7 +16,7 @@ While we had concrete stages in our design process, the path through them was fa
 <img class="w-full" src="/info/works/blind-wheels/blind-wheels-process.svg" />
 </div>
 
-<h3 style="color:#D54323;">Making new friends.</h3>
+<h3 style="color:#CF7000;">Making new friends.</h3>
 
 Secondary research provided us with a fairly good idea about how the blind and visually impaired commuinicate with technology. Literature reviews on existing applications, entertainment focused or otherwise, were also essential in understanding the plethora of issues we would be facing.
 
@@ -31,7 +31,7 @@ My group and I decided to visit the _Kinnaird College for Women_ and the _Rising
 <img class="w-full" src="/info/works/blind-wheels/persona-2.svg" />
 </div>
 
-<h3 style="color:#D54323;">Putting pen to paper.</h3>
+<h3 style="color:#CF7000;">Putting pen to paper.</h3>
 
 Now that we had some data to work with, the team decided to brainstorm via affinity diagraming to converge down to a set of features that would be guiding our design. Key insights included:
 
@@ -42,7 +42,7 @@ Now that we had some data to work with, the team decided to brainstorm via affin
 
 Using these as guiding factors, we sketched out some design alternatives, including a car racing, a zombie escape and music playing game:
 
-<div class="flex flex-col lg:flex-row justify-center w-full">
+<div class="flex flex-col justify-center w-full">
 <img class="w-4/5" src="/info/works/blind-wheels/sketches.jpeg" />
 <img class="w-4/5" src="/info/works/blind-wheels/sketches2.jpeg" />
 </div>
@@ -56,11 +56,11 @@ The goal for us therefore to provide an experience as close as possible to the t
 <br>
 
 <h2 class="sub-heading"> PROTOTYPING </h2>
-<h3 style="color:#D54323;">Staying Lo-Fi.</h3>
+<h3 style="color:#CF7000;">Staying Lo-Fi.</h3>
 
 With a design that is focused heavily on audio and interaction, rather than visuals, we believed it was vital to test it out with a **paper prototype** before we moved to the final design.
 
-<div class="flex flex-col lg:flex-row justify-center w-full">
+<div class="flex flex-col justify-center w-full">
 <img class="w-full" src="/info/works/blind-wheels/paper-prototype.png" />
 </div>
 
@@ -70,26 +70,28 @@ Therefore we tested it with sighted individuals, who were asked to close their e
 
 We found out that the participants were fairly succesful and responsive in turning the car in the right direction based on which channel had more sound - the right/wrong turn ratio was lesser than what we had expected. This was a promising sign for us.
 
-<h3 style="color:#D54323;">Going Hi-Fi.</h3>
+<h3 style="color:#CF7000;">Going Hi-Fi.</h3>
 
 A challenge for us was to find suitable software for prototyping the interactions that the blind have with their devices. For instance, through contextual inquiries, we noted how they double tap to select and single tap to listen to the voice assistant speak out the content. Moreover, they do not lift their finger from the screen as we're normally accustomed with - dragging across the screen is their main mode of navigation.
 
 We therefore used [Protopie](https://www.protopie.io/), since it could prototype the interactions we were looking for. The screen flow diagram is shown below:
 
 <div class="flex flex-col lg:flex-row justify-center w-full">
-<img class="w-full" src="/info/works/blind-wheels/hi-fi.svg" />
+<img class="w-full" src="/info/works/blind-wheels/blind-wheels-hifi.svg" />
 </div>
 
 One member of the team provided the voice over for all the options on the screen. The script, as well as the delivery, was an extremely important part of the overall design since that was the primary mode of conveying information to the users. The flow is provided below:
 
-<div class="flex justify-center">
-<iframe class="w-4/5 h-96" src="https://www.youtube.com/embed/VRpYA34ZFPY?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="iframe-container">
+    <iframe 
+        class="responsive-iframe"
+        src="https://www.youtube.com/embed/VRpYA34ZFPY?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <br>
 
 <h2 class="sub-heading"> EVALUATION </h2>
-<h3 style="color:#D54323;">Wizard of Oz.</h3>
+<h3 style="color:#CF7000;">Wizard of Oz.</h3>
 
 It was time for evaluating the design. Since the game was only a prototype and relied on audio, we decided that we would need to employ a Wizard of Oz testing protocol to evaluate how the participants interacted with the shifting audio.
 
@@ -102,7 +104,7 @@ Another key finding was that the error rates were much higher for the children a
 <br>
 
 <h2 class="sub-heading"> REFLECTION </h2>
-<h3 style="color:#D54323;">Looking ahead.</h3>
+<h3 style="color:#CF7000;">Looking ahead.</h3>
 
 While the evaluation results were favourable, we felt that to really make the blind community not feel otherized, our design should be one that is inclusive for everyone. What would truly have been remarkable would have been if there was a single game that those with sight and those without could play, without any indidivual having an advantage over the other.
 

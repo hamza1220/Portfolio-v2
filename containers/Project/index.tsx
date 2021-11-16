@@ -22,7 +22,7 @@ const ProjectDetails = ({
       <PrevNextProjects allProjects={allProjects} currentProject={project} />
     </div>
   ) : (
-    <div>nope</div>
+    <></>
   );
 };
 

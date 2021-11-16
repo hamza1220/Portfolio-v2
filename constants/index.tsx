@@ -12,7 +12,7 @@ export interface ProjectOverview {
   roles: Array<string>;
   timeline: string;
   previewImagePath?: string;
-  team: Array<string>;
+  team?: Array<string>;
 }
 
 export interface Project {

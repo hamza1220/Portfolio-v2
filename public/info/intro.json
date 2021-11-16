@@ -1,11 +1,11 @@
 {
-    "name": "Raza Khawaja",
-    "greeting": "Hey! Nice to meet you. I'm",
-    "intro": "I enjoy designing and engineering softwares and user experiences. I am currently pursuing a User Experience design degree at Purdue University.",
-    "meta_description": "Raza is a designer, student and strong advocate for emotional support pets at Purdue",
-    "socials": {
-        "github": "https://github.com/razakhawaja",
-        "facebook": "https://www.facebook.com/razakhawaja97",
-        "linkedin": "https://www.linkedin.com/in/razakhawaja"
-    }
+  "name": "Raza Khawaja",
+  "greeting": "Hey! Nice to meet you. I'm",
+  "intro": "I design for experiences and engineer softwares. I am currently pursuing a User Experience design degree at Purdue University.",
+  "meta_description": "Raza is a designer, student and strong advocate for emotional support pets at Purdue.",
+  "socials": {
+    "github": "https://github.com/razakhawaja",
+    "facebook": "https://www.facebook.com/razakhawaja97",
+    "linkedin": "https://www.linkedin.com/in/razakhawaja"
+  }
 }
