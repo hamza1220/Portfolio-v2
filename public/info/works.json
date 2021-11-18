@@ -5,8 +5,7 @@
     "tags": ["HCI", "UX", "Accessible Design"],
     "tileImagePath": "/info/works/blind-wheels/blind-wheels-cover.svg",
     "maintainAspectRatio": false,
-    "textColor": "#D54323",
-    "hide": false,
+    "textColor": "#CF7000",
     "overview": {
       "description": "Designing an arcade racing game for the visually impaired.",
       "projectType": "Course Project",
@@ -16,6 +15,22 @@
       "team": ["Sabeeka Khan", "Hassan Arshad", "Razi ul Haq"]
     }
   },
+  "freelance-life": {
+    "title": "Freelance Life",
+    "type": ["Featured", "UX"],
+    "tags": ["UX", "Research"],
+    "tileImagePath": "/info/works/freelance-life/freelance-life-cover.svg",
+    "maintainAspectRatio": false,
+    "textColor": "#4fb400",
+    "overview": {
+      "description": "Improving rating and review systems on freelance platforms.",
+      "projectType": "Course Work",
+      "roles": ["UX Researcher"],
+      "timeline": "16 September 2021 – 14 October 2021",
+      "previewImagePath": "",
+      "team": ["Faseeh Ur Rehman", "Vishwa Chandupatla"]
+    }
+  },
   "exercise-fakeout": {
     "title": "Exercise Fakeout",
     "type": ["Featured", "UX"],
@@ -23,7 +38,6 @@
     "tileImagePath": "/info/works/exercise-fakeout/exercise-fakeout-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#ff5257",
-    "hide": false,
     "overview": {
       "description": "A UX research on altering the way people think about and use fitness trackers.",
       "projectType": "Course Work",
@@ -73,15 +87,13 @@
     "tags": ["React", "Tailwindcss", "Material UI"],
     "tileImagePath": "/info/works/dark-mode/dark-mode-cover.svg",
     "maintainAspectRatio": true,
-    "textColor": "#14142f",
-    "hide": true,
+    "textColor": "#3C5CDE",
     "overview": {
       "description": "Implementing site-wide dark mode for Educative Inc.",
       "projectType": "Industry Project - Educative Inc.",
       "roles": ["Full-Stack Engineer, Technical Design Lead"],
       "timeline": "May 2021 – July 2021",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
-      "team": []
+      "previewImagePath": ""
     }
   },
   "paywalled-content-cache": {
@@ -97,7 +109,7 @@
       "projectType": "Industry Project - Educative Inc.",
       "roles": ["Full-Stack Engineer, Mentor"],
       "timeline": "July 2021 – August 2021",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
+      "previewImagePath": "",
       "team": []
     }
   },
@@ -108,13 +120,12 @@
     "tileImagePath": "/info/works/admin-app/admin-app-cover.svg",
     "maintainAspectRatio": true,
     "textColor": "#BDBDBD",
-    "hide": true,
     "overview": {
       "description": "Seperating administrative dashboards from the rest of the platform into a static app.",
       "projectType": "Educative Inc.",
       "roles": ["Full-Stack Engineer"],
       "timeline": "October 2020 – November 2020",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
+      "previewImagePath": "",
       "team": []
     }
   }

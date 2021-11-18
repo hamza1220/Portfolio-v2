@@ -3,6 +3,7 @@ import { Project } from "../../constants";
 import Markdown from "../../components/Project/Markdown";
 import Overview from "../../components/Project/Overview";
 import PrevNextProjects from "../../components/Project/PrevNextProjects";
+import Spinner from "../../components/Spinner";
 
 const ProjectDetails = ({
   project,
@@ -22,7 +23,7 @@ const ProjectDetails = ({
       <PrevNextProjects allProjects={allProjects} currentProject={project} />
     </div>
   ) : (
-    <div>nope</div>
+    <Spinner />
   );
 };
 

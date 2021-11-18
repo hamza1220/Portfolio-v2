@@ -16,10 +16,12 @@ export const getStaticProps = async (context) => {
   const worksListPath = path.join(process.cwd(), "public/info/works.json");
   const projects = await fs.readFile(worksListPath, "utf-8");
   const allProjectsDict = JSON.parse(projects);
-  const allProjects = Object.keys(allProjectsDict).map((url) => ({
-    ...allProjectsDict[url],
-    url,
-  }));
+  const allProjects = Object.keys(allProjectsDict)
+    .map((url) => ({
+      ...allProjectsDict[url],
+      url,
+    }))
+    .filter((project) => !project?.hide);
 
   // Get current project's details
   const { project } = context.params;
@@ -32,7 +34,14 @@ export const getStaticProps = async (context) => {
       process.cwd(),
       `public/info/works/${project}/writeup.md`
     );
-    projectWriteup = await fs.readFile(projectPath, "utf-8");
+    try {
+      projectWriteup = await fs.readFile(projectPath, "utf-8");
+    } catch (e) {
+      projectWriteup = await fs.readFile(
+        path.join(process.cwd(), `public/info/works/under-construction.md`),
+        "utf-8"
+      );
+    }
   }
 
   return {

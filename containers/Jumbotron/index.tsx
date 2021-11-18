@@ -36,12 +36,12 @@ const Jumbotron = ({ intro }: { intro: Intro }) => {
       <h1 className="text-primary dark:text-primary-light dark:hover:text-primary-lightP1 tracking-wider font-mono leading-loose text-base font-normal">
         {intro.greeting}
       </h1>
-      <h2 className="text-5xl sm:text-7xl font-bold mb-4">{intro.name}.</h2>
+      <h2 className="text-6xl sm:text-7xl font-bold mb-4">{intro.name}.</h2>
       <div className="text-blueGray-500">
         {/* <h2 className="text-3xl sm:text-5xl font-bold mb-4">
           I build things for the web.
         </h2> */}
-        <p className="max-w-lg leading-normal text-lg dark:text-gray-600">
+        <p className="max-w-lg leading-normal text-xl dark:text-gray-600">
           {intro.intro}
         </p>
         {/* <p className="max-w-lg leading-normal text-lg dark:text-gray-600">

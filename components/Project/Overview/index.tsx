@@ -54,7 +54,9 @@ const Overview = ({ project }: { project: Project }) => {
             heading={`Role${overview.roles.length ? "s" : ""}`}
             description={overview.roles}
           />
-          <Detail heading={"Team"} description={overview.team} />
+          {overview.team && (
+            <Detail heading={"Team"} description={overview.team} />
+          )}
 
           <Detail heading={"Timeline"} description={overview.timeline} />
         </div>

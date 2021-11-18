@@ -19,11 +19,11 @@ const Work = ({ works }: { works: Array<Project> }) => {
   return (
     <div id="work" className="w-full py-24 flex flex-col justify-center ">
       <SectionHeading text={"My Work"} index={2} />
-      {/* <Tabs
+      <Tabs
         tabs={tabs}
         activeIndex={tabIndex}
         changeTab={(index: number) => changeTab(index)}
-      /> */}
+      />
       <div className="w-full flex justify-center mt-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl">
           {selectedWorks

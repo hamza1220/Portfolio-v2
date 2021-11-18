@@ -12,7 +12,7 @@ export interface ProjectOverview {
   roles: Array<string>;
   timeline: string;
   previewImagePath?: string;
-  team: Array<string>;
+  team?: Array<string>;
 }
 
 export interface Project {
@@ -25,7 +25,7 @@ export interface Project {
   maintainAspectRatio?: boolean;
   type: Array<string>;
   overview: ProjectOverview;
-  hide: boolean;
+  hide?: boolean;
 }
 
 export interface Education {
