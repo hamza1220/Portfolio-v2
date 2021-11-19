@@ -3,15 +3,9 @@ import { ScrollUp } from "../../utils/icons";
 
 const Footer = () => (
   <div className="flex items-center text-blueGray-500 dark:text-gray-600 text-xs sm:text-base p-4 sm:p-6 bg-gray-50 dark:bg-dark-80">
-    <span className="w-9/12">
-      <p>
-        © 2021 Made by{" "}
-        <a href="https://www.linkedin.com/in/syed-hamza-ahmad/" target="_blank">
-          Hamza Ahmad
-        </a>{" "}
-        & Raza Khawaja.
-      </p>
-    </span>
+    <div className="w-9/12">
+      <p>© 2021 Raza Khawaja</p>
+    </div>
     <span
       className="w-3/12 flex justify-end cursor-pointer"
       onClick={() => {
