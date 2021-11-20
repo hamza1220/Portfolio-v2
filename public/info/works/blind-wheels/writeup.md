@@ -13,7 +13,7 @@ People with visual impairment, particularly children and teenagers deserve an eq
 While we had concrete stages in our design process, the path through them was fairly non-linear.
 
 <div class="flex justify-center w-full">
-<img class="w-full" src="/info/works/blind-wheels/blind-wheels-process.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/blind-wheels/blind-wheels-process.svg" />
 </div>
 
 <h3 style="color:#CF7000;">Making new friends.</h3>
@@ -25,10 +25,10 @@ The next step for us was to **empathize** with our target users to really unders
 My group and I decided to visit the _Kinnaird College for Women_ and the _Rising Sun Institute for Special Children_ in Lahore, Pakistan, to conduct **semi-structured interviews** in focus groups and to perform **contextual inquiry** on their usage of technology. The findings are consicely understood through two personas:
 
 <div class="flex justify-center w-full">
-<img class="w-full" src="/info/works/blind-wheels/persona-1.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/blind-wheels/persona-1.svg" />
 </div>
 <div class="flex justify-center w-full">
-<img class="w-full" src="/info/works/blind-wheels/persona-2.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/blind-wheels/persona-2.svg" />
 </div>
 
 <h3 style="color:#CF7000;">Putting pen to paper.</h3>
@@ -43,8 +43,8 @@ Now that we had some data to work with, the team decided to brainstorm via affin
 Using these as guiding factors, we sketched out some design alternatives, including a car racing, a zombie escape and music playing game:
 
 <div class="flex flex-col justify-center w-full">
-<img class="w-4/5" src="/info/works/blind-wheels/sketches.jpeg" />
-<img class="w-4/5" src="/info/works/blind-wheels/sketches2.jpeg" />
+<img loading="lazy"  class="w-4/5" src="/info/works/blind-wheels/sketches.jpeg" />
+<img loading="lazy"  class="w-4/5" src="/info/works/blind-wheels/sketches2.jpeg" />
 </div>
 
 Sketching let us know which genre of gaming fulfilled most of the insights we had noted from our contextual inquiry. Since our goal was to provide our users with an experience they are unable to get otherwise, we opted for the racing game alternative.
@@ -61,7 +61,7 @@ The goal for us therefore to provide an experience as close as possible to the t
 With a design that is focused heavily on audio and interaction, rather than visuals, we believed it was vital to test it out with a **paper prototype** before we moved to the final design.
 
 <div class="flex flex-col justify-center w-full">
-<img class="w-full" src="/info/works/blind-wheels/paper-prototype.png" />
+<img loading="lazy"  class="w-full" src="/info/works/blind-wheels/paper-prototype.png" />
 </div>
 
 Unfortunately, not all goes to plan so we could not conduct the testing with the visually impaired community due to logistical constraints.
@@ -77,7 +77,7 @@ A challenge for us was to find suitable software for prototyping the interaction
 We therefore used [Protopie](https://www.protopie.io/), since it could prototype the interactions we were looking for. The screen flow diagram is shown below:
 
 <div class="flex flex-col lg:flex-row justify-center w-full">
-<img class="w-full" src="/info/works/blind-wheels/blind-wheels-hifi.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/blind-wheels/blind-wheels-hifi.svg" />
 </div>
 
 One member of the team provided the voice over for all the options on the screen. The script, as well as the delivery, was an extremely important part of the overall design since that was the primary mode of conveying information to the users. The flow is provided below:
@@ -85,6 +85,7 @@ One member of the team provided the voice over for all the options on the screen
 <div class="iframe-container">
     <iframe 
         class="responsive-iframe"
+        loading="lazy"
         src="https://www.youtube.com/embed/VRpYA34ZFPY?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 

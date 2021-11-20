@@ -31,7 +31,7 @@ This is what we described as a _“your stars aren’t my stars”_ phenomenon -
 
 </div>
 <div style="width: 48%" class="flex justify-center">
-<img class="w-full" src="/info/works/freelance-life/rating-graph.svg" />
+<img loading="lazy" class="w-full" src="/info/works/freelance-life/rating-graph.svg" />
 </div>
 </div>
 
@@ -64,7 +64,7 @@ The team and I decided to brainstorm ideas with sketches. It was important to co
 For instance, we initially converged on a sliding scale rather than star ratings, but iterating back to research revealed its limitations, which is why we ditched the idea.
 
 <div class="flex justify-center w-full transform hover:scale-125 duration-500">
-<img class="w-full" src="/info/works/freelance-life/sketching.svg" />
+<img loading="lazy" class="w-full" src="/info/works/freelance-life/sketching.svg" />
 </div>
 
 <br>
@@ -79,7 +79,7 @@ Research strongly suggested that written accounts of people for a service are ex
 A word cloud therefore aims to provide an overview of a freelancer from just a cursory glance.
 
 <div class="flex justify-center w-full">
-<img class="w-full" src="/info/works/freelance-life/word-cloud-1.svg" />
+<img loading="lazy" class="w-full" src="/info/works/freelance-life/Word-Cloud-1.svg" />
 </div>
 
 <br>
@@ -91,7 +91,7 @@ People have their own understandings of stars. One might think a 4 is pretty dec
 These differences cause rating inflation and do not necessarily represent a client's actual process of working with that freelancer.
 
 <div class="flex justify-center w-full">
-<img class="w-full" src="/info/works/freelance-life/context-stars.svg" />
+<img loading="lazy" class="w-full" src="/info/works/freelance-life/context-stars.svg" />
 </div>
 
 <h3 style="color:#4fb400;"> Less information, more feedback. </h3>
@@ -101,7 +101,7 @@ As a way to encourage clients to leave reviews more often, they can choose to de
 This is particularly aimed at clients who do not wish to write lengthy reviews. It not only provides them with an easier alternative that has less cognitive load, but also acts as a dictionary that the word cloud can build on.
 
 <div class="flex justify-center w-full">
-<img class="w-full" src="/info/works/freelance-life/word-tiles.svg" />
+<img loading="lazy" class="w-full" src="/info/works/freelance-life/word-tiles.svg" />
 </div>
 
 <br>
