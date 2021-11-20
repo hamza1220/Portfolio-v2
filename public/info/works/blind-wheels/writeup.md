@@ -95,7 +95,7 @@ One member of the team provided the voice over for all the options on the screen
 
 It was time for evaluating the design. Since the game was only a prototype and relied on audio, we decided that we would need to employ a Wizard of Oz testing protocol to evaluate how the participants interacted with the shifting audio.
 
-The prototype was tested with 9 participants. Once they reached the racing screen, a team member would **manually adjust the car engine;s sound to either be tilted to the left, middle, or right channels**, alternating between them. They also controlled haptic feedback - so when the participants rotated their phone a wrong way, the phone's vibration was triggered.
+The prototype was tested with 9 participants. Once they reached the racing screen, a team member would **manually adjust the car engine's sound to either be tilted to the left, middle, or right channels**, alternating between them. They also controlled haptic feedback - so when the participants rotated their phone a wrong way, the phone's vibration was triggered.
 
 We received favourable responses from the participants, almost all of them (7/9) were able to navigate to racing mode without our intervention. It was interesting to note how the participants responsed much quicker to the alternating sounds than the sighted participants who had used our paper prototypes.
 
