@@ -83,7 +83,7 @@
   },
   "dark-mode": {
     "title": "Dark Mode",
-    "type": ["Featured", "Software Engineering"],
+    "type": ["Software Engineering"],
     "tags": ["React", "Tailwindcss", "Material UI"],
     "tileImagePath": "/info/works/dark-mode/dark-mode-cover.svg",
     "maintainAspectRatio": true,
