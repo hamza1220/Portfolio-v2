@@ -60,8 +60,7 @@
       "projectType": "Course Work",
       "roles": ["Team Leader", "Full-Stack Engineer"],
       "timeline": "February 2019 – June 2019",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
-      "team": []
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png"
     }
   },
   "cloudflare-cache": {
@@ -77,8 +76,7 @@
       "projectType": "Industry Project - Educative Inc.",
       "roles": ["Full-Stack Engineer, Mentor"],
       "timeline": "May 2021 – June 2019",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
-      "team": []
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png"
     }
   },
   "dark-mode": {
@@ -109,8 +107,7 @@
       "projectType": "Industry Project - Educative Inc.",
       "roles": ["Full-Stack Engineer, Mentor"],
       "timeline": "July 2021 – August 2021",
-      "previewImagePath": "",
-      "team": []
+      "previewImagePath": ""
     }
   },
   "admin-app": {
@@ -125,8 +122,7 @@
       "projectType": "Educative Inc.",
       "roles": ["Full-Stack Engineer"],
       "timeline": "October 2020 – November 2020",
-      "previewImagePath": "",
-      "team": []
+      "previewImagePath": ""
     }
   }
 }
