@@ -7,7 +7,7 @@
     "maintainAspectRatio": false,
     "textColor": "#CF7000",
     "overview": {
-      "description": "Designing an arcade racing game for the visually impaired.",
+      "description": "An arcade racing game for the visually impaired.",
       "projectType": "Course Project",
       "roles": ["UX Designer & Researcher"],
       "timeline": "August 2019 – December 2019",
@@ -23,11 +23,11 @@
     "maintainAspectRatio": false,
     "textColor": "#4fb400",
     "overview": {
-      "description": "Improving rating and review systems on freelance platforms.",
+      "description": "Making rating and review systems on freelance platforms more meaningful and holistic.",
       "projectType": "Course Work",
-      "roles": ["UX Researcher"],
+      "roles": ["UX Researcher & Designer"],
       "timeline": "16 September 2021 – 14 October 2021",
-      "previewImagePath": "",
+      "previewImagePath": "/info/works/freelance-life/freelance-overview.svg",
       "team": ["Faseeh Ur Rehman", "Vishwa Chandupatla"]
     }
   },
@@ -39,7 +39,7 @@
     "maintainAspectRatio": false,
     "textColor": "#ff5257",
     "overview": {
-      "description": "A UX research on altering the way people think about and use fitness trackers.",
+      "description": "A UX study on altering the way people think about and use fitness trackers.",
       "projectType": "Course Work",
       "roles": ["UX Researcher"],
       "timeline": "24 August 2021 – 14 September 2021",
@@ -60,8 +60,7 @@
       "projectType": "Course Work",
       "roles": ["Team Leader", "Full-Stack Engineer"],
       "timeline": "February 2019 – June 2019",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
-      "team": []
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png"
     }
   },
   "cloudflare-cache": {
@@ -77,13 +76,12 @@
       "projectType": "Industry Project - Educative Inc.",
       "roles": ["Full-Stack Engineer, Mentor"],
       "timeline": "May 2021 – June 2019",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png",
-      "team": []
+      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png"
     }
   },
   "dark-mode": {
     "title": "Dark Mode",
-    "type": ["Featured", "Software Engineering"],
+    "type": ["Software Engineering"],
     "tags": ["React", "Tailwindcss", "Material UI"],
     "tileImagePath": "/info/works/dark-mode/dark-mode-cover.svg",
     "maintainAspectRatio": true,
@@ -109,8 +107,7 @@
       "projectType": "Industry Project - Educative Inc.",
       "roles": ["Full-Stack Engineer, Mentor"],
       "timeline": "July 2021 – August 2021",
-      "previewImagePath": "",
-      "team": []
+      "previewImagePath": ""
     }
   },
   "admin-app": {
@@ -125,8 +122,7 @@
       "projectType": "Educative Inc.",
       "roles": ["Full-Stack Engineer"],
       "timeline": "October 2020 – November 2020",
-      "previewImagePath": "",
-      "team": []
+      "previewImagePath": ""
     }
   }
 }

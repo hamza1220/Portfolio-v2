@@ -27,7 +27,7 @@ ease of use, reliability and rewards.
 
 Using the results from primary and secondary research, we decided to use affinity diagramming to form more concrete clusters around the themes that were most important:
 
-<iframe className="w-full" height="512" src="https://miro.com/app/live-embed/o9J_ly5Mp20=/?moveToViewport=-548,-751,3741,2049" frameBorder="1" scrolling="yes" allowFullScreen></iframe>
+<iframe className="w-full" height="512" loading="lazy" src="https://miro.com/app/live-embed/o9J_ly5Mp20=/?moveToViewport=-548,-751,3741,2049" frameBorder="1" scrolling="yes" allowFullScreen></iframe>
 
 The team therefore held another brainstorming session over the affinity diagram and concluded that we needed a solution that attempts to increase **motivation**.
 
@@ -42,7 +42,7 @@ education, and schedule (Ashton et. al, 2017).
 This led us to our target user group:
 
 <div class="flex justify-center w-full">
-<img class="w-3/5" src="/info/works/exercise-fakeout/college-student.svg" />
+<img loading="lazy"  class="w-3/5" src="/info/works/exercise-fakeout/college-student.svg" />
 </div>
 
 <br>
@@ -63,7 +63,7 @@ of motivation.
 A solution therefore needed to hit the sweet spot inbetween rewards and personalization:
 
 <div class="flex justify-center w-full">
-<img class="w-full " src="/info/works/exercise-fakeout/motivation-reward-loop.png" />
+<img loading="lazy"  class="w-full " src="/info/works/exercise-fakeout/motivation-reward-loop.png" />
 </div>
 
 <h3 style="color:#ff5257;"> How personalized? </h3>
@@ -90,7 +90,7 @@ known as the personalization paradox (Zhu et. al, 2021). It identifies two probl
 personalized applications:
 
 <div class="flex justify-center w-full">
-<img class="w-full" src="/info/works/exercise-fakeout/personalization-paradox.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/exercise-fakeout/personalization-paradox.svg" />
 </div>
 
 These contraints were important to keep in mind when we brainstormed concepts.
@@ -103,8 +103,8 @@ These contraints were important to keep in mind when we brainstormed concepts.
 Creating sketches were extremely helpful in understanding the feasibility of our concepts and helped us focus on what was really important.
 
 <div class="flex flex-col w-4/5 pb-4">
-<img class="w-4/5 mb-1" src="/info/works/exercise-fakeout/sketches1.jpg" />
-<img class="w-4/5 mt-1" src="/info/works/exercise-fakeout/sketches2.jpg" />
+<img loading="lazy"  class="w-4/5 mb-1" src="/info/works/exercise-fakeout/sketches1.jpg" />
+<img loading="lazy"  class="w-4/5 mt-1" src="/info/works/exercise-fakeout/sketches2.jpg" />
 </div>
 
 <br>
@@ -126,7 +126,7 @@ of the information that the AI has learned about them and correct inaccuracies.
 
  </div>
 <div style="width: 48%" class="flex justify-center">
-<img 
+<img loading="lazy"  
 style="width: 60%"
         src="/info/works/exercise-fakeout/Profile.svg" />
 </div>
@@ -143,7 +143,7 @@ message - for instance, a health fact that you have achieved based on the user's
 exercising goal. College students do like instant gratification!
 
 <div class="flex justify-center w-full">
-<img class="w-full" src="/info/works/exercise-fakeout/rewards-revamp-1.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/exercise-fakeout/rewards-revamp-1.svg" />
 </div>
 
 In a second scenario, consider a college student at the last exercise of their month-long plan. Upon completion, their reward turns out to be an in-app feature - a nutrition plan, as shown in the wireframes below.
@@ -151,7 +151,7 @@ In a second scenario, consider a college student at the last exercise of their m
 **The idea here is to cut the basis for faking-out** - the reward from a fake-out in this case would **lead the user back to what they were avoiding in the first place**, fuzzying the motivation behind faking-out in the first place.
 
 <div class="flex justify-center w-full">
-<img class="w-full" src="/info/works/exercise-fakeout/rewards-revamp-2.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/exercise-fakeout/rewards-revamp-2.svg" />
 </div>
 
 <h3 style="color:#ff5257;"> Fine-tuned to your schedule. </h3>
@@ -171,7 +171,7 @@ fit into their schedule. And keeping the _personalization paradox_ in mind, thes
 
 </div>
 <div style="width: 48%; display:flex">
-<img class="w-full" src="/info/works/exercise-fakeout/calender.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/exercise-fakeout/calender.svg" />
 </div>
 
 </div>

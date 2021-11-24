@@ -1,5 +1,5 @@
 {
-  "download_url": "https://drive.google.com/file/d/1-DsL9vZuNv5O66iMUUCNzYFoKC9Vb1y8/view?usp=sharing",
+  "download_url": "https://drive.google.com/file/d/18yWWVWwV1y7ZBXxBxwqKUme49aiDbrMl/view?usp=sharing",
   "education": [
     {
       "institute": "Purdue University",
@@ -70,7 +70,7 @@
     }
   ],
   "skills": {
-    "languages": ["Python", "JavaScript (Node JS)", "Typescript", "C", "C++"],
+    "languages": ["Python", "JavaScript", "Typescript", "C", "C++"],
     "frameworks_and_libraries": [
       "React",
       "React Native",
@@ -83,7 +83,7 @@
       "Keras"
     ],
     "databases": ["Firestore", "MongoDB", "Google Cloud Datastore"],
-    "misc": ["Postman", "Git", "Jira", "Jupyter Notebooks"],
+    "misc": ["Postman", "Git", "Jira", "Jupyter Notebooks", "Miro"],
     "ui_ux": ["Figma", "Adobe Photoshop", "Protopie", "Adobe XD"]
   },
   "interests": ["Football (soccer)", "Tennis", "Cricket", "Swimming", "Gaming"],
