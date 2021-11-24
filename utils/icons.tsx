@@ -9,6 +9,18 @@ export const Facebook = ({ className }: { className?: string }) => (
   </svg>
 );
 
+export const Mail = ({ className }: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className={`h-8 w-8 ${className ?? ""}`}
+    viewBox="0 0 24 24"
+    fill="currentColor"
+  >
+    <path d="M0 0h24v24H0z" fill="none" />
+    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+  </svg>
+);
+
 export const Github = ({ className }: { className?: string }) => (
   <svg
     id="Bold"
@@ -106,6 +118,23 @@ export const DownloadIcon = ({ className }: { className?: string }) => (
       strokeLinejoin="round"
       strokeWidth={2}
       d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+    />
+  </svg>
+);
+
+export const ScrollUp = ({ className }: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className={`${className} h-6 w-6`}
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M5 11l7-7 7 7M5 19l7-7 7 7"
     />
   </svg>
 );

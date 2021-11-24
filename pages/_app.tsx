@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import Navbar from "../components/Navbar";
 import Router from "next/router";
 import NProgress from "nprogress";
+import Footer from "../components/Footer";
 
 NProgress.configure({
   easing: "ease",
@@ -34,6 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </div>
       </div>
+      <Footer />
     </>
   );
 }

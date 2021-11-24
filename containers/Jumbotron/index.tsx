@@ -1,22 +1,31 @@
 import React from "react";
 import Link from "next/link";
 import { Intro } from "../../constants";
-import { Facebook, Github, LinkedIn } from "../../utils/icons";
+import { Facebook, Github, LinkedIn, Mail } from "../../utils/icons";
 
 const Jumbotron = ({ intro }: { intro: Intro }) => {
   const socials = [
-    {
-      name: "Github",
-      href: intro.socials.github,
-      svg: (
-        <Github className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
-      ),
-    },
     {
       name: "LinkedIn",
       href: intro.socials.linkedin,
       svg: (
         <LinkedIn className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
+      ),
+    },
+    {
+      name: "Email",
+      href: intro.socials.email,
+      svg: (
+        <a href="mailto:raza.khawaja@hotmail.com">
+          <Mail className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
+        </a>
+      ),
+    },
+    {
+      name: "Github",
+      href: intro.socials.github,
+      svg: (
+        <Github className="text-xl hover:text-primary dark:hover:text-primary-light transition-colors duration-200" />
       ),
     },
     {
