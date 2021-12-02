@@ -17,9 +17,9 @@ const About = () => {
   return (
     <div id="about" className="w-full py-24 flex flex-col justify-center ">
       <SectionHeading text={"About Me"} index={1} />
-      <div className="flex flex-col-reverse sm:grid sm:grid-cols-5 sm:gap-4">
+      <div className="flex flex-col-reverse lg:grid lg:grid-cols-1 lg:gap-4">
         <div className="sm:col-start-1 sm:col-end-4 leading-normal text-xl text-blueGray-500 dark:text-gray-600">
-          <p className="mb-4">
+          <p className="mb-4 text-2xl leading-relaxed">
             I'm currently a student at{" "}
             <span
               className="font-semibold hover:opacity-75"
@@ -35,24 +35,21 @@ const About = () => {
                 Educative Inc.
               </span>
             </Link>{" "}
-            My interests revolve around Human-Computer Interaction, UX Design
+            My interests revolve around Human-Computer Interaction, UX Design,
             and Software Engineering.
           </p>
-          <p className="mb-4">
-            I feel like my eventual goal is to become a product manager that has
-            experience in both domains - the technology end and the users end. I
-            believe knowledge of both is to make sure engineering aligns with
-            user experience - that is why I feel like a UX Design degree will
-            complement my computer science background.
+          <p className="mb-4 text-2xl leading-relaxed">
+            Through my experiences, I've found that the best product designers
+            would be those who have knowledge of both, engineering and design.
+            That is how I view my personal design philosophy by and it is what
+            drives me forward to pursue UX on top of my computer science
+            background.
           </p>
 
-          <p className="mb-4">
-            But enough about work; I am a sports geek - my favourite sport is
-            football, where I support Manchester United. I also enjoy watching
-            Tennis, Cricket and occasionally MMA. Recently, I have found I like
-            cooking as well! I am trying to start reading and writing again too,
-            but I can't say I've been too successful yet. Oh, and I love
-            animals!
+          <p className="mb-4 text-2xl leading-relaxed">
+            If you want to work with me, or want to grab coffee, or rant about
+            how bad Manchester United are right now, send me an email over at
+            raza.khawaja@hotmail.com.
           </p>
 
           {/* <p>
