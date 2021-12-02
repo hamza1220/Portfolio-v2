@@ -1,5 +1,5 @@
 {
-  "download_url": "https://drive.google.com/file/d/18yWWVWwV1y7ZBXxBxwqKUme49aiDbrMl/view?usp=sharing",
+  "download_url": "https://drive.google.com/file/d/1QIt1FPR5Y86qrr1hKYAHl2XszYlR2vFp/view?usp=sharing",
   "education": [
     {
       "institute": "Purdue University",
@@ -26,7 +26,7 @@
         {
           "title": "Graduate Teaching Assistant",
           "duration": "August 2021 - Present",
-          "body": "Supervised daily labs and assistant students with their assignments on the NX CAD software, for the Graphical Communication and Spatial Analysis course."
+          "body": "Supervised daily labs and assistant students with their assignments on the NX 1946 CAD software, for the Graphical Communication and Spatial Analysis course."
         }
       ]
     },
@@ -84,7 +84,7 @@
     ],
     "databases": ["Firestore", "MongoDB", "Google Cloud Datastore"],
     "misc": ["Postman", "Git", "Jira", "Jupyter Notebooks", "Miro"],
-    "ui_ux": ["Figma", "Adobe Photoshop", "Protopie", "Adobe XD"]
+    "ui_ux": ["Figma", "Adobe Photoshop", "Protopie", "UX Research"]
   },
   "interests": ["Football (soccer)", "Tennis", "Cricket", "Swimming", "Gaming"],
   "awards": [
