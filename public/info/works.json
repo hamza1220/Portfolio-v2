@@ -70,13 +70,12 @@
     "tileImagePath": "/info/works/cloudflare-cache/cf-cache-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#E06D10",
-    "hide": true,
     "overview": {
       "description": "A custom solution for a 3 level cache using Cloudflare workers.",
-      "projectType": "Industry Project - Educative Inc.",
+      "projectType": "Industry Project - Educative, Inc.",
       "roles": ["Full-Stack Engineer, Mentor"],
       "timeline": "May 2021 – June 2019",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png"
+      "previewImagePath": "/info/works/cloudflare-cache/cf-overview.svg"
     }
   },
   "dark-mode": {
