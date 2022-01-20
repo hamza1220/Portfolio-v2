@@ -65,7 +65,7 @@
   },
   "cloudflare-cache": {
     "title": "Cloudflare Caching & Purging Mechanism",
-    "type": ["Featured", "Software Engineering"],
+    "type": ["Software Engineering"],
     "tags": ["Cloudflare", "Node.js", "Python", "SEO"],
     "tileImagePath": "/info/works/cloudflare-cache/cf-cache-cover.svg",
     "maintainAspectRatio": false,
