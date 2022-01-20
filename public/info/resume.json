@@ -1,13 +1,13 @@
 {
-  "download_url": "https://drive.google.com/file/d/1QIt1FPR5Y86qrr1hKYAHl2XszYlR2vFp/view?usp=sharing",
+  "download_url": "https://drive.google.com/file/d/1bhxLIour8LAOgO6D42yTpofY3RzQ8iq_/view?usp=sharing",
   "education": [
     {
       "institute": "Purdue University",
       "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
       "title": "M.S Computer Graphics Technology (UX Design)",
       "duration": "2021 - Present",
-      "body1": "UX Design Concentration",
-      "body2": ""
+      "body1": "CGPA: 4.00/4.00",
+      "body2": "UX Design Concentration"
     },
     {
       "institute": "Lahore University of Management Sciences",
@@ -26,7 +26,7 @@
         {
           "title": "Graduate Teaching Assistant",
           "duration": "August 2021 - Present",
-          "body": "Supervised daily labs and assistant students with their assignments on the NX 1946 CAD software, for the Graphical Communication and Spatial Analysis course."
+          "body": "Lecturing students on basic web development with HTML, CSS and Javascript. Mentoring student course projects. Supervising and grading lab assignments. Providing regular tutorials/demos to build student expertise."
         }
       ]
     },
