@@ -22,7 +22,13 @@ This allowed us to write Tailwind code within Styled-Components. The ability to 
 <h2 class="sub-heading"> IMPLEMENTATION </h2>
 <h3 style="color:#3C5CDE;"> Division of labor. </h3>
 
-The first thing that was needed was a color palette and a design guide, to ensure consistency. I therefore collaborated with the UX team to come up with a dark mode color palette that not only aligned with the company's main color scheme and but also ensured readibility. There were several SVGs, GIFs and PNGs that were hardcoded to be made for light mode; they all also needed to have dark mode versions.
+The first thing that was needed was a color palette and a design guide, to ensure consistency. I therefore collaborated with the UX team to come up with a dark mode color palette that not only aligned with the company's main color scheme and but also ensured readibility. There were several SVGs, GIFs and PNGs that were hardcoded for light mode; they all also needed to have dark mode versions.
+
+> An interesting challenge was to know when we needed two seperate files for an image and when we could just use one file with some
+> custom dark mode css using Tailwind's `dark:` prefix.
+>
+> For the former option, the webpage would load both files everytime, which
+> is bad for performance. The latter option was extremely difficult to do with large, complex SVGs.
 
 A lot of attention to detail was required. For instance, the contrast ratios needed to be perfect for **every** element, such as buttons, hover states and dropdowns. Consider the hover states of the primary buttons below for instance:
 
@@ -38,7 +44,7 @@ A lot of attention to detail was required. For instance, the contrast ratios nee
 </div>
 <br>
 
-Now needed a big effort from several people to correctly implement the dark mode classes in the front-end of a codebase that spanned hundreds of files and thousands of lines. I divided up the most important front-end routes between the team and set deadlines for their implementation.
+Now it needed a big effort from several people to correctly implement the dark mode classes in the front-end of a codebase that spanned hundreds of files and thousands of lines. I divided up the most important front-end routes between the team and set deadlines for their implementation.
 
 <div class="flex justify-center w-full">
 <img loading="lazy"  class="w-full" src="/info/works/dark-mode/dark-mode-3.svg" />
@@ -64,3 +70,5 @@ This was one of the projects I was most proud of as a software engineer and it w
 <img loading="lazy" class="w-full" src="/info/works/dark-mode/dark-mode-2.svg" />
 </div>
 </div>
+
+<h5 class="flex justify-center"> Thank you for reading! </h5>
