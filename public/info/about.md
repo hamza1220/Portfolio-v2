@@ -1,0 +1,5 @@
+I'm currently a student at <span class="font-semibold hover:opacity-75" style="color:#8E6F3E">Purdue</span> studying UX Design. Most recently, I was a full-stack software engineer at <a href="https://www.educative.io" style="text-decoration:none"><span class="cursor-pointer font-semibold hover:opacity-75 gradient-purple text-gradient">Educative Inc.</span></a> My interests revolve around Human-Computer Interaction, UX Design, and Software Engineering.
+
+Through my experiences, I've found that the best product designers would be those who have knowledge of both, engineering and design. That is how I view my personal design philosophy by and it is what drives me forward to pursue UX on top of my computer science background.
+
+If you want to work with me, or want to grab coffee, or rant about how bad Manchester United are right now, send me an email over at raza.khawaja@hotmail.com.

@@ -264,6 +264,14 @@
     @apply self-center;
   }
 
+  .about-container .md p {
+    @apply mb-4 text-2xl leading-relaxed;
+  }
+
+  .about-container .md a {
+    text-decoration: none;
+  }
+
   .iframe-container {
     position: relative;
     width: 100%;

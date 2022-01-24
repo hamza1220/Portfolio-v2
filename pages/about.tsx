@@ -9,14 +9,18 @@ export const getStaticProps = async () => {
   const intro = await fs.readFile(introPath, "utf-8");
   const introduction = JSON.parse(intro)
 
+  const aboutPath = path.join(process.cwd(), "public/info/about.md");
+  const about = await fs.readFile(aboutPath, "utf-8");
+
   return {
     props: {
-      introduction
+      introduction,
+      about
     },
   };
 };
 
-const About = ({ introduction }: InferGetStaticPropsType<typeof getStaticProps>) => {
+const About = ({ introduction, about }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
       <Head>
@@ -30,7 +34,7 @@ const About = ({ introduction }: InferGetStaticPropsType<typeof getStaticProps>)
           rel="stylesheet"
         />
       </Head>
-      <Container />
+      <Container about={about} />
     </>
   );
 };
