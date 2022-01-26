@@ -1,4 +1,19 @@
 {
+  "dark-mode": {
+    "title": "Dark Mode",
+    "type": ["Software Engineering", "Featured"],
+    "tags": ["UI", "Front-End", "Tailwindcss", "Technical Design"],
+    "tileImagePath": "/info/works/dark-mode/dark-mode-cover.svg",
+    "maintainAspectRatio": true,
+    "textColor": "#3C5CDE",
+    "overview": {
+      "description": "Implementing site-wide dark mode for Educative Inc.",
+      "projectType": "Industry Project - Educative Inc.",
+      "roles": ["Software Engineer, Technical Design Lead", "Mentor"],
+      "timeline": "May 2021 – July 2021",
+      "previewImagePath": "/info/works/dark-mode/dark-mode-overview.svg"
+    }
+  },
   "blind-wheels": {
     "title": "Blind Wheels",
     "type": ["UX", "Featured"],
@@ -76,21 +91,6 @@
       "roles": ["Full-Stack Engineer, Mentor"],
       "timeline": "May 2021 – June 2019",
       "previewImagePath": "/info/works/cloudflare-cache/cf-overview.svg"
-    }
-  },
-  "dark-mode": {
-    "title": "Dark Mode",
-    "type": ["Software Engineering"],
-    "tags": ["React", "Tailwindcss", "Material UI"],
-    "tileImagePath": "/info/works/dark-mode/dark-mode-cover.svg",
-    "maintainAspectRatio": true,
-    "textColor": "#3C5CDE",
-    "overview": {
-      "description": "Implementing site-wide dark mode for Educative Inc.",
-      "projectType": "Industry Project - Educative Inc.",
-      "roles": ["Full-Stack Engineer, Technical Design Lead"],
-      "timeline": "May 2021 – July 2021",
-      "previewImagePath": ""
     }
   },
   "paywalled-content-cache": {
