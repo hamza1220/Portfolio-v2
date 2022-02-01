@@ -20,12 +20,12 @@ const About = () => {
       <div className="flex flex-col-reverse lg:grid lg:grid-cols-1 lg:gap-4">
         <div className="sm:col-start-1 sm:col-end-4 leading-normal text-xl text-blueGray-500 dark:text-gray-600">
           <p className="mb-4 text-2xl leading-relaxed">
-            I'm currently a student at{" "}
+            I'm currently a Master's student at{" "}
             <span
               className="font-semibold hover:opacity-75"
               style={{ color: "#8E6F3E" }}
             >
-              Purdue
+              Purdue University
             </span>{" "}
             studying UX Design. Most recently, I was a full-stack software
             engineer at
@@ -39,11 +39,15 @@ const About = () => {
             and Software Engineering.
           </p>
           <p className="mb-4 text-2xl leading-relaxed">
-            Through my experiences, I've found that the best product designers
-            would be those who have knowledge of both, engineering and design.
-            That is how I view my personal design philosophy by and it is what
-            drives me forward to pursue UX on top of my computer science
-            background.
+            As an engineer, I not only loved working as a technical design lead
+            but also enjoyed engaging in the product and design discussions and
+            enjoyed channeling my creativity there. This is why I am driven to
+            complement my computer science background with a UX specialization.
+          </p>
+          <p className="mb-4 text-2xl leading-relaxed">
+            I believe my engineering background is crucial for me to find my
+            place as a product designer at the intersection of design and
+            development, which is the lens I view my design philosophy by.
           </p>
 
           <p className="mb-4 text-2xl leading-relaxed">
