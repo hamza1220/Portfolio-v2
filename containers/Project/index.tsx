@@ -1,6 +1,6 @@
 import React from "react";
 import { Project } from "../../constants";
-import Markdown from "../../components/Project/Markdown";
+import Markdown from "../../components/Markdown";
 import Overview from "../../components/Project/Overview";
 import PrevNextProjects from "../../components/Project/PrevNextProjects";
 import Spinner from "../../components/Spinner";

@@ -70,7 +70,7 @@
     }
   ],
   "skills": {
-    "languages": ["Python", "JavaScript", "Typescript", "C", "C++"],
+    "languages": ["Python", "JavaScript", "TypeScript", "C/C++"],
     "frameworks_and_libraries": [
       "React",
       "React Native",
@@ -83,8 +83,16 @@
       "Keras"
     ],
     "databases": ["Firestore", "MongoDB", "Google Cloud Datastore"],
-    "misc": ["Postman", "Git", "Jira", "Jupyter Notebooks", "Miro"],
-    "ui_ux": ["Figma", "Adobe Photoshop", "Protopie", "UX Research"]
+    "misc": ["Git", "Jira", "Miro", "Jupyter Notebooks"],
+    "ui_ux": [
+      "UX Research",
+      "Contextual Inquiry",
+      "Interviewing",
+      "Prototyping",
+      "Wireframing",
+      "Figma",
+      "Usability Testing"
+    ]
   },
   "interests": ["Football (soccer)", "Tennis", "Cricket", "Swimming", "Gaming"],
   "awards": [
