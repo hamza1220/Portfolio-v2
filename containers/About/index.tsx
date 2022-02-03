@@ -1,7 +1,6 @@
 import React from "react";
 import SectionHeading from "../../components/SectionHeading";
-import Link from "next/link";
-import Markdown from '../../components/Markdown'
+import Markdown from "../../components/Markdown";
 
 const profileImg = require("../../public/profile-img.jpeg");
 
