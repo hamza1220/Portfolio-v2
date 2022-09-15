@@ -2,7 +2,7 @@ import React from "react";
 import SectionHeading from "../../components/SectionHeading";
 import Markdown from "../../components/Markdown";
 
-const profileImg = require("../../public/profile-img.jpeg");
+const profileImg = require("../../public/profile-img.jpg");
 
 const About = ({ about }: { about: string }) => (
   <div id="about" className="w-full py-24 flex flex-col justify-center ">
