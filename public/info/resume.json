@@ -1,13 +1,13 @@
 {
-  "download_url": "https://drive.google.com/file/d/1bhxLIour8LAOgO6D42yTpofY3RzQ8iq_/view?usp=sharing",
+  "download_url": "https://drive.google.com/file/d/1lxwyi-my-rJcWRey1RLJAor8Cb_0Nob7/view?usp=sharing",
   "education": [
     {
       "institute": "Purdue University",
       "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
       "title": "M.S Computer Graphics Technology (UX Design)",
       "duration": "2021 - Present",
-      "body1": "CGPA: 4.00/4.00",
-      "body2": "UX Design Concentration"
+      "body1": "CGPA: 3.97/4.00",
+      "body2": "Key Coursework: Design Theory, Qualitative Research Methods, Cognition & HCI, User Experience Studio"
     },
     {
       "institute": "Lahore University of Management Sciences",
@@ -20,18 +20,34 @@
   ],
   "experience": [
     {
+      "organization": "OneSignal",
+      "url": "https://onesignal.com/",
+      "positions": [
+        {
+          "title": "Design Engineer - Intern",
+          "duration": "May 2022 - August 2022",
+          "body": "Designed and implemented responsiveness for the OneSignal dashboard and website; Created reusable and extendable Figma components for OneSignal's Journey's feature; Updated previews for latest MacOS notifications on desktop."
+        }
+      ]
+    },
+    {
       "organization": "Purdue University",
       "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
       "positions": [
         {
+          "title": "Graduate Research Assistant",
+          "duration": "August 2022 - Present",
+          "body": "Working with Dr. Paul Parsons as a UX consultant and researcher for Science Gateways Communtity Institute (SGCI) projects."
+        },
+        {
           "title": "Graduate Teaching Assistant",
-          "duration": "August 2021 - Present",
+          "duration": "August 2021 - May 2022",
           "body": "Lecturing students on basic web development with HTML, CSS and Javascript. Mentoring student course projects. Supervising and grading lab assignments. Providing regular tutorials/demos to build student expertise."
         }
       ]
     },
     {
-      "organization": "Educative Inc",
+      "organization": "Educative",
       "url": "https://educative.io",
       "positions": [
         {
@@ -42,7 +58,7 @@
         {
           "title": "Technical Content Engineer",
           "duration": "June 2019 - May 2020",
-          "body": "Created 150+ interactive articles on various computer science concepts, algorithms, frameworks, libraries and technologies for Educative's 'Edpresso' platform."
+          "body": "Created 150+ interactive articles on various computer science concepts, algorithms, frameworks, libraries and technologies for Educative Answers."
         }
       ]
     },
@@ -54,17 +70,6 @@
           "title": "Undergraduate Teaching Assistant",
           "duration": "Sept 2018 - Dec 2018",
           "body": "As part of the Introductory Computer Science course, created weekly coding assignments for students. Supervised weekly 3-hour lab sessions, oversaw and graded final course projects."
-        }
-      ]
-    },
-    {
-      "organization": "OneByte LLC.",
-      "url": "https://onebytellc.com/",
-      "positions": [
-        {
-          "title": "Intern",
-          "duration": "Aug 2017 - Sept 2017",
-          "body": "Learned basic web-development using HTML, CSS and Javascript in addition to Agile workflow."
         }
       ]
     }
@@ -94,7 +99,14 @@
       "Usability Testing"
     ]
   },
-  "interests": ["Football (soccer)", "Tennis", "Cricket", "Swimming", "Gaming"],
+  "interests": [
+    "Football (soccer)",
+    "MMA",
+    "Tennis",
+    "Cricket",
+    "Swimming",
+    "Gaming"
+  ],
   "awards": [
     "LUMS Dean's Honor List 2016, 2017, 2019",
     "LUMS Undergraduate Award of Distinction",
