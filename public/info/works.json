@@ -1,4 +1,19 @@
 {
+  "one-signal": {
+    "title": "Responsive Design",
+    "type": ["UX", "Software Engineering", "Featured"],
+    "tags": ["Front-End", "Design Engineering"],
+    "tileImagePath": "/info/works/one-signal/OneSignal-Cover.svg",
+    "maintainAspectRatio": true,
+    "textColor": "#14143A",
+    "overview": {
+      "description": "Designing and implementing responsive improvements to the OneSignal dashboard and website.",
+      "projectType": "Industry Project - OneSignal",
+      "roles": ["Design Engineer - Intern"],
+      "timeline": "May 2022 – August 2021",
+      "previewImagePath": "/info/works/one-signal/OS-responsive-design.png"
+    }
+  },
   "dark-mode": {
     "title": "Dark Mode",
     "type": ["Software Engineering", "Featured"],
