@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Intro } from "../../constants";
 import { Facebook, Github, LinkedIn, Mail } from "../../utils/icons";
 
-const jumbotronImg = require("../../public/jumbotron-img.jpeg");
+const jumbotronImg = require("../../public/jumbotron.jpeg");
 
 const Jumbotron = ({ intro }: { intro: Intro }) => {
   const socials = [
