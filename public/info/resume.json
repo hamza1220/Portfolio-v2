@@ -1,12 +1,12 @@
 {
-  "download_url": "https://drive.google.com/file/d/1lxwyi-my-rJcWRey1RLJAor8Cb_0Nob7/view?usp=sharing",
+  "download_url": "https://drive.google.com/file/d/1b4vEgQVu15lY-5XvKbB6lXvm6Xzs4dGR/view?usp=sharing",
   "education": [
     {
       "institute": "Purdue University",
       "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
-      "title": "M.S Computer Graphics Technology (UX Design)",
+      "title": "M.S UX Design",
       "duration": "2021 - Present",
-      "body1": "CGPA: 3.97/4.00",
+      "body1": "CGPA: 3.98/4.00",
       "body2": "Key Coursework: Design Theory, Qualitative Research Methods, Cognition & HCI, User Experience Studio"
     },
     {
@@ -20,56 +20,55 @@
   ],
   "experience": [
     {
-      "organization": "OneSignal",
-      "url": "https://onesignal.com/",
+      "organization": "SGX3/Purdue University",
+      "url": "https://sciencegateways.org/",
+      "location": "West Lafayette, IN, USA",
       "positions": [
         {
-          "title": "Design Engineer - Intern",
+          "title": "User Experience Consultant",
+          "duration": "August 2022 - Present",
+          "body": "• Lead UX consultant for Science Gateways Community Institute projects undertaken at the DVC Lab (https://www.dvclab.net/). \n• Responsibilities include creating project plans, deliverables and timelines, conducting UX research to aid science gateway development and design. "
+        }
+      ]
+    },
+    {
+      "organization": "OneSignal",
+      "url": "https://onesignal.com/",
+      "location": "San Mateo, CA, USA",
+      "positions": [
+        {
+          "title": "Design Engineer Intern",
           "duration": "May 2022 - August 2022",
-          "body": "Designed and implemented responsiveness for the OneSignal dashboard and website; Created reusable and extendable Figma components for OneSignal's Journey's feature; Updated previews for latest MacOS notifications on desktop."
+          "body": "• Designed and implemented responsiveness for the OneSignal dashboard and website. \n• Created reusable and extendable Figma components for OneSignal’s Journey’s feature. \n• Updated previews for latest MacOS notifications on desktop."
         }
       ]
     },
     {
       "organization": "Purdue University",
       "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
+      "location": "West Lafayette, IN, USA",
       "positions": [
-        {
-          "title": "Graduate Research Assistant",
-          "duration": "August 2022 - Present",
-          "body": "Working with Dr. Paul Parsons as a UX consultant and researcher for Science Gateways Communtity Institute (SGCI) projects."
-        },
         {
           "title": "Graduate Teaching Assistant",
           "duration": "August 2021 - May 2022",
-          "body": "Lecturing students on basic web development with HTML, CSS and Javascript. Mentoring student course projects. Supervising and grading lab assignments. Providing regular tutorials/demos to build student expertise."
+          "body": "• Lecturing students on basic web development with HTML, CSS and Javascript. \n• Mentoring student course projects. \n • Supervising and grading lab assignments."
         }
       ]
     },
     {
       "organization": "Educative",
       "url": "https://educative.io",
+      "location": "Lahore, Pakistan",
       "positions": [
         {
           "title": "Full-Stack Software Engineer",
           "duration": "June 2020 - July 2021",
-          "body": "Worked in the Site Experience team. Major milestones: 90+ Google Lighthouse scores on non-paywalled pages; site-wide dark mode; custom Stale-While-Revalidate caching mechanism; Migration to new design system from legacy design; Admin Dashboard separation into Next.JS static app; Technical design reviewer."
+          "body": "• Led effort to boost Google Lighthouse scores to 90+ for non-paywalled pages on Educative.io for increased SEO, performance and UX. \n• Implemented a custom caching mechanism through Cloudflare to decrease page load times and boost site UX. Resulted in 75% requests to be served from the cache in May 2021. \n• Worked in the technical design team to migrate the legacy design system to a modern framework (Tailwindcss). Implemented dark mode (most requested feature) which was possible due to migration.\n • Mentoring new-hires through the developer bootcamp. Revamped bootcamp documentation to reflect latest practices and ensure fluid onboarding."
         },
         {
           "title": "Technical Content Engineer",
           "duration": "June 2019 - May 2020",
           "body": "Created 150+ interactive articles on various computer science concepts, algorithms, frameworks, libraries and technologies for Educative Answers."
-        }
-      ]
-    },
-    {
-      "organization": "Lahore University of Management Sciences",
-      "url": "https://lums.edu.pk/",
-      "positions": [
-        {
-          "title": "Undergraduate Teaching Assistant",
-          "duration": "Sept 2018 - Dec 2018",
-          "body": "As part of the Introductory Computer Science course, created weekly coding assignments for students. Supervised weekly 3-hour lab sessions, oversaw and graded final course projects."
         }
       ]
     }
@@ -88,7 +87,7 @@
       "Keras"
     ],
     "databases": ["Firestore", "MongoDB", "Google Cloud Datastore"],
-    "misc": ["Git", "Jira", "Miro", "Jupyter Notebooks"],
+    "misc": ["Git", "Jira", "Asana", "Miro", "Jupyter Notebooks"],
     "ui_ux": [
       "UX Research",
       "Contextual Inquiry",
@@ -96,7 +95,8 @@
       "Prototyping",
       "Wireframing",
       "Figma",
-      "Usability Testing"
+      "Usability Testing",
+      "Qualitative Research"
     ]
   },
   "interests": [

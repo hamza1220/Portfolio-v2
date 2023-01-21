@@ -19,13 +19,14 @@ const ExperienceSection = ({ items }: { items: Experience[] }) => (
             >
               {experience.organization}
             </a>
+            <span className="pl-4 text-base">{experience.location}</span>
           </h3>
           {experience.positions.map((position, index) => (
             <div className={`${index ? "pt-4" : ""}`} key={index}>
               <h4 className="font-bold text-base">
                 {position.title} / {position.duration}
               </h4>
-              <span className="text-blueGray-500 dark:text-gray-600">
+              <span className="text-blueGray-500 dark:text-gray-600 whitespace-pre-line">
                 {position.body}
               </span>
             </div>
