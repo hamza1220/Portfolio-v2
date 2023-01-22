@@ -1,5 +1,5 @@
 <h2 class="sub-heading"> PROBLEM </h2>
-<h3 style="color:#3C5CA8;"> Low weapon immersion </h3>
+<h3 style="color:#1A7CA8;"> Low weapon immersion </h3>
 
 Virtual reality combat gaming allows users to use their controllers to interact with
 in-game weapons such as guns and swords. However, current mainstream virtual
@@ -13,7 +13,7 @@ prototypes to simulate weapon weight and structure**. This was evaluated by crea
 
 <br>
 <h2 class="sub-heading"> Methods </h2>
-<h3 style="color:#3C5CA8;"> More buttons, more weight? </h3>
+<h3 style="color:#1A7CA8;"> More buttons, more weight? </h3>
 
 The first scene (Scene A) was to test the usage of using a complex series of button
 and trigger presses to use weapons. The scene consisted of three medieval weapons;
@@ -35,7 +35,7 @@ perception of weight by adding difficulty in picking up and using the sword.
 </div>
 <br>
 
-<h3 style="color:#3C5CA8;"> Cardboard prototyping </h3>
+<h3 style="color:#1A7CA8;"> Cardboard prototyping </h3>
 
 The second scene (Scene B) consisted of three modern weapons, which differed in
 weight primarily; these were a single handed Uzi, a rifle, and then a heavy machine
@@ -53,7 +53,7 @@ bottle, which was filled in varying volumes. The shape of the prototypes was des
 > In this scene, there was no complexity introduced with buttons presses.
 
 <h2 class="sub-heading"> EVALUATION </h2>
-<h3 style="color:#3C5CA8;"> More buttons, more weight? Not really. </h3>
+<h3 style="color:#1A7CA8;"> More buttons, more weight? Not really. </h3>
 
 Scene A was tested with two participants: P1 and P2. Based on test results, it was concluded that there is a poor co-relation between complex button presses and perception of weight.
 
@@ -64,7 +64,7 @@ weapons because they found it difficult to adjust their controller's mental mode
 P2 also felt that the sword in the digital environment did not feel so heavy, and the complicated
 button pressing did not provide a perception of weight, rather made it difficult to interact with the objects for too long.
 
-<h3 style="color:#3C5CA8;"> Cardboard weapons FTW </h3>
+<h3 style="color:#1A7CA8;"> Cardboard weapons FTW </h3>
 
 Scene B was tested with two different participants as well: P3 and P4. Both revealed an increased immersion using the cardboard gun prototypes.
 

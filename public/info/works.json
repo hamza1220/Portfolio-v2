@@ -5,7 +5,7 @@
     "tags": ["Front-End", "Design Engineering"],
     "tileImagePath": "/info/works/one-signal/OneSignal-Cover.svg",
     "maintainAspectRatio": true,
-    "textColor": "#14143A",
+    "textColor": "#E54B4D",
     "overview": {
       "description": "Designing and implementing responsive improvements to the OneSignal dashboard and website.",
       "projectType": "Industry Project - OneSignal",
@@ -20,7 +20,7 @@
     "tags": ["Virtual Reality", "UX", "Research"],
     "tileImagePath": "/info/works/vr-fps/vr-cover.svg",
     "maintainAspectRatio": true,
-    "textColor": "#3C5CA8",
+    "textColor": "#1A7CA8",
     "overview": {
       "description": "A study on enhancing weapon design for increased immersion in VR first-person shooters.",
       "projectType": "Course Work",
