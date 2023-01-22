@@ -10,8 +10,23 @@
       "description": "Designing and implementing responsive improvements to the OneSignal dashboard and website.",
       "projectType": "Industry Project - OneSignal",
       "roles": ["Design Engineer - Intern"],
-      "timeline": "May 2022 – August 2021",
+      "timeline": "May 2022 – August 2022",
       "previewImagePath": "/info/works/one-signal/OS-responsive-design.png"
+    }
+  },
+  "vr-fps": {
+    "title": "VR FPS Weapon Design",
+    "type": ["UX", "Featured"],
+    "tags": ["Virtual Reality", "UX", "Research"],
+    "tileImagePath": "/info/works/vr-fps/vr-cover.svg",
+    "maintainAspectRatio": true,
+    "textColor": "#3C5CA8",
+    "overview": {
+      "description": "A study on enhancing weapon design for increased immersion in VR first-person shooters.",
+      "projectType": "Course Work",
+      "roles": ["UX Designer, VR Developer"],
+      "timeline": "October 2022 – December 2022",
+      "previewImagePath": "https://www.youtube.com/embed/TWEGHDrWupo"
     }
   },
   "dark-mode": {
@@ -41,13 +56,12 @@
       "projectType": "Course Project",
       "roles": ["UX Designer & Researcher"],
       "timeline": "August 2019 – December 2019",
-      "previewImagePath": "https://www.youtube.com/embed/VU-rDK_IjIM",
-      "team": ["Sabeeka Khan", "Hassan Arshad", "Razi ul Haq"]
+      "previewImagePath": "https://www.youtube.com/embed/VU-rDK_IjIM"
     }
   },
   "freelance-life": {
     "title": "Freelance Life",
-    "type": ["Featured", "UX"],
+    "type": ["UX"],
     "tags": ["UX", "Research"],
     "tileImagePath": "/info/works/freelance-life/freelance-life-cover.svg",
     "maintainAspectRatio": false,
@@ -56,14 +70,13 @@
       "description": "Making rating and review systems on freelance platforms more meaningful and holistic.",
       "projectType": "Course Work",
       "roles": ["UX Researcher & Designer"],
-      "timeline": "16 September 2021 – 14 October 2021",
-      "previewImagePath": "/info/works/freelance-life/freelance-overview.svg",
-      "team": ["Faseeh Ur Rehman", "Vishwa Chandupatla"]
+      "timeline": "September 2021 – October 2021",
+      "previewImagePath": "/info/works/freelance-life/freelance-overview.svg"
     }
   },
   "exercise-fakeout": {
     "title": "Exercise Fakeout",
-    "type": ["Featured", "UX"],
+    "type": ["UX"],
     "tags": ["UX", "Research"],
     "tileImagePath": "/info/works/exercise-fakeout/exercise-fakeout-cover.svg",
     "maintainAspectRatio": false,
@@ -72,9 +85,8 @@
       "description": "A UX study on altering the way people think about and use fitness trackers.",
       "projectType": "Course Work",
       "roles": ["UX Researcher"],
-      "timeline": "24 August 2021 – 14 September 2021",
-      "previewImagePath": "/info/works/exercise-fakeout/fakeout-main.svg",
-      "team": ["Ali Asghar Aamir", "Qimei Fu"]
+      "timeline": "August 2021 – September 2021",
+      "previewImagePath": "/info/works/exercise-fakeout/fakeout-main.svg"
     }
   },
   "campus-eat": {
