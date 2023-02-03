@@ -40,6 +40,7 @@ export interface Education {
 export interface Experience {
   organization: string;
   url?: string;
+  location?: string;
   positions: Array<{
     title: string;
     duration: string;
