@@ -1,3 +1,13 @@
+> <div class="contribution-statement">
+>
+> **Contribution Statement**
+>
+> - Project Owner; Drafted implementation documents and presented POC, setup milestones, project plan and follow-up tasks.
+> - Team Lead; Led a group of 3 software engineers, ensured division of work, tracked progress, assisted where necessary.
+> - Software Engineer; Wrote initial code for POC, implemented 30% of dark mode, worked on follow-ups.
+>
+> </div>
+
 <h2 class="sub-heading"> PRE-REQUISITES </h2>
 <h3 style="color:#3C5CDE;"> Setting things up. </h3>
 

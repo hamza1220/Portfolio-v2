@@ -1,3 +1,17 @@
+> <div class="contribution-statement">
+>
+> **Contribution Statement**
+>
+> I worked on this project with one other <a href="https://www.faseehurrehman.com/" target="_blank">member</a>. Individual contributions include:
+>
+> - Ideated project idea, setup project plan, set milestones.
+> - Investigated coding limitations, lead the pivot to using prototypes.
+> - Wrote 90% of implementation code.
+> - Created small weapon cardboard prototype.
+> - Conducted 50% testing.
+> - Wrote implemetnation and findings section in <a href="https://docs.google.com/document/d/1Jdy1aw1xWYKOEv0j9HLj1TrVOg9GIgxH3U6kGy0y36E/edit?usp=sharing" target="_blank"> documentation </a>.
+> </div>
+
 <h2 class="sub-heading"> PROBLEM </h2>
 <h3 style="color:#1A7CA8;"> Low weapon immersion </h3>
 

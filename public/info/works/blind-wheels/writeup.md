@@ -1,3 +1,17 @@
+> <div class="contribution-statement">
+>
+> **Contribution Statement**
+>
+> I worked on this project in a team of five. Individual contributions include:
+>
+> - Drafting interview protocol and being an active member of contextual inquiries.
+> - Led portions of focus group interviews.
+> - Worked on creating paper prototypes.
+> - Created 3 hi-fi mockup screens.
+> - Documented evaluation results.
+>
+> </div>
+
 <h2 class="sub-heading"> PROBLEM </h2>
 <h3 style="color:#CF7000;"> Neglected entertainment. </h3>
 

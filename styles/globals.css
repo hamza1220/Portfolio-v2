@@ -264,8 +264,16 @@
     @apply self-center;
   }
 
+  .contribution-statement li {
+    @apply text-base leading-relaxed;
+  }
+
+  .contribution-statement p {
+    @apply text-base leading-relaxed p-2;
+  }
+
   .about-container .md p {
-    @apply mb-4 text-2xl leading-relaxed;
+    @apply text-lg leading-relaxed;
   }
 
   .about-container .md a {
