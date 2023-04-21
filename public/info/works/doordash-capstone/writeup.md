@@ -1,3 +1,5 @@
+> This is my master's capstone at the graduate UX program at Purdue University. It is not affiliated with DoorDash and was not done under employment from DoorDash.
+
 <h2 class="sub-heading"> INTRODUCTION </h2>
 <h3 style="color:#FF2F0A;"> Same old meal. </h3>
 
