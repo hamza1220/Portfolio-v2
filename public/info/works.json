@@ -1,4 +1,19 @@
 {
+  "doordash-capstone": {
+    "title": "Doordash Friends",
+    "type": ["UX", "Featured"],
+    "tags": ["Interaction Design", "UX Design", "UI Design"],
+    "tileImagePath": "/info/works/doordash-capstone/Doordash-Cover.svg",
+    "maintainAspectRatio": true,
+    "textColor": "#FF2F0A",
+    "overview": {
+      "projectType": "Course Work",
+      "description": "An interaction design solution to improving the discovery of new food on DoorDash.",
+      "roles": ["UX Designer, Product Designer, UX Researcher"],
+      "timeline": "January 2023 – April 2023",
+      "previewImagePath": "/info/works/doordash-capstone/doordash-preview.png"
+    }
+  },
   "one-signal": {
     "title": "Responsive Design",
     "type": ["UX", "Software Engineering", "Featured"],

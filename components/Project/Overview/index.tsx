@@ -63,7 +63,7 @@ const Overview = ({ project }: { project: Project }) => {
         {preview && (
           <div className="w-full sm:w-1/2 flex justify-center self-center">
             {!preview.includes("youtube") ? (
-              <img src={`${preview}`} className="w-full h-full" />
+              <img src={`${preview}`} />
             ) : (
               <iframe
                 width="560"
