@@ -47,7 +47,7 @@ The first pain point in a user's journey was feeling overwhelmed by the large nu
 </div>
 
 <div style="width: 48%" class="flex justify-center mb-10">
-<img loading="lazy" class="w-full" src="/info/works/doordash-capstone/gif1.gif" />
+<img loading="lazy" class="w-full" src="/info/works/doordash-capstone/home.png" />
 </div>
 </div>
 
