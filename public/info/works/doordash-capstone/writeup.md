@@ -53,7 +53,7 @@ The first pain point in a user's journey was feeling overwhelmed by the large nu
 
 <div class="flex justify-between"> 
         <div style="width: 48%" class="flex justify-center">
-            <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/gif2.gif" />
+            <img loading="lazy" class="w-full" src="/info/works/doordash-capstone/menu2.png" />
         </div>
 <div style="width: 48%" class="flex flex-col justify-center">
 
@@ -65,7 +65,20 @@ This helps with the second pain point in the user journey - choosing a meal.
 
 </div>
 </div>
-<br><br>
+
+<br>
+
+<div class="flex justify-between mb-10"> 
+    <div style="width: 48%" class="flex flex-col justify-evenly">
+
+Users can also view their friends choices in meal customizations as well, if the meal allows it. This further aims to help users with their third pain point on their journey - customizing their new meal.
+
+</div>
+
+<div style="width: 48%" class="flex justify-center mb-10">
+<img loading="lazy" class="w-full" src="/info/works/doordash-capstone/meal-selection.png" />
+</div>
+</div>
 
 <h3 style="color:#FF2F0A;"> Friends' Feed </h3>
 
