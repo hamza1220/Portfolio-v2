@@ -87,7 +87,7 @@ We found out that the participants were fairly succesful and responsive to the b
 We used [Protopie](https://www.protopie.io/) for hi-fi prototyping, since it could prototype the interactions we were looking for.
 
 <div class="flex flex-col justify-center w-full">
-<img loading="lazy" class="w-full" src="/info/works/blind-wheels/blind-wheels-hifi.svg" />
+<img loading="lazy" class="w-full" src="/info/works/blind-wheels/blind-wheels-hifi.png" />
 </div>
 
 > A challenge for us was to find suitable software for prototyping the interactions that the blind have with their devices. For instance, through contextual inquiries, we noted how they double tap to select and single tap to activate voice-over.

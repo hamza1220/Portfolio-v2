@@ -57,13 +57,13 @@ A lot of attention to detail was required. For instance, the contrast ratios nee
 Now it needed a big effort from several people to correctly implement the dark mode classes in the front-end of a codebase that spanned hundreds of files and thousands of lines. I divided up the most important front-end routes between the team and set deadlines for their implementation.
 
 <div class="flex justify-center w-full">
-<img loading="lazy"  class="w-full" src="/info/works/dark-mode/dark-mode-3.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/dark-mode/dark-mode-3.png" />
 </div>
 
 Once the most essential pages were completed, work was divided up on all other pages of the website. This organization led my team to ship an MVP (minimum viable product) version of the dark mode within the deadline!
 
 <div class="flex justify-center w-full">
-<img loading="lazy"  class="w-full" src="/info/works/dark-mode/dark-mode-1.svg" />
+<img loading="lazy"  class="w-full" src="/info/works/dark-mode/dark-mode-1.png" />
 </div>
 
 <h3 style="color:#3C5CDE;"> Takeaways </h3>
@@ -71,7 +71,7 @@ Once the most essential pages were completed, work was divided up on all other p
 There are a lot more challenges and details that went into implementing dark mode, such as the effects of using _twin.macro_ on website performance and how they were mitigated. However, that would make a really long, really boring document. If you're interested in learning the nitty gritties, send me a message and we can discuss more!
 
 <div style="width: 100%; padding-top: 8px;" class="flex justify-center">
-<img loading="lazy" class="w-full" src="/info/works/dark-mode/dark-mode-2.svg" />
+<img loading="lazy" class="w-full" src="/info/works/dark-mode/dark-mode-2.png" />
 </div>
 
 This was one of the projects I was most proud of as a software engineer and it was also the first time I was leading a team on a something I had taken the inititative on. I learned invaluable management skills and the result was sweet, because it was highly visible on the live website!
