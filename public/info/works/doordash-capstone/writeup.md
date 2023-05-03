@@ -69,7 +69,7 @@ This helps with the second pain point in the user journey - choosing a meal.
 <br>
 
 <div class="flex justify-between mb-10"> 
-    <div style="width: 48%" class="flex flex-col justify-evenly">
+    <div style="width: 48%" class="flex flex-col justify-center">
 
 Users can also view their friends choices in meal customizations as well, if the meal allows it. This further aims to help users with their third pain point on their journey - customizing their new meal.
 
@@ -130,6 +130,13 @@ This would entail some collaboration between the restaurant and DoorDash but wil
 
 </div>
 </div>
+
+Feel free to play around with the interactive prototypes of the three design concepts discussed above:
+
+<div class="iframe-container">
+<iframe class="responsive-iframe" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FGX1cHVrSy7BLwkXdyWSHYg%2FCapstone-(Copy)%3Fpage-id%3D0%253A1%26node-id%3D117-277%26viewport%3D1461%252C-390%252C0.17%26scaling%3Dscale-down%26starting-point-node-id%3D117%253A277%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+</div>
+
 <br/>
 
 <h2 class="sub-heading"> EVALUATION </h2>
