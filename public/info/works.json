@@ -2,7 +2,7 @@
   "doordash-capstone": {
     "title": "Doordash Friends",
     "type": ["UX", "Featured"],
-    "tags": ["Interaction Design", "UX Design", "UI Design"],
+    "tags": ["Interaction Design", "Product Design", "Prototyping"],
     "tileImagePath": "/info/works/doordash-capstone/Doordash-Cover.svg",
     "maintainAspectRatio": true,
     "textColor": "#FF2F0A",
@@ -15,15 +15,15 @@
     }
   },
   "one-signal": {
-    "title": "Responsive Design",
+    "title": "Responsive Dashboards",
     "type": ["UX", "Software Engineering", "Featured"],
-    "tags": ["Front-End", "Design Engineering"],
+    "tags": ["Front-End Engineering", "Design Engineering", "Design Systems"],
     "tileImagePath": "/info/works/one-signal/OneSignal-Cover.svg",
     "maintainAspectRatio": true,
     "textColor": "#E54B4D",
     "overview": {
-      "description": "Designing and implementing responsive improvements to the OneSignal dashboard and website.",
-      "projectType": "Industry Project - OneSignal",
+      "description": "Designing and implementing responsiveness for the OneSignal dashboard and website.",
+      "projectType": "Industry Project for OneSignal Inc.",
       "roles": ["Design Engineer - Intern"],
       "timeline": "May 2022 – August 2022",
       "previewImagePath": "/info/works/one-signal/OS-responsive-design.png"
@@ -32,7 +32,7 @@
   "vr-fps": {
     "title": "VR FPS Weapon Design",
     "type": ["UX", "Featured"],
-    "tags": ["Virtual Reality", "UX", "Research"],
+    "tags": ["Virtual Reality", "Prototyping", "Research", "User Testing"],
     "tileImagePath": "/info/works/vr-fps/vr-cover.svg",
     "maintainAspectRatio": true,
     "textColor": "#1A7CA8",
@@ -47,7 +47,7 @@
   "dark-mode": {
     "title": "Dark Mode",
     "type": ["Software Engineering", "Featured"],
-    "tags": ["UI", "Front-End", "Tailwindcss", "Technical Design"],
+    "tags": ["UI", "Front-End Engineering", "Tailwindcss", "Design Systems"],
     "tileImagePath": "/info/works/dark-mode/dark-mode-cover.svg",
     "maintainAspectRatio": true,
     "textColor": "#3C5CDE",
@@ -61,8 +61,14 @@
   },
   "blind-wheels": {
     "title": "Blind Wheels",
-    "type": ["UX", "Featured"],
-    "tags": ["HCI", "UX", "Accessible Design"],
+    "type": ["UX"],
+    "tags": [
+      "HCI",
+      "UX",
+      "Accessible Design",
+      "Prototyping",
+      "Usability Testing"
+    ],
     "tileImagePath": "/info/works/blind-wheels/blind-wheels-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#CF7000",
@@ -76,8 +82,8 @@
   },
   "freelance-life": {
     "title": "Freelance Life",
-    "type": ["UX"],
-    "tags": ["UX", "Research"],
+    "type": ["UX", "Featured"],
+    "tags": ["UX Research", "Wireframing"],
     "tileImagePath": "/info/works/freelance-life/freelance-life-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#4fb400",
@@ -92,7 +98,7 @@
   "exercise-fakeout": {
     "title": "Exercise Fakeout",
     "type": ["UX"],
-    "tags": ["UX", "Research"],
+    "tags": ["UX Research", "Wireframing"],
     "tileImagePath": "/info/works/exercise-fakeout/exercise-fakeout-cover.svg",
     "maintainAspectRatio": false,
     "textColor": "#ff5257",
