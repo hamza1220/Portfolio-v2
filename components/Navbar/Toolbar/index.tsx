@@ -22,11 +22,14 @@ const Toolbar = (props: ToggleProps) => {
         <div className="w-full flex justify-between items-center">
           <Link href={routes.HOME}>
             <div className="cursor-pointer">
-              <Logo className="tailwind-hidden sm:flex w-24 ml-4 mt-4 text-primary dark:text-primary-light fill-current" />
+              {/* <Logo className="tailwind-hidden sm:flex w-16 ml-4 mt-4" /> */}
+              <div className="tailwind-hidden sm:flex font-mono ml-4 mt-4 text-gray-900">
+                Raza Khawaja
+              </div>
             </div>
           </Link>
           <div className="tailwind-hidden sm:flex text-sm font-mono">
-            <DarkModeToggle className={"inline-block p-2 m-4 w-5"} />
+            {/* <DarkModeToggle className={"inline-block p-2 m-4 w-5"} /> */}
             {navRoutes.map(
               (navRoute: { name: string; path: string }, index: number) => (
                 <Link href={navRoute.path} key={index}>

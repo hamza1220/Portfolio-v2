@@ -15,7 +15,7 @@ const About = ({ about }: { about: string }) => (
         <img
           alt="profile image"
           src={profileImg}
-          className="rounded-full h-80 w-80 border-4 border-primary dark:border-primary-light"
+          className="h-auto w-auto max-w-md max-h-md rounded"
         />
       </div>
     </div>

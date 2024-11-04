@@ -20,7 +20,7 @@ const Navbar = () => {
     backdrop = <Backdrop click={backdropClickHandler} />;
   }
   return (
-    <div className="h-full">
+    <div className="h-full bg-brown-50">
       <Toolbar drawerClickHandler={drawerToggleClickHandler} />
       <SideDrawer show={sideDrawerOpen} click={backdropClickHandler} />
       {backdrop}
