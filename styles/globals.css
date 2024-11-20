@@ -198,7 +198,7 @@
   }
 
   .gradient-purple {
-    background-image: linear-gradient(105.48deg, #8b1dea 1.36%, #4a00e0 100%);
+    background-image: linear-gradient(105.48deg, #5553ff 1.36%, #1f1e63 100%);
   }
 
   .gradient-green {
@@ -241,15 +241,15 @@
   }
 
   .md p {
-    @apply text-2xl leading-relaxed;
+    @apply text-xl leading-relaxed;
   }
 
   .md li {
-    @apply text-2xl leading-relaxed;
+    @apply text-xl leading-relaxed;
   }
 
   .md blockquote {
-    @apply bg-gray-100 dark:bg-dark-80;
+    @apply bg-brown-50 dark:bg-dark-80;
     border-left: 5px solid #b078ff;
     margin: 1.5em 0.5em;
     padding: 1px 20px 16px;

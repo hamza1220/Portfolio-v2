@@ -47,7 +47,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
           </ul>
         </div>
       )}
-      {!!items.databases.length && (
+      {/* {!!items.databases.length && (
         <div>
           <h3 className="font-bold text-base pb-4">Databases</h3>
           <ul>
@@ -61,7 +61,7 @@ const SkillsSection = ({ items }: { items: Skills }) => (
             ))}
           </ul>
         </div>
-      )}
+      )} */}
       {!!items.misc.length && (
         <div>
           <h3 className="font-bold text-base pb-4">Miscellaneous</h3>

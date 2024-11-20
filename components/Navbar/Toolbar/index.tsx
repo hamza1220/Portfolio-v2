@@ -23,7 +23,7 @@ const Toolbar = (props: ToggleProps) => {
           <Link href={routes.HOME}>
             <div className="cursor-pointer">
               {/* <Logo className="tailwind-hidden sm:flex w-16 ml-4 mt-4" /> */}
-              <div className="tailwind-hidden sm:flex font-mono ml-4 mt-4 text-gray-900">
+              <div className="tailwind-hidden sm:flex font-mono ml-4 mt-4 text-primary">
                 Raza Khawaja
               </div>
             </div>

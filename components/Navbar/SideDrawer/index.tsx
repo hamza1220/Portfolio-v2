@@ -27,7 +27,7 @@ const SideDrawer = (props: ToggleProps) => {
         <div className="text-black p-4 h-20 border-b border-gray-300 dark:border-gray-A700 flex justify-center">
           <Logo className="tailwind-hidden sm:flex w-24 ml-4 mt-4 text-primary dark:text-primary-light fill-current" />
 
-          <DarkModeToggle className="flex items-center pl-4" />
+          {/* <DarkModeToggle className="flex items-center pl-4" /> */}
         </div>
       </Link>
       <div>

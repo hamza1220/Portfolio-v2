@@ -10,7 +10,7 @@ const Markdown = ({
 }) => (
   <div
     className={`md ${
-      !isNotFullPage ? "w-11/12 sm:w-9/12 flex justify-center" : ""
+      !isNotFullPage ? "w-11/12 sm:w-full flex justify-center" : ""
     }`}
   >
     <div

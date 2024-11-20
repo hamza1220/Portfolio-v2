@@ -12,14 +12,17 @@ const ResumePage = ({ resume }: { resume: Resume }) => (
     <div className="flex flex-row items-center">
       <h1>Resume</h1>
       <a href={resume.download_url} target="_blank" rel="noopener noreferrer">
-        <DownloadIcon className="h-8 w-8 flex-shrink-0 ml-4 duration-200 hover:text-primary dark:hover:text-primary-light hover:animate-bounce" />
+        <div className="flex items-center hover:text-primary">
+          <DownloadIcon className="h-8 w-8 flex-shrink-0 ml-4 duration-200 hover:text-primary dark:hover:text-primary-light hover:animate-bounce" />
+          <p className="duration-200"> Download</p>
+        </div>
       </a>
     </div>
     <Education items={resume.education} />
     <Experience items={resume.experience} />
     <Skills items={resume.skills} />
-    <Interests items={resume.interests} />
-    <Awards items={resume.awards} />
+    {/* <Interests items={resume.interests} /> */}
+    {/* <Awards items={resume.awards} /> */}
   </div>
 );
 
