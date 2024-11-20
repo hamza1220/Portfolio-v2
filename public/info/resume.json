@@ -1,33 +1,45 @@
 {
-  "download_url": "https://drive.google.com/file/d/1XOYAGw-u0gazn7fmD73Xfhdbo1EsmeTd/view?usp=share_link",
+  "download_url": "https://drive.google.com/file/d/1ZrD-AWpQC9q1TCTjwMQ1ZyvoJ2YWdL_E/view?usp=sharing",
   "education": [
     {
       "institute": "Purdue University",
       "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
-      "title": "M.S UX Design",
+      "title": "Master of Science - UX Design",
       "duration": "2021 - 2023",
       "body1": "CGPA: 3.98/4.00",
-      "body2": "Key Coursework: Design Theory, Qualitative Research Methods, Cognition & HCI, User Experience Studio"
+      "body2": "Key Coursework: Design Theory, Qualitative Research Methods, Cognition & HCI, User Experience Studio, Virtual Reality"
     },
     {
       "institute": "Lahore University of Management Sciences",
       "url": "https://lums.edu.pk/",
-      "title": "B.S Computer Science",
+      "title": "Bachelor of Science - Computer Science",
       "duration": "2016 - 2020",
       "body1": "CGPA: 3.74 / 4.00",
-      "body2": "Key Coursework: Human-Computer Interaction, Software Engineering, Network-Centric Computing, Computer Vision, Deep Learning"
+      "body2": "Key Coursework: Software Engineering, Human-Computer Interaction, Network-Centric Computing, Deep Learning, Computer Vision"
     }
   ],
   "experience": [
+    {
+      "organization": "Smith & Associates",
+      "url": "https://smithweb.com/",
+      "location": "Houston, TX, USA",
+      "positions": [
+        {
+          "title": "UI/UX Designer",
+          "duration": "June 2023 - Present",
+          "body": "At Smith, I spearheaded the creation of a comprehensive design system for 6+ internal applications, standardizing components and enhancing usability. \n\nMy day-to-day tasks involve going through the full design process for new features that drive efficiency and create seamless workflows for our sales, procurement and management teams, in addition to collaborating closely with developers to ensure smooth design-to-code handoffs."
+        }
+      ]
+    },
     {
       "organization": "SGX3/Purdue University",
       "url": "https://sciencegateways.org/",
       "location": "West Lafayette, IN, USA",
       "positions": [
         {
-          "title": "User Experience Consultant",
-          "duration": "August 2022 - Present",
-          "body": "• Lead UX consultant for Science Gateways Community Institute projects undertaken at the DVC Lab (https://www.dvclab.net/). \n• Responsibilities include creating project plans, deliverables and timelines, conducting UX research to aid science gateway development and design. "
+          "title": "Lead UX Consultant",
+          "duration": "August 2022 - May 2023",
+          "body": "I served as the lead UX consultant for Science Gateways Community Institute projects at the DVC Lab (www.dvclab.net), where I developed project plans, set timelines, and defined deliverables to guide development. \n\nI also conducted extensive UX research to support user-centered science gateway design and development for researchers from universities all around the world."
         }
       ]
     },
@@ -39,19 +51,7 @@
         {
           "title": "Design Engineer Intern",
           "duration": "May 2022 - August 2022",
-          "body": "• Designed and implemented responsiveness for the OneSignal dashboard and website. \n• Created reusable and extendable Figma components for OneSignal’s Journey’s feature. \n• Updated previews for latest MacOS notifications on desktop."
-        }
-      ]
-    },
-    {
-      "organization": "Purdue University",
-      "url": "https://polytechnic.purdue.edu/degrees/ms-computer-graphics-technology/ux-design",
-      "location": "West Lafayette, IN, USA",
-      "positions": [
-        {
-          "title": "Graduate Teaching Assistant",
-          "duration": "August 2021 - May 2022",
-          "body": "• Lecturing students on basic web development with HTML, CSS and Javascript. \n• Mentoring student course projects. \n • Supervising and grading lab assignments."
+          "body": "At OneSignal, I designed and implemented responsive layouts for the dashboard and website, ensuring a seamless user experience across devices. I also created reusable Figma components for the Journeys feature and updated desktop notification previews to align with the latest MacOS standards."
         }
       ]
     },
@@ -63,38 +63,22 @@
         {
           "title": "Full-Stack Software Engineer",
           "duration": "June 2020 - July 2021",
-          "body": "• Led effort to boost Google Lighthouse scores to 90+ for non-paywalled pages on Educative.io for increased SEO, performance and UX. \n• Implemented a custom caching mechanism through Cloudflare to decrease page load times and boost site UX. Resulted in 75% requests to be served from the cache in May 2021. \n• Worked in the technical design team to migrate the legacy design system to a modern framework (Tailwindcss). Implemented dark mode (most requested feature) which was possible due to migration.\n • Mentoring new-hires through the developer bootcamp. Revamped bootcamp documentation to reflect latest practices and ensure fluid onboarding."
-        },
-        {
-          "title": "Technical Content Engineer",
-          "duration": "June 2019 - May 2020",
-          "body": "Created 150+ interactive articles on various computer science concepts, algorithms, frameworks, libraries and technologies for Educative Answers."
+          "body": "At Educative, I led efforts to improve Google Lighthouse scores to 90+ on non-paywalled pages, enhancing SEO, performance, and UX. I implemented a custom caching solution with Cloudflare that reduced load times, achieving 75% cached requests by May 2021. \n\nAs part of the technical design team, I helped migrate our legacy design system to TailwindCSS, enabling dark mode—our most requested feature. Additionally, I mentored new hires, updating bootcamp documentation to streamline onboarding."
         }
       ]
     }
   ],
   "skills": {
-    "languages": ["Python", "JavaScript", "TypeScript", "C/C++"],
-    "frameworks_and_libraries": [
-      "React",
-      "React Native",
-      "Next JS",
-      "Flask",
-      "Jest",
-      "Selenium",
-      "OpenCV",
-      "Pandas",
-      "Keras"
-    ],
-    "databases": ["Firestore", "MongoDB", "Google Cloud Datastore"],
-    "misc": ["Git", "Jira", "Asana", "Miro", "Jupyter Notebooks"],
+    "languages": ["Typescript", "JavaScript", "Python", "C/C++"],
+    "frameworks_and_libraries": ["React", "React Native", "Next JS", "Angular"],
+    "misc": ["Git", "Jira", "Asana", "Miro"],
     "ui_ux": [
+      "Figma",
       "UX Research",
       "Contextual Inquiry",
       "Interviewing",
       "Prototyping",
       "Wireframing",
-      "Figma",
       "Usability Testing",
       "Qualitative Research"
     ]
@@ -104,7 +88,7 @@
     "MMA",
     "Tennis",
     "Cricket",
-    "Swimming",
+    "Painting",
     "Gaming"
   ],
   "awards": [

@@ -2,7 +2,7 @@
 >
 > **Contribution Statement**
 >
-> I worked on this project with one other <a href="https://www.faseehurrehman.com/" target="_blank">member</a>. Individual contributions include:
+> I worked on this project with one other <a href="https://www.faseeh.design/" target="_blank">member</a>. Individual contributions include:
 >
 > - Ideated project idea, setup project plan, set milestones.
 > - Investigated coding limitations, lead the pivot to using prototypes.

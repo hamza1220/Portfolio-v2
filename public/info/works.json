@@ -82,7 +82,7 @@
   },
   "freelance-life": {
     "title": "Freelance Life",
-    "type": ["UX", "Featured"],
+    "type": ["UX"],
     "tags": ["UX Research", "Wireframing"],
     "tileImagePath": "/info/works/freelance-life/freelance-life-cover.svg",
     "maintainAspectRatio": false,
@@ -110,22 +110,6 @@
       "previewImagePath": "/info/works/exercise-fakeout/fakeout-main.svg"
     }
   },
-  "campus-eat": {
-    "title": "Campus Eat",
-    "type": ["Software Engineering"],
-    "tags": ["React", "Node.js", "MongoDB"],
-    "tileImagePath": "https://images.unsplash.com/photo-1551085429-91a8422c72ae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
-    "maintainAspectRatio": false,
-    "textColor": "#b02737",
-    "hide": true,
-    "overview": {
-      "description": "A single page web app for ordering online from the multiple restaurants in LUMS",
-      "projectType": "Course Work",
-      "roles": ["Team Leader", "Full-Stack Engineer"],
-      "timeline": "February 2019 – June 2019",
-      "previewImagePath": "https://zainkho.com/work/ideo/ideo-summary.png"
-    }
-  },
   "cloudflare-cache": {
     "title": "Cloudflare Caching & Purging Mechanism",
     "type": ["Software Engineering"],
@@ -137,39 +121,8 @@
       "description": "A custom solution for a 3 level cache using Cloudflare workers.",
       "projectType": "Industry Project - Educative, Inc.",
       "roles": ["Full-Stack Engineer, Mentor"],
-      "timeline": "May 2021 – June 2019",
+      "timeline": "April 2021 – June 2021",
       "previewImagePath": "/info/works/cloudflare-cache/cf-overview.svg"
-    }
-  },
-  "paywalled-content-cache": {
-    "title": "Caching Paywalled Content",
-    "type": ["Software Engineering"],
-    "tags": ["Node.js", "Cloudflare", "SEO", "Lighthouse"],
-    "tileImagePath": "https://images.unsplash.com/photo-1616628188502-413f2fe46e5e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
-    "maintainAspectRatio": true,
-    "textColor": "#E06D10",
-    "hide": true,
-    "overview": {
-      "description": "A solution to securely cache and serve paywalled content using a Cloudflare worker.",
-      "projectType": "Industry Project - Educative Inc.",
-      "roles": ["Full-Stack Engineer, Mentor"],
-      "timeline": "July 2021 – August 2021",
-      "previewImagePath": ""
-    }
-  },
-  "admin-app": {
-    "title": "Admin App",
-    "type": ["Software Engineering"],
-    "tags": ["React", "Python", "Next JS"],
-    "tileImagePath": "/info/works/admin-app/admin-app-cover.svg",
-    "maintainAspectRatio": true,
-    "textColor": "#BDBDBD",
-    "overview": {
-      "description": "Seperating administrative dashboards from the rest of the platform into a static app.",
-      "projectType": "Educative Inc.",
-      "roles": ["Full-Stack Engineer"],
-      "timeline": "October 2020 – November 2020",
-      "previewImagePath": ""
     }
   }
 }

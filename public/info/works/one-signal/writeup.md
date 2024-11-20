@@ -1,3 +1,9 @@
+> <div class="contribution-statement">
+>
+> If you are unable to view the content, please try disabling your adblocker.
+>
+> </div>
+
 <div style="position:relative;width:100%;overflow:hidden;padding-top:100%">
     <iframe
     class="responsive-iframe"
